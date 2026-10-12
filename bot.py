@@ -99,14 +99,14 @@ class Bot:
     # --- hourly pass ---------------------------------------------------------
 
     def run(self):
-        ranked = None
+        overview = ranked = None
         try:
             overview = sources.memecoins()
             ranked = strategy.rank_narratives(overview, self.cfg["narratives"])
             self.signal_pass(overview, ranked)
         except sources.DataError as e:
             self.log_run("data error", f"skipped this run's signal pass: {e}")
-        self.check_positions(ranked)
+        self.check_positions(overview, ranked)
         self.maybe_scorecard()
 
     def signal_pass(self, overview, ranked):
@@ -230,7 +230,7 @@ class Bot:
             prices[id(p)] = price
         return prices
 
-    def check_positions(self, ranked):
+    def check_positions(self, overview, ranked):
         positions = store.open_positions()
         if not positions:
             return
@@ -256,9 +256,16 @@ class Bot:
                     "Held for": f"{hours:.0f}h"}
 
             # Exit: rotation. The position's narrative now leads, above the threshold.
-            if ranked and not st.get("rotation_sent"):
-                lead = ranked[0]
-                if lead["slug"] == p.get("narrative_slug") and lead["change7d"] > n["leader_rotation_7d_pct"]:
+            # A narrative outside the ranked groups (e.g. Pump.fun Memes, a launchpad)
+            # is ranked alongside them so its positions can still trigger this.
+            if ranked is not None and not st.get("rotation_sent"):
+                pool = list(ranked)
+                own = next((x for x in overview["narratives"] if x.get("slug") == p.get("narrative_slug")
+                            and x.get("change7d") is not None), None)
+                if own and all(x["slug"] != own["slug"] for x in pool):
+                    pool.append(own)
+                lead = max(pool, key=lambda x: x["change7d"]) if pool else None
+                if lead and lead["slug"] == p.get("narrative_slug") and lead["change7d"] > n["leader_rotation_7d_pct"]:
                     if self.email(f"Exit alert: {p['symbol']}, rotation", {
                             "Rule fired": f"{lead['name']} leads at {lead['change7d']:+.1f}% on 7d, "
                                           f"above +{n['leader_rotation_7d_pct']}%", **base, "Note": FOOTER}):
