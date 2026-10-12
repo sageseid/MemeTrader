@@ -1,0 +1,44 @@
+# Meme Narrative Signal Bot — every threshold the bot uses lives here.
+# "dossier" = taken from the product dossier. "assumption" = the dossier left
+# the number open, so a default was picked; change any of them freely.
+
+[general]
+mode = "paper"                 # dossier: paper month first. Emails are tagged PAPER until you set "live".
+capital_usd = 0                # your trading capital; 0 = email says "1% of capital" with no dollar figure
+position_size_pct = 1          # dossier: 1% per position (Sharpe allows up to 2%)
+alert_to = "noelorion69@gmail.com"  # FormSubmit target. After activating, you can put FormSubmit's alias string here instead.
+                               # The ALERT_TO environment variable (GitHub secret) overrides this.
+formsubmit_referer = "https://github.com/meme-signal-bot"  # FormSubmit ties activation to this; keep it fixed
+alert_cooldown_hours = 24      # assumption: don't email the same coin as a buy candidate again within this window
+unknown_counts_as_fail = true  # a safety check whose data comes back missing fails the coin
+
+[season]
+enabled = true                 # dossier: All Memes must be gaining dominance vs. the whole crypto market
+
+[narratives]
+groups = ["theme"]             # Sharpe groups to rank: "theme" (Dog, Cat, Frog, AI...), "chain", "launchpad"
+min_volume_24h_usd = 100_000_000   # dossier: narrative 24h volume of $100M+
+flat_band_pct = 2              # assumption: a 24h move within ±2% counts as "flat"
+strong_up_7d_pct = 15          # assumption (dossier example): 7d at or above this is "strongly up" for the "late" label
+target_rank = 2                # dossier: the #2 narrative, not the leader
+leader_rotation_7d_pct = 25    # dossier: leader above +25% on 7d = rotation flag and exit signal
+
+[coins]
+top_n_by_volume = 5            # dossier: top 5 in the narrative by volume, not market cap
+min_pair_liquidity_usd = 0     # dossier sets no minimum; DexScreener liquidity is shown in the email
+
+[safety]
+min_lp_locked_pct = 90         # assumption: dossier says "burned or locked" without a percentage
+max_single_holder_pct = 10     # dossier (Strategy 3)
+max_top10_holders_pct = 15     # dossier (Strategy 3 strictest value; sources range 15–40%)
+max_insider_pct = 5            # assumption: dossier says "no large insider share flagged"
+
+[exits]
+time_stop_hours = 24           # dossier: no move within 24 hours of entry
+time_stop_min_move_pct = 10    # assumption: "no move" = price never rose 10% above entry in that window
+monitor_hours = 72             # dossier: watch holder snapshots for the first 24–72 hours
+max_top10_increase_pts = 5     # assumption: warn if the top-10 holders' share rises 5+ points since entry
+
+[scorecard]
+weekday = 0                    # 0 = Monday (UTC)
+hour_utc = 8                   # sends on the first run at or after this hour

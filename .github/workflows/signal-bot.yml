@@ -1,0 +1,60 @@
+name: signal-bot
+
+on:
+  schedule:
+    - cron: "17 * * * *"   # hourly, off the top of the hour when GitHub is busiest
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "What to run"
+        type: choice
+        options: [run, test-email, scorecard, dry-run]
+        default: run
+
+permissions:
+  contents: write   # to commit the signal log back to the repo
+
+concurrency:
+  group: signal-bot
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Run bot
+        env:
+          ALERT_TO: ${{ secrets.ALERT_TO }}   # optional; falls back to alert_to in settings.toml
+          MODE: ${{ inputs.mode || 'run' }}
+        run: |
+          case "$MODE" in
+            test-email) python bot.py --test-email ;;
+            scorecard)  python bot.py --scorecard ;;
+            dry-run)    python bot.py --dry-run ;;
+            *)          python bot.py ;;
+          esac
+
+      - name: Save signal log
+        if: always()
+        run: |
+          [ -d data ] || exit 0
+          git config user.name "signal-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet && exit 0
+          git commit -m "bot: log run $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do
+            git pull --rebase --quiet && git push --quiet && exit 0
+            sleep 5
+          done
+          exit 1
