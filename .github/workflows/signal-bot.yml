@@ -11,7 +11,7 @@ on:
       mode:
         description: "What to run"
         type: choice
-        options: [run, test-email, scorecard, dry-run]
+        options: [run, test-email, check-keys, scorecard, dry-run]
         default: run
 
 permissions:
@@ -42,10 +42,16 @@ jobs:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}   # preferred: Resend doesn't filter alerts by content
           FORMSPREE_FORM: ${{ secrets.FORMSPREE_FORM }}   # fallback; its spam filter drops emails with prices
           ALERT_TO: ${{ secrets.ALERT_TO }}   # optional; falls back to alert_to in settings.toml
+          MADEONSOL_API_KEY: ${{ secrets.MADEONSOL_API_KEY }}   # Strategy 2 + Solana bundle check
+          OKX_API_KEY: ${{ secrets.OKX_API_KEY }}               # cluster, bundle, creator rug-pull checks
+          OKX_SECRET_KEY: ${{ secrets.OKX_SECRET_KEY }}
+          OKX_PASSPHRASE: ${{ secrets.OKX_PASSPHRASE }}
+          OKX_PROJECT_ID: ${{ secrets.OKX_PROJECT_ID }}         # only if OKX gave you one
           MODE: ${{ inputs.mode || 'run' }}
         run: |
           case "$MODE" in
             test-email) python bot.py --test-email ;;
+            check-keys) python bot.py --check-keys ;;
             scorecard)  python bot.py --scorecard ;;
             dry-run)    python bot.py --dry-run ;;
             *)          python bot.py ;;

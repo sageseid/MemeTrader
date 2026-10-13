@@ -18,6 +18,26 @@ RUN_FIELDS = ["run_utc", "mode", "outcome", "detail"]
 POSITION_FIELDS = ["opened_utc", "symbol", "coingecko_id", "chain", "contract", "narrative_slug",
                    "entry_price_usd", "size_usd", "status"]
 
+WATCHLIST = DATA / "watchlist.csv"
+CLUSTER_SIGNALS = DATA / "cluster_signals.csv"
+WATCHLIST_FIELDS = ["built_utc", "wallet", "name", "win_rate_pct", "profit_factor", "pnl_sol",
+                    "closed_positions"]
+CLUSTER_FIELDS = ["run_utc", "mode", "mint", "symbol", "wallet_count", "wallets", "combined",
+                  "price_usd", "market_cap_usd", "liquidity_usd", "result", "failed_checks", "checks",
+                  "emailed"]
+
+
+def write_watchlist(rows):
+    DATA.mkdir(exist_ok=True)
+    with WATCHLIST.open("w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=WATCHLIST_FIELDS, extrasaction="ignore")
+        w.writeheader()
+        w.writerows(rows)
+
+
+def log_cluster(row):
+    _append(CLUSTER_SIGNALS, CLUSTER_FIELDS, row)
+
 
 def _append(path, fields, row):
     DATA.mkdir(exist_ok=True)

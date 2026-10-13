@@ -35,6 +35,24 @@ min_lp_locked_pct = 90         # assumption: dossier says "burned or locked" wit
 max_single_holder_pct = 10     # dossier (Strategy 3)
 max_top10_holders_pct = 15     # dossier (Strategy 3 strictest value; sources range 15–40%)
 max_insider_pct = 5            # assumption: dossier says "no large insider share flagged"
+max_cluster_pct = 15           # dossier: largest connected wallet cluster under 15% (needs OKX key)
+max_bundled_pct = 5            # dossier: bundled supply at launch under 5% (OKX; MadeOnSol on Solana)
+                               # creator rug pulls: any rug pull by the creator fails the coin (OKX)
+
+[smart_money]                  # Strategy 2: runs when the MADEONSOL_API_KEY secret is set
+leaderboard_period = "30d"     # dossier: judge wallets over a month or more
+vet_candidates = 30            # top KOLs by 30d PnL to vet each week (one call each)
+watchlist_size = 15            # dossier: keep the top 10–20
+max_win_rate_pct = 90          # dossier: 90–100% win rates are usually bots or wash traders
+min_profit_factor = 1.2        # assumption: dossier ranks by profit factor; drop wallets near break-even
+min_closed_positions = 10      # assumption: too few trades make win rate and profit factor meaningless
+rebuild_watchlist_days = 7     # dossier: weekly watchlist build
+window_hours = 48              # dossier: cluster window
+min_cluster_wallets = 3        # assumption: dossier says tune this in paper mode (Nansen uses 10+ for big lists)
+max_signal_age_hours = 6       # assumption: no alert if the newest wallet joined the cluster longer ago than this
+feed_max_pages_per_run = 8     # cap on KOL-feed pages per hourly run (~300 buys/hour = 3–4 pages)
+calls_reserve = 25             # stop paging when fewer free MadeOnSol calls than this are left today
+exit_min_sellers = 1           # assumption: email when this many watchlist wallets sell a coin you hold
 
 [exits]
 time_stop_hours = 24           # dossier: no move within 24 hours of entry

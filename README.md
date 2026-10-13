@@ -21,6 +21,25 @@ drops emails that contain prices, and FormSubmit blocks GitHub's servers.
 
 A gate that fails logs why to `data/runs.csv` and stops. All thresholds are in `settings.toml`.
 
+With an OKX key, the safety gate also checks the largest connected-wallet cluster (under 15%), bundled supply at
+launch (under 5%) and the creator's past rug pulls (none). Without it, those are listed under "Check by hand";
+on Solana, a MadeOnSol key covers the bundle check. A failed OKX lookup falls back to "Check by hand".
+
+## Strategy 2: smart-wallet clusters (needs `MADEONSOL_API_KEY`)
+
+1. **Weekly watchlist:** the top 30 KOLs by 30d PnL from MadeOnSol's leaderboard are vetted on their 30d win rate
+   and profit factor. Wallets winning 90%+ (usually bots), with under 10 closed trades, or a profit factor under
+   1.2 are dropped; the best 15 by profit factor go to `data/watchlist.csv`.
+2. **Hourly:** the bot reads every KOL buy since its last run (about 3–4 of the free tier's 200 daily calls) and
+   keeps the watchlist's buys for 48 hours.
+3. **Cluster:** a coin bought by 3+ watchlist wallets within 48 hours is run through the same safety gate. If it
+   passes, you get a "Cluster buy" email, marked HIGH CONFIDENCE when the narrative strategy also picked it.
+   Clusters whose newest wallet joined more than 6 hours ago are skipped as stale.
+4. **Exit:** for Solana coins in `positions.csv`, you get an email when a watchlist wallet starts selling.
+
+Cluster signals are logged to `data/cluster_signals.csv` and scored beside narrative signals in the weekly
+scorecard. MadeOnSol's free feed runs 5 minutes behind, which suits a 48-hour window.
+
 ## Setup
 
 1. **Create a Resend API key.** Sign up free at resend.com with the email you want alerts at, then API Keys →
@@ -34,7 +53,12 @@ A gate that fails logs why to `data/runs.csv` and stops. All thresholds are in `
    `X-GitHub-Api-Version: 2022-11-28`, and body `{"ref":"main","inputs":{"mode":"run"}}`. The token is a
    fine-grained GitHub token for this repo only, with Actions read and write; it expires 2027-10-13.
    Each run commits its logs in `data/` back to the repo.
-5. **Optional, on your Mac:** `python3 bot.py --dry-run` runs a pass without sending anything.
+5. **Optional keys** (repo secrets), then run the workflow once in mode `check-keys`; the result is written
+   to `data/runs.csv`:
+   - `MADEONSOL_API_KEY`: free at madeonsol.com/developer (starts with `msk_`). Turns on Strategy 2.
+   - `OKX_API_KEY`, `OKX_SECRET_KEY`, `OKX_PASSPHRASE` (and `OKX_PROJECT_ID` if OKX shows one): from the OKX
+     Onchain OS developer portal. Turns on the cluster, bundle and creator rug-pull checks.
+6. **Optional, on your Mac:** `python3 bot.py --dry-run` runs a pass without sending anything.
 
 ## When you buy
 
@@ -47,7 +71,8 @@ The bot then emails you when:
 - DEX pool liquidity halves since entry, the usual sign of a rug (not in the dossier),
 - the coin's narrative becomes the leader above +25% on 7d (rotation exit),
 - the coin hasn't risen 10% within 24h of entry (time stop),
-- within 72h of entry, the top-10 holders' share rises 5+ points, or the deployer's balance changes.
+- within 72h of entry, the top-10 holders' share rises 5+ points, or the deployer's balance changes,
+- a smart-money watchlist wallet starts selling the coin (Solana, with a MadeOnSol key).
 
 Set `status` to `closed` when you sell.
 
@@ -56,21 +81,17 @@ Set `status` to `closed` when you sell.
 `mode = "paper"` tags every email PAPER. The Monday scorecard shows each signal's price then and now.
 Switch to `mode = "live"` only if a month of scorecards justifies it, and keep each position to 1% of capital.
 
-## Not built yet (needs keys you'd sign up for)
-
-- **Strategy 2, smart-wallet clusters:** needs a free MadeOnSol key and a free Solana Tracker key.
-- **Cluster, bundle and dev-history checks via OKX:** need a free OKX Onchain OS key. Until then the email lists them under "Check by hand".
-
 ## Files
 
 | File | What it does |
 | --- | --- |
-| `bot.py` | Entry point: hourly pass, exits, scorecard, test email |
+| `bot.py` | Entry point: hourly pass, exits, scorecard, test email, key check |
+| `smartmoney.py` | Strategy 2: watchlist vetting, KOL buy feed, cluster detection |
 | `strategy.py` | Season gate, narrative ranking, target pick, coin screen |
-| `safety.py` | Safety gate checks (RugCheck for Solana, Sharpe rug-check for EVM) |
+| `safety.py` | Safety gate checks (RugCheck for Solana, Sharpe rug-check for EVM, OKX and MadeOnSol extras) |
 | `sources.py` | API calls with rate limiting and retries |
-| `emailer.py` | FormSubmit sender |
-| `store.py` | CSV logs and `data/state.json` |
+| `emailer.py` | Email sender (Resend, with Formspree and FormSubmit fallbacks) |
+| `store.py` | CSV logs, watchlist and `data/state.json` |
 | `settings.toml` | Every threshold |
 
 Not financial advice. The rules are one practitioner's heuristics, not a proven edge.

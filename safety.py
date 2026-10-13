@@ -1,6 +1,7 @@
 """Strategy 3 safety gate: pass/fail checks, each with the value found.
 
-Solana tokens are checked with RugCheck; EVM tokens with Sharpe's rug-check.
+Solana tokens are checked with RugCheck; EVM tokens with Sharpe's rug-check. Cluster, bundle
+and creator rug-pull checks use OKX (and MadeOnSol's bundle data on Solana) when keys are set.
 A check the source doesn't offer for that chain is "manual" (listed in the email
 for you to do by hand). A check the source should answer but didn't is "unknown",
 which fails the coin when `unknown_counts_as_fail` is on.
@@ -31,11 +32,52 @@ def _limit(name, value, limit, unit="%"):
     return Check(name, "pass" if value < limit else "fail", f"{value:.1f}{unit} (limit {limit}{unit})")
 
 
-def _manual_offchain():
-    return [
-        Check("Largest connected cluster", "manual", "needs an OKX/Bubblemaps key: check the Bubblemaps map"),
-        Check("Bundled supply at launch", "manual", "needs an OKX key: check bundles on Bubblemaps or GMGN"),
-    ]
+def _offchain(address, chain_index, s):
+    """Cluster, bundle and creator rug-pull checks. OKX answers all three when its key is set;
+    without it, MadeOnSol's free bundle data covers Solana. Anything left is listed as manual.
+    chain_index is OKX's id: "501" for Solana, the EVM chain id otherwise."""
+    okx, solana = sources.okx_enabled(), chain_index == "501"
+
+    # A failed lookup falls back to a manual check (as before these were automated) rather than
+    # failing the coin: OKX's cluster data can error on brand-new tokens, which Strategy 2 targets.
+    def ask(name, fn):
+        try:
+            return fn(), None
+        except sources.DataError as e:
+            return None, Check(name, "manual", f"lookup failed ({str(e)[:80]}): check by hand")
+
+    out = []
+    name = "Largest connected cluster"
+    if okx:
+        largest, err = ask(name, lambda: sources.okx_largest_cluster(address, chain_index))
+        out.append(err or (_limit(name, largest, s["max_cluster_pct"]) if largest is not None
+                           else Check(name, "manual", "OKX has no cluster data yet: check the Bubblemaps map")))
+    else:
+        out.append(Check(name, "manual", "needs an OKX key: check the Bubblemaps map"))
+
+    name = "Bundled supply at launch"
+    if okx:
+        peak, err = ask(name, lambda: sources.okx_bundle(address, chain_index))
+        out.append(err or (_limit(name, peak, s["max_bundled_pct"]) if peak is not None
+                           else Check(name, "manual", "OKX has no launch data (not a meme-launchpad token)")))
+    elif solana and sources.madeonsol_enabled():
+        held, err = ask(name, lambda: sources.mos_bundle(address))
+        out.append(err or (_limit("Bundled supply still held", held, s["max_bundled_pct"]) if held is not None
+                           else Check(name, "manual", "MadeOnSol has no launch-bundle data for this token")))
+    else:
+        out.append(Check(name, "manual", "needs an OKX key: check bundles on Bubblemaps or GMGN"))
+
+    name = "Creator rug pulls"
+    if okx:
+        dev, err = ask(name, lambda: sources.okx_dev(address, chain_index))
+        if err:
+            out.append(err)
+        elif dev is None:
+            out.append(Check(name, "manual", "OKX has no creator data (not a meme-launchpad token)"))
+        else:
+            rugs, launched = dev
+            out.append(Check(name, "pass" if rugs == 0 else "fail", f"{rugs} rug pulls in {launched} launches"))
+    return out
 
 
 def check_token(chain, address, s):
@@ -100,7 +142,7 @@ def _solana(mint, s):
     else:
         checks.append(Check("Creator rug history", "pass", "none flagged by RugCheck"))
 
-    checks += _manual_offchain()
+    checks += _offchain(mint, "501", s)
     snapshot = {"top10_pct": top10, "creator_balance": r.get("creatorBalance")}
     return checks, snapshot
 
@@ -153,7 +195,7 @@ def _evm(address, chain_id, s):
     checks.append(Check("Creator rug history", "fail" if same_creator else "pass",
                         "creator deployed a honeypot before" if same_creator else "none flagged"))
 
-    checks += _manual_offchain()
+    checks += _offchain(address, str(chain_id), s)
     snapshot = {"top10_pct": top10, "creator_balance": r.get("creatorPercent")}
     return checks, snapshot
 

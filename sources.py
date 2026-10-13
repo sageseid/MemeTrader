@@ -1,7 +1,14 @@
-"""Data layer: Sharpe, CoinGecko, DexScreener and RugCheck, all free and keyless."""
+"""Data layer. Sharpe, CoinGecko, DexScreener and RugCheck are free and keyless.
+MadeOnSol (KOL wallets, bundles) and OKX (clusters, bundles, creator rug pulls) are used
+only when their keys are set as environment variables."""
 
+import base64
+import hashlib
+import hmac
+import os
 import time
-from urllib.parse import urlparse
+from datetime import datetime, timezone
+from urllib.parse import urlencode, urlparse
 
 import requests
 
@@ -9,14 +16,25 @@ SHARPE = "https://www.sharpe.ai/api"
 COINGECKO = "https://api.coingecko.com/api/v3"
 DEXSCREENER = "https://api.dexscreener.com"
 RUGCHECK = "https://api.rugcheck.xyz/v1"
+MADEONSOL = "https://madeonsol.com/api/v1"
+OKX = "https://web3.okx.com"
 
 # Seconds between calls per host, to stay inside each free tier.
-# Sharpe rug-check is 20/min; CoinGecko's keyless tier is roughly 5–15/min.
+# Sharpe rug-check is 20/min; CoinGecko's keyless tier is roughly 5–15/min;
+# MadeOnSol's free tier bursts to 60/min within 200/day.
 MIN_GAP = {
     "www.sharpe.ai": 0.6,
     "api.coingecko.com": 6.0,
     "api.dexscreener.com": 0.3,
     "api.rugcheck.xyz": 1.0,
+    "madeonsol.com": 1.1,
+    "web3.okx.com": 0.5,
+}
+
+# CoinGecko platform id -> OKX chainIndex
+OKX_CHAINS = {
+    "solana": "501", "ethereum": "1", "binance-smart-chain": "56", "base": "8453",
+    "arbitrum-one": "42161", "polygon-pos": "137", "avalanche": "43114",
 }
 
 # CoinGecko platform id -> (DexScreener chain id, EVM chain id for Sharpe rug-check)
@@ -33,13 +51,15 @@ CHAINS = {
 _session = requests.Session()
 _session.headers["User-Agent"] = "meme-signal-bot/1.0 (alert-only)"
 _last_call: dict[str, float] = {}
+last_headers: dict[str, dict] = {}  # host -> headers of its latest response (rate-limit counters)
 
 
 class DataError(Exception):
     """A source failed or returned stale data; the run skips instead of guessing."""
 
 
-def get_json(url, params=None, tries=3, ok_missing=False):
+def get_json(url, params=None, tries=3, ok_missing=False, headers=None):
+    """headers: a dict, or a function returning one (for signatures that must be fresh per attempt)."""
     host = urlparse(url).netloc
     for attempt in range(tries):
         wait = _last_call.get(host, 0) + MIN_GAP.get(host, 0.5) - time.time()
@@ -47,10 +67,12 @@ def get_json(url, params=None, tries=3, ok_missing=False):
             time.sleep(wait)
         _last_call[host] = time.time()
         try:
-            r = _session.get(url, params=params, timeout=30)
+            r = _session.get(url, params=params, timeout=30,
+                             headers=headers() if callable(headers) else headers)
         except requests.RequestException as e:
             err = str(e)
         else:
+            last_headers[host] = r.headers
             if r.status_code == 200:
                 try:
                     return r.json()
@@ -139,3 +161,118 @@ def rugcheck_report(mint):
     """Full RugCheck report for a Solana mint. None when RugCheck can't build one
     (it often can't for large, older tokens)."""
     return get_json(f"{RUGCHECK}/tokens/{mint}/report", ok_missing=True)
+
+
+# --- MadeOnSol (MADEONSOL_API_KEY; free tier: 200 calls/day, feeds 5 min delayed) ---
+
+def madeonsol_enabled():
+    return bool(os.environ.get("MADEONSOL_API_KEY", "").strip())
+
+
+def _mos(path, params=None, ok_missing=False):
+    key = os.environ.get("MADEONSOL_API_KEY", "").strip()
+    return get_json(f"{MADEONSOL}{path}", params, ok_missing=ok_missing,
+                    headers={"Authorization": f"Bearer {key}"})
+
+
+def madeonsol_calls_left():
+    """Calls left in today's quota, from the last response's headers (None if unknown)."""
+    v = (last_headers.get("madeonsol.com") or {}).get("X-RateLimit-Remaining")
+    return int(v) if v and str(v).isdigit() else None
+
+
+def mos_me():
+    return _mos("/me")
+
+
+def mos_leaderboard(period, limit=100):
+    return (_mos("/kol/leaderboard", {"period": period, "limit": limit}) or {}).get("leaderboard") or []
+
+
+def mos_kol_pnl(wallet, period):
+    return _mos(f"/kol/{wallet}/pnl", {"period": period}, ok_missing=True) or {}
+
+
+def mos_feed(**params):
+    """One page of the KOL trade feed, newest first. Pass since= (poll cursor) and cursor= (paging)."""
+    return _mos("/kol/feed", {k: v for k, v in params.items() if v is not None})
+
+
+def mos_kol_token(mint):
+    """KOL buying and selling on one token."""
+    return _mos(f"/kol/tokens/{mint}", ok_missing=True) or {}
+
+
+def mos_bundle(mint):
+    """Share of supply (0-100) still held by the launch-bundle cohort, or None when not covered."""
+    d = _mos(f"/tokens/{mint}/bundle", ok_missing=True) or {}
+    if (d.get("coverage") or {}).get("in_scope") is False:
+        return None
+    held = (d.get("bundle") or {}).get("held_pct_of_supply")
+    return None if held is None else float(held) * 100
+
+
+# --- OKX Onchain OS (OKX_API_KEY, OKX_SECRET_KEY, OKX_PASSPHRASE; optional OKX_PROJECT_ID) ---
+
+def okx_enabled():
+    return all(os.environ.get(k, "").strip() for k in ("OKX_API_KEY", "OKX_SECRET_KEY", "OKX_PASSPHRASE"))
+
+
+def _okx(path, params):
+    """Signed GET. Returns the response's `data` with a list unwrapped to its first item;
+    None when OKX has no data for the token."""
+    request_path = f"{path}?{urlencode(params)}"
+
+    def headers():
+        ts = datetime.now(timezone.utc).isoformat(timespec="milliseconds").replace("+00:00", "Z")
+        secret = os.environ["OKX_SECRET_KEY"].strip().encode()
+        sign = base64.b64encode(hmac.new(secret, f"{ts}GET{request_path}".encode(), hashlib.sha256).digest())
+        h = {"OK-ACCESS-KEY": os.environ["OKX_API_KEY"].strip(), "OK-ACCESS-SIGN": sign.decode(),
+             "OK-ACCESS-TIMESTAMP": ts, "OK-ACCESS-PASSPHRASE": os.environ["OKX_PASSPHRASE"].strip()}
+        if os.environ.get("OKX_PROJECT_ID", "").strip():
+            h["OK-ACCESS-PROJECT"] = os.environ["OKX_PROJECT_ID"].strip()
+        return h
+
+    d = get_json(f"{OKX}{request_path}", headers=headers)
+    if str(d.get("code")) != "0":
+        raise DataError(f"OKX {d.get('code')}: {d.get('msg') or d}")
+    data = d.get("data")
+    if isinstance(data, list):
+        data = data[0] if data else None
+    return data or None
+
+
+def _pct(v):
+    try:
+        return float(v)
+    except (TypeError, ValueError):
+        return None
+
+
+def okx_largest_cluster(address, chain_index):
+    """Largest share of supply (0-100) held by one connected-wallet cluster, leaving out
+    clusters made only of exchange wallets. None when OKX has no cluster data."""
+    d = _okx("/api/v6/dex/market/token/cluster/list",
+             {"chainIndex": chain_index, "tokenContractAddress": address})
+    if not d:
+        return None
+    shares = [_pct(c.get("holdingPercent")) for c in d.get("clusterList") or []
+              if not all(a.get("isExchange") for a in c.get("clusterAddressList") or [{}])]
+    shares = [x for x in shares if x is not None]
+    return max(shares) if shares else 0.0
+
+
+def okx_bundle(address, chain_index):
+    """Peak share of supply (0-100) held by launch bundlers. None outside meme launchpads."""
+    d = _okx("/api/v6/dex/market/memepump/tokenBundleInfo",
+             {"chainIndex": chain_index, "tokenContractAddress": address})
+    return _pct(d.get("bundlerAthPercent")) if d else None
+
+
+def okx_dev(address, chain_index):
+    """(rug pulls, tokens launched) for the token's creator. None outside meme launchpads."""
+    d = _okx("/api/v6/dex/market/memepump/tokenDevInfo",
+             {"chainIndex": chain_index, "tokenContractAddress": address})
+    info = (d or {}).get("devLaunchedInfo") or {}
+    rugs = _pct(info.get("rugPullCount"))
+    return None if rugs is None else (int(rugs), int(_pct(info.get("totalTokens")) or 0))
