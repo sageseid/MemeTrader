@@ -61,7 +61,9 @@ class Bot:
         self.paper = g["mode"].lower() != "live"
         self.mail = {
             "to": os.environ.get("ALERT_TO") or g["alert_to"],
-            "formspree_form": os.environ.get("FORMSPREE_FORM") or g.get("formspree_form", ""),
+            # Accepts the bare id or the full endpoint (https://formspree.io/f/<id>).
+            "formspree_form": (os.environ.get("FORMSPREE_FORM") or g.get("formspree_form", ""))
+                              .strip().rstrip("/").rsplit("/", 1)[-1],
             "formsubmit_referer": g["formsubmit_referer"],
         }
         self.dry_run = dry_run
