@@ -28,8 +28,13 @@ A gate that fails logs why to `data/runs.csv` and stops. All thresholds are in `
 2. **Add it to GitHub.** Repo Settings → Secrets and variables → Actions → New repository secret:
    name `RESEND_API_KEY`, value the key (starts with `re_`).
 3. **Test it.** Actions tab → *signal-bot* → *Run workflow* → mode `test-email`.
-   The schedule then runs every hour and commits the logs in `data/` back to the repo.
-4. **Optional, on your Mac:** `python3 bot.py --dry-run` runs a pass without sending anything.
+4. **Hourly timer.** GitHub's built-in schedule skipped almost every hour, so a free cron-job.org job starts the
+   workflow at :17 past each hour: `POST https://api.github.com/repos/sageseid/MemeTrader/actions/workflows/signal-bot.yml/dispatches`
+   with headers `Accept: application/vnd.github+json`, `Authorization: Bearer <token>`,
+   `X-GitHub-Api-Version: 2022-11-28`, and body `{"ref":"main","inputs":{"mode":"run"}}`. The token is a
+   fine-grained GitHub token for this repo only, with Actions read and write; it expires 2027-10-13.
+   Each run commits its logs in `data/` back to the repo.
+5. **Optional, on your Mac:** `python3 bot.py --dry-run` runs a pass without sending anything.
 
 ## When you buy
 

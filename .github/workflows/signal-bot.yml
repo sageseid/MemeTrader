@@ -1,8 +1,8 @@
 name: signal-bot
 
 on:
-  schedule:
-    - cron: "17 * * * *"   # hourly, off the top of the hour when GitHub is busiest
+  # Hourly runs come from cron-job.org calling workflow_dispatch at :17 past each hour.
+  # GitHub's own `schedule:` trigger was dropped: it skipped almost every hour on this repo.
   push:
     branches: [main]
     paths: [data/positions.csv]   # run right away when you add a position, so its snapshot is taken at entry
@@ -26,9 +26,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+        with:
+          ref: main   # latest commit, not the one at trigger time, so a queued run sees the last run's saved state
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
