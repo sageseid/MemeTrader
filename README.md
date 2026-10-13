@@ -33,8 +33,12 @@ A gate that fails logs why to `data/runs.csv` and stops. All thresholds are in `
 ## When you buy
 
 Each buy email includes a ready-made `positions.csv` line. Paste it into `data/positions.csv`, put in your real
-entry price and size, and commit. The bot then emails you when:
+entry price and size, and push. Pushing a change to that file runs the bot straight away. Each position is
+compared against the coin as it was in the buy email, or as of that first run if there was no buy email.
+The bot then emails you when:
 
+- the price falls 30% below your entry (stop-loss; not in the dossier),
+- DEX pool liquidity halves since entry, the usual sign of a rug (not in the dossier),
 - the coin's narrative becomes the leader above +25% on 7d (rotation exit),
 - the coin hasn't risen 10% within 24h of entry (time stop),
 - within 72h of entry, the top-10 holders' share rises 5+ points, or the deployer's balance changes.

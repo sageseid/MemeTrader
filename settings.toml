@@ -39,6 +39,8 @@ max_insider_pct = 5            # assumption: dossier says "no large insider shar
 [exits]
 time_stop_hours = 24           # dossier: no move within 24 hours of entry
 time_stop_min_move_pct = 10    # assumption: "no move" = price never rose 10% above entry in that window
+stop_loss_pct = 30             # not in dossier: email when price falls 30% below your entry
+max_liquidity_drop_pct = 50    # not in dossier: email when DEX pool liquidity halves since entry (the usual rug sign)
 monitor_hours = 72             # dossier: watch holder snapshots for the first 24–72 hours
 max_top10_increase_pts = 5     # assumption: warn if the top-10 holders' share rises 5+ points since entry
 

@@ -52,7 +52,12 @@ def get_json(url, params=None, tries=3, ok_missing=False):
             err = str(e)
         else:
             if r.status_code == 200:
-                return r.json()
+                try:
+                    return r.json()
+                except ValueError:  # e.g. a bot-check page served with status 200
+                    err = f"HTTP 200 but not JSON: {r.text[:120]!r}"
+                    time.sleep(3 * (attempt + 1))
+                    continue
             if ok_missing and r.status_code in (400, 404):
                 return None
             err = f"HTTP {r.status_code}: {r.text[:200]}"

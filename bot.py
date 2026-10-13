@@ -11,6 +11,7 @@ import argparse
 import os
 import sys
 import tomllib
+import traceback
 from collections import Counter
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -105,6 +106,11 @@ class Bot:
     # --- hourly pass ---------------------------------------------------------
 
     def run(self):
+        week_ago = self.t - timedelta(days=7)
+        snaps = self.state.get("signal_snapshots", {})
+        for coin in [k for k, v in snaps.items() if parse_iso(v["at"]) < week_ago]:
+            del snaps[coin]
+
         overview = ranked = None
         try:
             overview = sources.memecoins()
@@ -141,10 +147,10 @@ class Bot:
             try:
                 chain, addr = self.contract(c["id"])
                 pair = sources.dex_pair(chain, addr) if addr else None
-                checks, _ = safety.check_token(chain, addr, self.cfg["safety"])
+                checks, snap = safety.check_token(chain, addr, self.cfg["safety"])
             except sources.DataError as e:
                 chain = addr = pair = None
-                checks = [safety.Check("Safety scan", "unknown", str(e))]
+                checks, snap = [safety.Check("Safety scan", "unknown", str(e))], {}
             liq = pair["liquidity_usd"] if pair else None
             if min_liq:
                 checks.insert(0, safety.Check(
@@ -160,6 +166,10 @@ class Bot:
                     if sent:
                         n_sent += 1
                         self.state.setdefault("alerted", {})[c["id"]] = iso(self.t)
+                        # Kept so a position bought off this email is compared against
+                        # the coin as it was at the signal, not at the bot's next run.
+                        self.state.setdefault("signal_snapshots", {})[c["id"]] = {
+                            "at": iso(self.t), "liquidity_usd": liq, **snap}
 
             failed = [f"{x.name}: {x.value}" for x in checks if not x.ok]
             print(f"  #{rank} {c['symbol'].upper():<10} {'PASS' if ok else 'FAIL'}  {'; '.join(failed)}")
@@ -218,29 +228,56 @@ class Bot:
 
     # --- open positions ------------------------------------------------------
 
-    def position_prices(self, positions):
-        prices = {}
+    def position_market(self, positions):
+        """{id(p): (price, DEX liquidity)}. Price comes from CoinGecko when the row has an id,
+        else from the token's biggest DexScreener pool."""
         try:
             by_id = sources.prices_by_id([p["coingecko_id"] for p in positions if p.get("coingecko_id")])
         except sources.DataError as e:
             print(f"price lookup failed: {e}", file=sys.stderr)
             by_id = {}
+        out = {}
         for p in positions:
-            price = by_id.get(p.get("coingecko_id"))
-            if price is None and p.get("contract"):
+            pair = None
+            if p.get("contract"):
                 try:
                     pair = sources.dex_pair(p.get("chain"), p["contract"])
-                    price = pair["price_usd"] if pair else None
                 except sources.DataError:
                     pass
-            prices[id(p)] = price
-        return prices
+            price = by_id.get(p.get("coingecko_id"))
+            if price is None and pair:
+                price = pair["price_usd"]
+            out[id(p)] = (price, pair["liquidity_usd"] if pair else None)
+        return out
+
+    def holder_snapshot(self, p):
+        if not p.get("contract"):
+            return {}
+        try:
+            return safety.check_token(p.get("chain"), p["contract"], self.cfg["safety"])[1]
+        except sources.DataError:
+            return {}
+
+    def entry_snapshot(self, p, st, opened, liq):
+        """What a position is compared against: the buy email's snapshot when the bot emailed
+        this coin in the 24h before entry, otherwise the first check after the row was added."""
+        if "entry_snapshot" not in st:
+            sig = self.state.get("signal_snapshots", {}).get(p.get("coingecko_id"))
+            if sig and timedelta(hours=-1) <= opened - parse_iso(sig["at"]) <= timedelta(hours=24):
+                st["entry_snapshot"] = {**sig, "source": "the buy email"}
+            else:
+                snap = st.pop("holders_at_entry", None) or self.holder_snapshot(p)
+                st["entry_snapshot"] = {"at": iso(self.t), **snap, "source": "the bot's first check"}
+        snap = st["entry_snapshot"]
+        if snap.get("liquidity_usd") is None and liq is not None:
+            snap["liquidity_usd"] = liq
+        return snap
 
     def check_positions(self, overview, ranked):
         positions = store.open_positions()
         if not positions:
             return
-        prices = self.position_prices(positions)
+        market = self.position_market(positions)
         ex, n = self.cfg["exits"], self.cfg["narratives"]
         for p in positions:
             try:
@@ -252,14 +289,32 @@ class Bot:
                 continue
             key = f"{p.get('coingecko_id') or p.get('contract')}@{p['opened_utc']}"
             st = self.state.setdefault("positions", {}).setdefault(key, {})
-            price = prices[id(p)]
+            price, liq = market[id(p)]
             hours = (self.t - opened).total_seconds() / 3600
             if price is not None and hours <= ex["time_stop_hours"]:
                 st["peak"] = max(st.get("peak") or 0, price)
             base = {"Coin": p["symbol"], "Contract": p.get("contract") or "n/a",
                     "Entry price": money(entry), "Current price": money(price),
                     "Change since entry": f"{(price / entry - 1) * 100:+.1f}%" if price else "n/a",
-                    "Held for": f"{hours:.0f}h"}
+                    "DEX liquidity now": money(liq), "Held for": f"{hours:.0f}h"}
+            snap = self.entry_snapshot(p, st, opened, liq)
+
+            # Exit: stop-loss. Price has fallen too far below entry.
+            if price is not None and not st.get("stop_loss_sent") and price <= entry * (1 - ex["stop_loss_pct"] / 100):
+                if self.email(f"Exit alert: {p['symbol']}, stop-loss", {
+                        "Rule fired": f"price is {(price / entry - 1) * 100:+.1f}% from your entry, "
+                                      f"past the -{ex['stop_loss_pct']}% stop", **base, "Note": FOOTER}):
+                    st["stop_loss_sent"] = iso(self.t)
+
+            # Exit: liquidity pulled. The main sign of a rug: the pool empties.
+            was = snap.get("liquidity_usd")
+            if liq is not None and was and not st.get("liquidity_sent") \
+                    and liq <= was * (1 - ex["max_liquidity_drop_pct"] / 100):
+                if self.email(f"Exit alert: {p['symbol']}, liquidity pulled", {
+                        "Rule fired": f"DEX liquidity fell from {money(was)} to {money(liq)} "
+                                      f"({(liq / was - 1) * 100:+.0f}%) since {snap['source']} ({snap['at']})",
+                        **base, "Note": FOOTER}):
+                    st["liquidity_sent"] = iso(self.t)
 
             # Exit: rotation. The position's narrative now leads, above the threshold.
             # A narrative outside the ranked groups (e.g. Pump.fun Memes, a launchpad)
@@ -291,23 +346,23 @@ class Bot:
                     else:
                         st["time_stop_done"] = "moved"
 
-            if hours <= ex["monitor_hours"] and p.get("contract"):
-                self.watch_holders(p, st, base)
+            if hours <= ex["monitor_hours"] and p.get("contract") and snap["at"] != iso(self.t):
+                self.watch_holders(p, st, base, snap)
 
-    def watch_holders(self, p, st, base):
-        try:
-            _, snap = safety.check_token(p.get("chain"), p["contract"], self.cfg["safety"])
-        except sources.DataError:
-            return
+    def watch_holders(self, p, st, base, first):
+        snap = self.holder_snapshot(p)
         if snap.get("top10_pct") is None:
             return
-        first = st.setdefault("holders_at_entry", snap)
+        if first.get("top10_pct") is None:  # the baseline scan had no holder data; start from now
+            first.update(top10_pct=snap["top10_pct"], creator_balance=snap.get("creator_balance"))
+            return
         ex = self.cfg["exits"]
         rise = snap["top10_pct"] - first["top10_pct"]
         if rise >= ex["max_top10_increase_pts"] and not st.get("concentration_sent"):
             if self.email(f"Holder warning: {p['symbol']}, supply concentrating", {
                     "What changed": f"top-10 holders went from {first['top10_pct']:.1f}% to "
-                                    f"{snap['top10_pct']:.1f}% since the first snapshot", **base, "Note": FOOTER}):
+                                    f"{snap['top10_pct']:.1f}% since {first['source']} ({first['at']})",
+                    **base, "Note": FOOTER}):
                 st["concentration_sent"] = iso(self.t)
         was, now = first.get("creator_balance"), snap.get("creator_balance")
         if was is not None and now is not None and now != was and not st.get("deployer_sent"):
@@ -377,15 +432,24 @@ def main():
     with open(ROOT / "settings.toml", "rb") as f:
         cfg = tomllib.load(f)
     bot = Bot(cfg, dry_run=args.dry_run)
-    if args.test_email:
-        bot.test_email()
-    elif args.scorecard:
-        bot.maybe_scorecard(force=True)
-    else:
-        bot.run()
+    crashed = False
+    try:
+        if args.test_email:
+            bot.test_email()
+        elif args.scorecard:
+            bot.maybe_scorecard(force=True)
+        else:
+            bot.run()
+    except Exception as e:
+        # Leave a line in data/runs.csv so a failed run is visible in the repo, not only in Actions.
+        traceback.print_exc()
+        bot.log_run("crash", f"{type(e).__name__}: {e}")
+        crashed = True
     if not args.dry_run:
         store.save_state(bot.state)
     if bot.email_errors:
+        bot.log_run("email error", " | ".join(bot.email_errors))
+    if crashed or bot.email_errors:
         sys.exit(1)
 
 

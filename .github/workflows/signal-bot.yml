@@ -3,6 +3,9 @@ name: signal-bot
 on:
   schedule:
     - cron: "17 * * * *"   # hourly, off the top of the hour when GitHub is busiest
+  push:
+    branches: [main]
+    paths: [data/positions.csv]   # run right away when you add a position, so its snapshot is taken at entry
   workflow_dispatch:
     inputs:
       mode:
