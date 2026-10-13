@@ -6,8 +6,11 @@
 mode = "paper"                 # dossier: paper month first. Emails are tagged PAPER until you set "live".
 capital_usd = 0                # your trading capital; 0 = email says "1% of capital" with no dollar figure
 position_size_pct = 1          # dossier: 1% per position (Sharpe allows up to 2%)
-alert_to = "noelorion69@gmail.com"  # FormSubmit target. After activating, you can put FormSubmit's alias string here instead.
-                               # The ALERT_TO environment variable (GitHub secret) overrides this.
+formspree_form = ""            # Formspree form id (the part after formspree.io/f/). Leave empty here and set the
+                               # FORMSPREE_FORM GitHub secret instead. When set, emails go through Formspree,
+                               # which works from GitHub; emails go to your Formspree account's address.
+alert_to = "noelorion69@gmail.com"  # FormSubmit target, used only when no Formspree form is set (runs on your Mac).
+                               # The ALERT_TO environment variable overrides this.
 formsubmit_referer = "https://github.com/meme-signal-bot"  # FormSubmit ties activation to this; keep it fixed
 alert_cooldown_hours = 24      # assumption: don't email the same coin as a buy candidate again within this window
 unknown_counts_as_fail = true  # a safety check whose data comes back missing fails the coin

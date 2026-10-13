@@ -34,6 +34,7 @@ jobs:
 
       - name: Run bot
         env:
+          FORMSPREE_FORM: ${{ secrets.FORMSPREE_FORM }}   # Formspree form id; FormSubmit is blocked from GitHub
           ALERT_TO: ${{ secrets.ALERT_TO }}   # optional; falls back to alert_to in settings.toml
           MODE: ${{ inputs.mode || 'run' }}
         run: |

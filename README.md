@@ -5,7 +5,8 @@ narratives, picks the rotation target, screens that narrative's top coins, runs 
 any coin that clears every gate. It never trades and never holds keys. It also watches your open positions
 for exit rules and sends a weekly scorecard.
 
-Email goes through [FormSubmit](https://formsubmit.co), so no Gmail password or SMTP setup is needed.
+Email goes through [Formspree](https://formspree.io) (free: 50 emails a month), so no Gmail password or SMTP
+setup is needed. [FormSubmit](https://formsubmit.co) is the fallback for runs on your Mac; it blocks GitHub's servers.
 
 ## The gates (one hourly pass)
 
@@ -21,21 +22,13 @@ A gate that fails logs why to `data/runs.csv` and stops. All thresholds are in `
 
 ## Setup
 
-1. **Activate FormSubmit (once).** Open the "Activate Form" email FormSubmit sent to your inbox and click the link.
-   Then confirm delivery:
-   ```bash
-   python3 bot.py --test-email
-   ```
-2. **Try a pass without sending anything:**
-   ```bash
-   python3 bot.py --dry-run
-   ```
-3. **Run it hourly on GitHub Actions (free):**
-   - Create a **private** GitHub repository and push this folder to it.
-   - Optional: add a repository secret `ALERT_TO` (Settings → Secrets and variables → Actions) to override the address in `settings.toml`.
-   - Actions tab → *signal-bot* → *Run workflow* → mode `test-email`. If that run fails with an activation
-     message, click the new FormSubmit activation email and run it again.
-   - The schedule then runs every hour and commits the logs in `data/` back to the repo.
+1. **Create a Formspree form.** Sign up free at formspree.io with the email you want alerts at, confirm that
+   email, then create a form. Its id is the part after `formspree.io/f/` in the form's endpoint.
+2. **Add it to GitHub.** Repo Settings → Secrets and variables → Actions → New repository secret:
+   name `FORMSPREE_FORM`, value the form id.
+3. **Test it.** Actions tab → *signal-bot* → *Run workflow* → mode `test-email`.
+   The schedule then runs every hour and commits the logs in `data/` back to the repo.
+4. **Optional, on your Mac:** `python3 bot.py --dry-run` runs a pass without sending anything.
 
 ## When you buy
 

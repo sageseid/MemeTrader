@@ -59,7 +59,11 @@ class Bot:
         self.cfg = cfg
         g = cfg["general"]
         self.paper = g["mode"].lower() != "live"
-        self.to = os.environ.get("ALERT_TO") or g["alert_to"]
+        self.mail = {
+            "to": os.environ.get("ALERT_TO") or g["alert_to"],
+            "formspree_form": os.environ.get("FORMSPREE_FORM") or g.get("formspree_form", ""),
+            "formsubmit_referer": g["formsubmit_referer"],
+        }
         self.dry_run = dry_run
         self.state = store.load_state()
         self.t = datetime.now(timezone.utc)
@@ -70,7 +74,7 @@ class Bot:
     def email(self, subject, fields):
         tag = "[PAPER] " if self.paper else ""
         try:
-            emailer.send(tag + subject, fields, self.to, self.cfg["general"]["formsubmit_referer"], self.dry_run)
+            emailer.send(tag + subject, fields, self.mail, self.dry_run)
             return True
         except emailer.EmailError as e:
             print(f"EMAIL FAILED: {e}", file=sys.stderr)
