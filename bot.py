@@ -62,6 +62,7 @@ class Bot:
         self.paper = g["mode"].lower() != "live"
         self.mail = {
             "to": os.environ.get("ALERT_TO") or g["alert_to"],
+            "resend_key": os.environ.get("RESEND_API_KEY", "").strip(),
             # Accepts the bare id or the full endpoint (https://formspree.io/f/<id>).
             "formspree_form": (os.environ.get("FORMSPREE_FORM") or g.get("formspree_form", ""))
                               .strip().rstrip("/").rsplit("/", 1)[-1],
@@ -413,7 +414,7 @@ class Bot:
 
     def test_email(self):
         ok = self.email("Test: signal bot is connected", {
-            "Status": "If you can read this, FormSubmit delivery works.",
+            "Status": "If you can read this, email delivery works.",
             "Mode": "PAPER (signals are logged and scored, no money at risk)" if self.paper else "LIVE",
             "What you'll get": "Buy-candidate emails when a coin clears every gate, exit alerts for "
                                "positions.csv, and a scorecard every week.",

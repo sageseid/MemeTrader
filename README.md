@@ -5,8 +5,9 @@ narratives, picks the rotation target, screens that narrative's top coins, runs 
 any coin that clears every gate. It never trades and never holds keys. It also watches your open positions
 for exit rules and sends a weekly scorecard.
 
-Email goes through [Formspree](https://formspree.io) (free: 50 emails a month), so no Gmail password or SMTP
-setup is needed. [FormSubmit](https://formsubmit.co) is the fallback for runs on your Mac; it blocks GitHub's servers.
+Email goes through [Resend](https://resend.com) (free: 100 emails a day), so no Gmail password or SMTP setup is
+needed. Formspree and FormSubmit remain as fallbacks, but neither works for alerts from GitHub: Formspree silently
+drops emails that contain prices, and FormSubmit blocks GitHub's servers.
 
 ## The gates (one hourly pass)
 
@@ -22,10 +23,10 @@ A gate that fails logs why to `data/runs.csv` and stops. All thresholds are in `
 
 ## Setup
 
-1. **Create a Formspree form.** Sign up free at formspree.io with the email you want alerts at, confirm that
-   email, then create a form. Its id is the part after `formspree.io/f/` in the form's endpoint.
+1. **Create a Resend API key.** Sign up free at resend.com with the email you want alerts at, then API Keys →
+   Create API Key (permission: Sending access). Without your own domain, Resend only delivers to that address.
 2. **Add it to GitHub.** Repo Settings → Secrets and variables → Actions → New repository secret:
-   name `FORMSPREE_FORM`, value the form id.
+   name `RESEND_API_KEY`, value the key (starts with `re_`).
 3. **Test it.** Actions tab → *signal-bot* → *Run workflow* → mode `test-email`.
    The schedule then runs every hour and commits the logs in `data/` back to the repo.
 4. **Optional, on your Mac:** `python3 bot.py --dry-run` runs a pass without sending anything.
