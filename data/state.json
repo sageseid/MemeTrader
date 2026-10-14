@@ -1472,18 +1472,6 @@
     "wallet": "862TYSvRYoiHAK3F3WwTRYAfuGiQaGdxedN9AGvRGWo2"
    },
    {
-    "at": "2026-10-12T05:58:01+00:00",
-    "mc_usd": 4818.59,
-    "mint": "FiyQMrWeHcFshUPcPWuczVUJehnaJAKJaVVkuFxVpump",
-    "name": "Wugi",
-    "price_usd": 4.818593040683e-06,
-    "sol": 15.145838280000001,
-    "symbol": "smowl",
-    "token_name": "smol owl",
-    "tx": "A5gwABYmoJJ4jAwPoPTVy8pQCVN1861ymoQRNjKnBR8cL9VBLnmduuFu4YMeoLSuVNdhtVDePphm6g2p7txhZ5Q",
-    "wallet": "862TYSvRYoiHAK3F3WwTRYAfuGiQaGdxedN9AGvRGWo2"
-   },
-   {
     "at": "2026-10-13T02:19:20+00:00",
     "mc_usd": 4144049286.4,
     "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
@@ -8156,18 +8144,6 @@
     "wallet": "J23qr98GjGJJqKq9CBEnyRhHbmkaVxtTJNNxKu597wsA"
    },
    {
-    "at": "2026-10-12T05:04:34+00:00",
-    "mc_usd": 46016.9,
-    "mint": "91XaLRuxgaL5byn3cCgf6RTUGyLbnFjd6i1bMvveJkHK",
-    "name": "gr3g",
-    "price_usd": 4.6016899793261e-05,
-    "sol": 1.011005,
-    "symbol": "Wassie",
-    "token_name": "Wormhole Wassie",
-    "tx": "5RdZF69nGofMmEKJzULy3ttAbTvRArkFnZgWWLComMBDkAB5mrmjvJGL3g3eTiiNdU62PAbjRen94AD7Hp8dvwWv",
-    "wallet": "J23qr98GjGJJqKq9CBEnyRhHbmkaVxtTJNNxKu597wsA"
-   },
-   {
     "at": "2026-10-13T06:40:22+00:00",
     "mc_usd": 5990.68,
     "mint": "97bsu1NdbHcMTsarHpYyac8i8NkvEXKVSDHd543jpump",
@@ -9881,54 +9857,6 @@
     "symbol": "FARM",
     "token_name": "farm",
     "tx": "2ubcm8XzMDn6YcCciaaM1N8p24vvtYp89iQCb9GWJ4WUHy2dQADm1gR3pR3fxWhsdX3nyD5akDCQKfbbbpPhrdBB",
-    "wallet": "sAdNbe1cKNMDqDsa4npB3TfL62T14uAo2MsUQfLvzLT"
-   },
-   {
-    "at": "2026-10-12T05:44:37+00:00",
-    "mc_usd": 582278.58,
-    "mint": "hKyXZVKmrBDPhKKhdSaaGf1qrFwUkwjqrdzRc63farm",
-    "name": "Ethan Prosper",
-    "price_usd": 8.7341802786256e-05,
-    "sol": 0.46700500000002876,
-    "symbol": "FARM",
-    "token_name": "farm",
-    "tx": "5aftb4jBZwY62nGnTtgsdtRgZ92XwkBauGnn5BSVMkTHd8j4Toeu7gUhCi9F43EHtL2sDvWzG3qRgZcHuXdvqhtC",
-    "wallet": "sAdNbe1cKNMDqDsa4npB3TfL62T14uAo2MsUQfLvzLT"
-   },
-   {
-    "at": "2026-10-12T05:32:02+00:00",
-    "mc_usd": 544530.22,
-    "mint": "hKyXZVKmrBDPhKKhdSaaGf1qrFwUkwjqrdzRc63farm",
-    "name": "Ethan Prosper",
-    "price_usd": 8.1679547942354e-05,
-    "sol": 0.4670049999999719,
-    "symbol": "FARM",
-    "token_name": "farm",
-    "tx": "4VSKHSXpUcG15JSk9Z39msD8fUtDHPqrpZMpH8FYYwDwnhg7azP83Rhw1Pb4Hvqp5cZboH6fdUpg5bQzJBXuaHxp",
-    "wallet": "sAdNbe1cKNMDqDsa4npB3TfL62T14uAo2MsUQfLvzLT"
-   },
-   {
-    "at": "2026-10-12T05:32:02+00:00",
-    "mc_usd": 544530.22,
-    "mint": "hKyXZVKmrBDPhKKhdSaaGf1qrFwUkwjqrdzRc63farm",
-    "name": "Ethan Prosper",
-    "price_usd": 8.1679547942354e-05,
-    "sol": 0.46700500000002876,
-    "symbol": "FARM",
-    "token_name": "farm",
-    "tx": "5y8Xo1sLP2D6YqrR5HaBLq5KaSPWkBkwZzFBJeWk6xkB1PkUNT8Y1S1Y3fRB6iQeCQofoxJn8ScY9u3pKEsnFcWB",
-    "wallet": "sAdNbe1cKNMDqDsa4npB3TfL62T14uAo2MsUQfLvzLT"
-   },
-   {
-    "at": "2026-10-12T05:26:46+00:00",
-    "mc_usd": 435570.54,
-    "mint": "6ombVv3YMs9qpx1QkycD9XW8HKSfv7vGrCFX3cxCYMVY",
-    "name": "Ethan Prosper",
-    "price_usd": 43.55705399560181,
-    "sol": 0.46815787599996384,
-    "symbol": "wECX",
-    "token_name": "Wrapped ECX",
-    "tx": "4WTbHaY6LNuF934qepUQwpVhGbh1LX5rsp5TgfmYeUeL645dQjEA3SeQ9TnKnk4aRaHzVN3apBRkgioU1rRDi3Fp",
     "wallet": "sAdNbe1cKNMDqDsa4npB3TfL62T14uAo2MsUQfLvzLT"
    },
    {
@@ -19794,6 +19722,246 @@
     "token_name": "Overthinking Rat",
     "tx": "5CduxCbHyPmfQZeVWnoD3UH1nuD3a5H8yBqwt76KumuD9LzxL9Dk9jYp36zeoAqv1PE4pxBFfhLtsRDkCTnNLM8z",
     "wallet": "4vw54BmAogeRV3vPKWyFet5yf8DTLcREzdSzx4rw9Ud9"
+   },
+   {
+    "at": "2026-10-14T05:53:24+00:00",
+    "mc_usd": 12544.37,
+    "mint": "6Qq94cJsJ8WsiHBKxvKWqop6JoangBx5SSQ9kBWzpump",
+    "name": "theo",
+    "price_usd": 1.254436808373e-05,
+    "sol": 5.052518840000005,
+    "symbol": "POPDOGE",
+    "token_name": "Popdogecoin",
+    "tx": "ax167e7euUL9Cd7mxAwntUBBBZukgnQ8E4Xe4oHSuddxpUTAszDMHENxTwPjYsQHcv8JMw48PAcUU3j192V5a7G",
+    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
+   },
+   {
+    "at": "2026-10-14T05:52:47+00:00",
+    "mc_usd": 5919.29,
+    "mint": "CqTEJus3chYbG8qKoFudhRiCLymBUMuZzuF5X1AGpump",
+    "name": "theo",
+    "price_usd": 5.919301222891e-06,
+    "sol": 0.26360500000004095,
+    "symbol": "Roxy",
+    "token_name": "Ugly Cat Roxy",
+    "tx": "5DCbbzXHtts8U3Lw2fyYwTWXpKatfF6wv3jxPt99dcYm7VUpVz9yXBtHZqnqZGFsNRenJkhdPcmBV7vDnyMC2s1c",
+    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
+   },
+   {
+    "at": "2026-10-14T05:52:00+00:00",
+    "mc_usd": 7557.53,
+    "mint": "CqTEJus3chYbG8qKoFudhRiCLymBUMuZzuF5X1AGpump",
+    "name": "theo",
+    "price_usd": 7.557533634923e-06,
+    "sol": 0.2636049999999841,
+    "symbol": "Roxy",
+    "token_name": "Ugly Cat Roxy",
+    "tx": "2K23BDT9ppAqXDD7RT34onx2apYfA56H4eU448TrNZjjqcU7w8agnU7T68aj2LpYSqAXmABcr7qhcn5fbyt1di3",
+    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
+   },
+   {
+    "at": "2026-10-14T05:52:00+00:00",
+    "mc_usd": 7557.53,
+    "mint": "CqTEJus3chYbG8qKoFudhRiCLymBUMuZzuF5X1AGpump",
+    "name": "theo",
+    "price_usd": 7.557533634923e-06,
+    "sol": 0.2636049999999841,
+    "symbol": "Roxy",
+    "token_name": "Ugly Cat Roxy",
+    "tx": "4ZiT6taCrZzoTMGb83xFMpK8s2KcqjhVcjRkwnVvxDQrQjv6JC4T1aUdYn6E5v2nHuDdb5Qb3e3WQPw1btHHYGiD",
+    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
+   },
+   {
+    "at": "2026-10-14T05:51:59+00:00",
+    "mc_usd": 3376.14,
+    "mint": "CqTEJus3chYbG8qKoFudhRiCLymBUMuZzuF5X1AGpump",
+    "name": "theo",
+    "price_usd": 3.37614192161e-06,
+    "sol": 3.0715188390000208,
+    "symbol": "Roxy",
+    "token_name": "Ugly Cat Roxy",
+    "tx": "38QbBYnockXDBa6donAVHf3uf5tPRCBuc2dwj7GcjHsArj3g1cwt3hTGe8S5RniA62WPqsxb9k2KGgxHu47T4aDK",
+    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
+   },
+   {
+    "at": "2026-10-14T05:50:49+00:00",
+    "mc_usd": 11355.34,
+    "mint": "CkKYecrMUKXts6AH1rWpsg7xPW7weRGA3sAui3zppump",
+    "name": "trunoest",
+    "price_usd": 1.1355345201287e-05,
+    "sol": 3.0150049999999737,
+    "symbol": "LENIETZSCHE",
+    "token_name": "Nietzschean Inu",
+    "tx": "3uozHeCEZzvJcqaPRvnoFjqb5fUgE5qeYGTKTDaoptoQmrAZ7cB8LGTFNvdz8PDKQ5tEoPTjb8sqJk2MVcRDVFUG",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-14T05:45:50+00:00",
+    "mc_usd": 3271.06,
+    "mint": "CkKYecrMUKXts6AH1rWpsg7xPW7weRGA3sAui3zppump",
+    "name": "trunoest",
+    "price_usd": 3.271057498248e-06,
+    "sol": 3.0165188400000034,
+    "symbol": "LENIETZSCHE",
+    "token_name": "Nietzschean Inu",
+    "tx": "5PiArCYgp4SLrdVMDySHTxPXYg65NJCQdDQFrsaRe9PobddR8nAPdiMuKcReQ8GtZXp4cFwDjmnLCi4AiXNGbRnS",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-14T05:41:48+00:00",
+    "mc_usd": 3209.45,
+    "mint": "2EKzwakSR9Zh7TUCQVujYHKXMXqqmEsgQWxgE14npump",
+    "name": "trunoest",
+    "price_usd": 3.209447593995e-06,
+    "sol": 1.5165188400000034,
+    "symbol": "POPDOG",
+    "token_name": "popdog",
+    "tx": "dPXQbW86uPVg8TCHt76JFjgo6tSB75XFUGKVYqoad1oc8Wbk1edbauAheRmcWShKm9YW4uowEtXLv2y2oRhT5kc",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-14T05:40:56+00:00",
+    "mc_usd": 10770.93,
+    "mint": "H9w4eoADURcRyPt3apGVhpN9qQXK3r7TBjtxcSVqpump",
+    "name": "theo",
+    "price_usd": 1.0770925391243e-05,
+    "sol": 0.2636049999999841,
+    "symbol": "RK",
+    "token_name": "Roaring Kitty",
+    "tx": "2mmZsyKhYs7sQBQLJ5nr7dfAw8PNMMYiQaLz3QZ2hA4RCzNkFPz77x2Ats5F8r6pZ86LeSm36UYEeaUYNyiLNAPk",
+    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
+   },
+   {
+    "at": "2026-10-14T05:40:36+00:00",
+    "mc_usd": 6417.81,
+    "mint": "H9w4eoADURcRyPt3apGVhpN9qQXK3r7TBjtxcSVqpump",
+    "name": "theo",
+    "price_usd": 6.417811340657e-06,
+    "sol": 3.0730783999999858,
+    "symbol": "RK",
+    "token_name": "Roaring Kitty",
+    "tx": "21h2EdVoKqhDDBK4ZA5YxeMQh4D6HK4R3BWd9bVCdXY54DYQaiTVCNH7ukcAUa6nd72QB34587tiV6EAiPWUbmfR",
+    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
+   },
+   {
+    "at": "2026-10-14T05:22:37+00:00",
+    "mc_usd": 7473,
+    "mint": "6LxJbTZ6zxS1DqUsAdmdL2F2Y3ZpDXsbqNTwsk6Hpump",
+    "name": "theo",
+    "price_usd": 7.472996356826e-06,
+    "sol": 0.2636049999999841,
+    "symbol": "Birnnie",
+    "token_name": "Birnnie",
+    "tx": "63FeQsqqDFA8XAnmSwzd6SFZZNvwYfNNMoZnvqybCirmwnm4uEU56MH5F6UBhsszJnZ5e1pxF9FSuLMwMjdYoQp7",
+    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
+   },
+   {
+    "at": "2026-10-14T05:22:36+00:00",
+    "mc_usd": 7473,
+    "mint": "6LxJbTZ6zxS1DqUsAdmdL2F2Y3ZpDXsbqNTwsk6Hpump",
+    "name": "theo",
+    "price_usd": 7.472996356826e-06,
+    "sol": 0.26360500000004095,
+    "symbol": "Birnnie",
+    "token_name": "Birnnie",
+    "tx": "4wFgaLH4mcDf3N7RZSH6CQJsb6YYKKSJHJvLBY8TMufnfTUPLUPRNCzAVEEVtYckQbyN8caWUDAk5BTAL1nDDUm7",
+    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
+   },
+   {
+    "at": "2026-10-14T05:22:35+00:00",
+    "mc_usd": 3388.18,
+    "mint": "6LxJbTZ6zxS1DqUsAdmdL2F2Y3ZpDXsbqNTwsk6Hpump",
+    "name": "theo",
+    "price_usd": 3.38817831933e-06,
+    "sol": 3.071518838999964,
+    "symbol": "Birnnie",
+    "token_name": "Birnnie",
+    "tx": "nXDReaPmJBcnictxbGQJPkWKLBy46J9NiwnW7RwTJxUKBKddHPRpE1HXGnx6NiDozgXnjrhBdFmGBhiGEhdbxzC",
+    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
+   },
+   {
+    "at": "2026-10-14T05:07:28+00:00",
+    "mc_usd": 18449.14,
+    "mint": "2cHLkn5EMF9sx2aV754k4y57HcdtsWHiz476KJBVpump",
+    "name": "trunoest",
+    "price_usd": 1.8449142106648e-05,
+    "sol": 0.2540050000000065,
+    "symbol": "KFC",
+    "token_name": "Kung Fu Cat",
+    "tx": "CeTJadHe5qbraCjFo5gJo2gfQyuffrgoX8TmtaLAerSHhWQYTDcmtk6p3V8DyJY5WDNExrSZP5o5R9TC13GQoFc",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-14T05:03:48+00:00",
+    "mc_usd": 9357.08,
+    "mint": "2cHLkn5EMF9sx2aV754k4y57HcdtsWHiz476KJBVpump",
+    "name": "trunoest",
+    "price_usd": 9.357076112754e-06,
+    "sol": 3.0165188400000034,
+    "symbol": "KFC",
+    "token_name": "Kung Fu Cat",
+    "tx": "28qHiHMe3rjKH2ZXnMoXLHbtZmpfpuD5JMeScyP61wu2U3Yf2JCL72oSQeG45YvrpFXv5fagRepEh6WnfgLLNPpw",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-14T05:01:41+00:00",
+    "mc_usd": 28646.08,
+    "mint": "2S8BJrncqqYdjCw3qCaQFR4v5WVLttU1TKBzV45ipump",
+    "name": "trunoest",
+    "price_usd": 2.8646083899747e-05,
+    "sol": 0.2540050000000065,
+    "symbol": "kfc",
+    "token_name": "kung fu cat",
+    "tx": "3QTuFHcq8EjiZyFBQXvAnLUj2ewfhq61xWA6Cbefv9FdCAWEgKiYeN9zKc7m6C2dtCmTVaBamPSDURsAMWwYxwug",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-14T04:59:59+00:00",
+    "mc_usd": 11485.58,
+    "mint": "HNL9Crnkh3xz3xDcRieurr5P6EbDJTpJWnqG5UTLpump",
+    "name": "theo",
+    "price_usd": 1.1794056893059e-05,
+    "sol": 3.0310049999999933,
+    "symbol": "7:55",
+    "token_name": "Back to The Future",
+    "tx": "2ikon7QzSpiUNd3qKeYN2RMFMnk4snTgD1WTPvzZB63pH3xeFKrUuzHoBpEoDndyKZtcCSMhDwwr6BFMGNTkDocB",
+    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
+   },
+   {
+    "at": "2026-10-14T04:59:01+00:00",
+    "mc_usd": 8642.5,
+    "mint": "wdEbtB9FESpggL9EZi5etdoWMhqaRXdjHvtVUdupump",
+    "name": "theo",
+    "price_usd": 8.642495208644e-06,
+    "sol": 0.26360500000004095,
+    "symbol": "KIRK",
+    "token_name": "Kirk Day",
+    "tx": "5mub7LJFDJCo9VZQVDs6PS2ky83fxep2J6WSvvteKa6CioosKTvCEYchvKtCpnwA5HbNYNRNNwdpb1AdWygkyi5H",
+    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
+   },
+   {
+    "at": "2026-10-14T04:58:25+00:00",
+    "mc_usd": 8401.85,
+    "mint": "wdEbtB9FESpggL9EZi5etdoWMhqaRXdjHvtVUdupump",
+    "name": "theo",
+    "price_usd": 8.401850724318e-06,
+    "sol": 3.0325188389999767,
+    "symbol": "KIRK",
+    "token_name": "Kirk Day",
+    "tx": "qDuyRGbGQLCap3DoiWnYdyxPTJUuiYamtLrpVWAL78K49NF8AdJy3QLJxKt5wzbUsMZqveEyMDK6vvRAQy7mjf3",
+    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
+   },
+   {
+    "at": "2026-10-14T04:57:48+00:00",
+    "mc_usd": 10905.52,
+    "mint": "2S8BJrncqqYdjCw3qCaQFR4v5WVLttU1TKBzV45ipump",
+    "name": "trunoest",
+    "price_usd": 1.0905519086904e-05,
+    "sol": 3.0165188400000034,
+    "symbol": "kfc",
+    "token_name": "kung fu cat",
+    "tx": "45vGaVMtEKWKeuA4Ww7HgiCQwafnzXZzQKwNKru4UZ6ekHtzEswdy728WyZdTyxEGzmCouB2BRRUaVQuddRndikM",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
    }
   ],
   "evaluated": {
@@ -19811,6 +19979,6 @@
    "GjuohC1Ad4i4kF8EKcq3NyPQ6hgb8DiRcm72W7oPpump": 3,
    "HDUTbJbmMmynsg31ir3GuPTE2jCNGyWYf61VzPDix6e": 3
   },
-  "since": "2026-10-14T04:55:00+00:00"
+  "since": "2026-10-14T05:55:05+00:00"
  }
 }
