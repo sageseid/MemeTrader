@@ -1232,54 +1232,6 @@
     "wallet": "4vw54BmAogeRV3vPKWyFet5yf8DTLcREzdSzx4rw9Ud9"
    },
    {
-    "at": "2026-10-13T02:59:26+00:00",
-    "mc_usd": 3434.11,
-    "mint": "BWgkU6FGxeYie86VFS7L22k5qjBf9bpwZMC1YPMGpump",
-    "name": "decu",
-    "price_usd": 3.434110762773e-06,
-    "sol": 1.5965188399999874,
-    "symbol": "UnderDoge",
-    "token_name": "The Underdoge",
-    "tx": "2PWSbu9bWGHEkRbraKitDpKUx7btGc9AA8Fbec1hhznvFkdFeAJJ81TjdBLBtQ2GDeiPhCCrKmEtR7vzfDZRdkgB",
-    "wallet": "4vw54BmAogeRV3vPKWyFet5yf8DTLcREzdSzx4rw9Ud9"
-   },
-   {
-    "at": "2026-10-13T02:58:50+00:00",
-    "mc_usd": 5510.57,
-    "mint": "GZmvLidPX5CcQWR4hCamTLorctjo9JrWj6rFEuccpump",
-    "name": "decu",
-    "price_usd": 5.510567876443e-06,
-    "sol": 3.0165188400000034,
-    "symbol": "UnderDoge",
-    "token_name": "The Underdoge",
-    "tx": "5UxngsjPtkJxtPGr5dKLnH2vvkavrwgEEC51VfcZBoWAadD5M1jDshtcP9Vc7REhC98mQ97TFdaGNbeYgLv64sNP",
-    "wallet": "4vw54BmAogeRV3vPKWyFet5yf8DTLcREzdSzx4rw9Ud9"
-   },
-   {
-    "at": "2026-10-13T02:55:19+00:00",
-    "mc_usd": 8720.93,
-    "mint": "4rr7RGBrb7QhcS19r1rnyFgBvxoJnhzbjLKJyoo3pump",
-    "name": "decu",
-    "price_usd": 8.720927571325e-06,
-    "sol": 0.2650050000000306,
-    "symbol": "OIL",
-    "token_name": "Black Gold",
-    "tx": "3KgeeRC7XdcHZYW2LyUQA5Tht9xH3147kWHtdy1QhKe8F8dor6c6e7ZazLfmTt1UMJY2oagFVyaqqu4CiJsftNtr",
-    "wallet": "4vw54BmAogeRV3vPKWyFet5yf8DTLcREzdSzx4rw9Ud9"
-   },
-   {
-    "at": "2026-10-13T02:55:00+00:00",
-    "mc_usd": 4648.78,
-    "mint": "4rr7RGBrb7QhcS19r1rnyFgBvxoJnhzbjLKJyoo3pump",
-    "name": "decu",
-    "price_usd": 4.64878433903e-06,
-    "sol": 2.018078399999979,
-    "symbol": "OIL",
-    "token_name": "Black Gold",
-    "tx": "3vG6AQtgJDzNd29pUjrY2eUbLADrN1Y38XXid6r1chyXnZMBTnYnmUjUMj8LUZtABBEh96bDXCwRbzmVQgQ8BBEJ",
-    "wallet": "4vw54BmAogeRV3vPKWyFet5yf8DTLcREzdSzx4rw9Ud9"
-   },
-   {
     "at": "2026-10-13T15:51:02+00:00",
     "mc_usd": 25.54,
     "mint": "HMGFb7iqg6mBv4BaXwcSYJUbQtxJ3USCcs7eoPaaGvGg",
@@ -1446,30 +1398,6 @@
     "token_name": "cockra",
     "tx": "3aHcsJji7WUzUbfdnZsirFbNL3HwjuJ9fJT6WWxVcNuw2b6DBiSed4FJwwv4o6h6gWpninYFB61bPSF2BbvxC8dN",
     "wallet": "862TYSvRYoiHAK3F3WwTRYAfuGiQaGdxedN9AGvRGWo2"
-   },
-   {
-    "at": "2026-10-13T02:19:20+00:00",
-    "mc_usd": 4144049286.4,
-    "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-    "name": "Cooker",
-    "price_usd": 0.00500262247664597,
-    "sol": 0.7564611889999924,
-    "symbol": "PUMP",
-    "token_name": "Pump",
-    "tx": "21acgvWhRmmzTs5XNcQZrNdeRPjGnaC3ReztojwDx9nu8ouX2EVy2KAwPrgQhFrgnVLu59MDnkSiAfWdnnjGbusi",
-    "wallet": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6"
-   },
-   {
-    "at": "2026-10-13T02:07:50+00:00",
-    "mc_usd": 3523.45,
-    "mint": "4LqZmx6yrvnLSn6EZDkgrEuCpZrVcWF4BPLYcZhZpump",
-    "name": "Cooker",
-    "price_usd": 3.523446148805e-06,
-    "sol": 5.12146931999996,
-    "symbol": "Manya",
-    "token_name": "\u041c\u0430\u043d\u044f",
-    "tx": "529hdxcTFLXp1ahYGLDc64RHPuREDuqDrwF8E4omwYPEwQB5jcnagJygaMTBy3WcKnq4NUukFz77nT9Z1ki1FsZr",
-    "wallet": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6"
    },
    {
     "at": "2026-10-13T05:09:16+00:00",
@@ -3776,126 +3704,6 @@
     "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
    },
    {
-    "at": "2026-10-13T02:22:43+00:00",
-    "mc_usd": 3345.26,
-    "mint": "4tWAabH5qATquirYoyCvvexVmCcck99JrNMwBuicpump",
-    "name": "theo",
-    "price_usd": 3.345258275985e-06,
-    "sol": 3.032518839000005,
-    "symbol": "Vampinu",
-    "token_name": "Vampinu",
-    "tx": "53jEyu4M7N7RAqAhdNnDUrrmh3Vd5LsPRLcnrHDrEc4GrRaVhH1s56bAmZxaW7rVQcGSYiefbCaxpfgZhwanfPTr",
-    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
-   },
-   {
-    "at": "2026-10-13T02:13:47+00:00",
-    "mc_usd": 48355.28,
-    "mint": "2DgAP3vRkf2a4surjYLpaUmx1RwDNJaWx3Nm3uQrpump",
-    "name": "theo",
-    "price_usd": 4.8355283851602e-05,
-    "sol": 5.052518840000005,
-    "symbol": "MINER",
-    "token_name": "nearminer",
-    "tx": "62gc8cNGBzgDBCGh867S6yFEuYJH9SBgCRei3V5qp66QEJkZpqArf5wBX1hTSEGJ2YE8jz2g9Nfuqmct12XTTGAv",
-    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
-   },
-   {
-    "at": "2026-10-13T02:07:25+00:00",
-    "mc_usd": 15094.82,
-    "mint": "DS8QCKVBMDix6BkkTgoV8wB4G8t9sz57ZghkDkNWpump",
-    "name": "theo",
-    "price_usd": 1.5094820566001e-05,
-    "sol": 0.0696786690000124,
-    "symbol": "Bear",
-    "token_name": "The Black Bear",
-    "tx": "4sne9bYWwhyFutMQWrds6WCkm8E2uq5N6TLLiymLaaiA5hGpU6iTSCgLYgHd2W1R47RDH59C9E8hdErpcGTn4SWo",
-    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
-   },
-   {
-    "at": "2026-10-13T02:07:25+00:00",
-    "mc_usd": 15372.7,
-    "mint": "DS8QCKVBMDix6BkkTgoV8wB4G8t9sz57ZghkDkNWpump",
-    "name": "theo",
-    "price_usd": 1.5372704076085e-05,
-    "sol": 0.1071760549999965,
-    "symbol": "Bear",
-    "token_name": "The Black Bear",
-    "tx": "5Rv863SuNimguMPEdqdiKJFPozYuMWw4sWNuFN9japs93yWuyTJZShQ238pXCMktP5EneeT7m6QMb7kWmhYb3oSK",
-    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
-   },
-   {
-    "at": "2026-10-13T02:06:52+00:00",
-    "mc_usd": 17405.99,
-    "mint": "DS8QCKVBMDix6BkkTgoV8wB4G8t9sz57ZghkDkNWpump",
-    "name": "theo",
-    "price_usd": 1.7405985017625e-05,
-    "sol": 0.0804526349999719,
-    "symbol": "Bear",
-    "token_name": "The Black Bear",
-    "tx": "BPM2xtGoL1o9YNKTcZ7YYYa4Bvkps5k9sHVVFz8nkAJMqA7j2et7S2CVkrvz1MQdDBjjkZm7gr7uq9w3w2HxkdM",
-    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
-   },
-   {
-    "at": "2026-10-13T02:06:48+00:00",
-    "mc_usd": 16561.55,
-    "mint": "DS8QCKVBMDix6BkkTgoV8wB4G8t9sz57ZghkDkNWpump",
-    "name": "theo",
-    "price_usd": 1.6561548110034e-05,
-    "sol": 0.09304131600001142,
-    "symbol": "Bear",
-    "token_name": "The Black Bear",
-    "tx": "3CooXByPjGeRNHcqTzjcoUVmF53FWfPvEaWPHmQWHknfLfnrqecyRaNa11V18tL7PuftAY5Y6us5XyjD9kZEnWZX",
-    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
-   },
-   {
-    "at": "2026-10-13T02:06:27+00:00",
-    "mc_usd": 26412.03,
-    "mint": "DS8QCKVBMDix6BkkTgoV8wB4G8t9sz57ZghkDkNWpump",
-    "name": "theo",
-    "price_usd": 2.6412033446833e-05,
-    "sol": 0.11002167000000895,
-    "symbol": "Bear",
-    "token_name": "The Black Bear",
-    "tx": "46RxVTu93o7nFaFdMHVQQi9JN7MtS8Wj2otNjr9b1MKdPp9tT2nf5vfCtj2jctiJkTFAXP2kweQcTCcWKkmj3T1h",
-    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
-   },
-   {
-    "at": "2026-10-13T02:03:37+00:00",
-    "mc_usd": 19490.61,
-    "mint": "DS8QCKVBMDix6BkkTgoV8wB4G8t9sz57ZghkDkNWpump",
-    "name": "theo",
-    "price_usd": 1.9490612292296e-05,
-    "sol": 0.2636049999999841,
-    "symbol": "Bear",
-    "token_name": "The Black Bear",
-    "tx": "2tbcVMJw3GozNv5nF4xzxm3ogRcAHpK5m9VWJk7uWDTsiJNUrQ69UKdqrTEyZN9Y6BCxGoABEbGC5ecdtnkohRDn",
-    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
-   },
-   {
-    "at": "2026-10-13T02:01:41+00:00",
-    "mc_usd": 8770.04,
-    "mint": "DS8QCKVBMDix6BkkTgoV8wB4G8t9sz57ZghkDkNWpump",
-    "name": "theo",
-    "price_usd": 8.770038811883e-06,
-    "sol": 0.2636049999999841,
-    "symbol": "Bear",
-    "token_name": "The Black Bear",
-    "tx": "2h591CL72iuiigmCnmf7BX5yhkDojGFgbRCeC5M2b7anaiJoXEa5dqPNkUZbyjyPh8Fbwqy1v7TQetwFjAAnwvoF",
-    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
-   },
-   {
-    "at": "2026-10-13T02:00:28+00:00",
-    "mc_usd": 6005.79,
-    "mint": "DS8QCKVBMDix6BkkTgoV8wB4G8t9sz57ZghkDkNWpump",
-    "name": "theo",
-    "price_usd": 6.005794342675e-06,
-    "sol": 0.2636049999999841,
-    "symbol": "Bear",
-    "token_name": "The Black Bear",
-    "tx": "LJEF39byGmnF79fxJWb3dxvkaa1myDfCSxZXoLArXkayd37eJbNHp2gLabJzvWAjRAy92iywoEk3hjENXdmLjNn",
-    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
-   },
-   {
     "at": "2026-10-13T06:45:19+00:00",
     "mc_usd": 3037.19,
     "mint": "8N51jJ4RXjPq2XgfFamXwh1C9fEqod9Mk87F92QGpump",
@@ -5357,18 +5165,6 @@
     "symbol": "nigga",
     "token_name": "an obvious runner",
     "tx": "2nZMJjVZn3q2UmGrrTogq4rqkPyLHL497dxUfZUi3ocqjzW3umNr9tx5Zj6qQyMKnDzwhKN9EKDK64kTo8djfchu",
-    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
-   },
-   {
-    "at": "2026-10-13T02:48:26+00:00",
-    "mc_usd": 7497.56,
-    "mint": "GaRX8xxudZVtxkLzuTj1cwQwHLWeVnSaimAojcrUpump",
-    "name": "trunoest",
-    "price_usd": 7.497559926251e-06,
-    "sol": 3.0165188400000034,
-    "symbol": "TROUFAS",
-    "token_name": "Troufas",
-    "tx": "4Z6D6YB1EzTv1SA68DWd94XvJrBkeSa7DN1RfnjMXMfzxEhA62oyy9eafj2n6CtvD51YWREjsB2tTMUR3UaxsCXL",
     "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
    },
    {
@@ -16422,6 +16218,186 @@
     "token_name": "solana life",
     "tx": "3vZs7YmLVA7y6og8LpvvTqfdTdBe1hEULHTCUhxkjR2vtcSk63aei5jpgxyUo4BfbwE9XUL95fnNceBUkiZznMJ6",
     "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-15T02:42:36+00:00",
+    "mc_usd": 13326.2,
+    "mint": "Ef7gV9mbEAEoDRy42e5Hs9KtwpxfrthjEJqu3Arzpump",
+    "name": "trunoest",
+    "price_usd": 1.3326203148789e-05,
+    "sol": 0.2540049999998928,
+    "symbol": "\u7acb\u7acb\u725b",
+    "token_name": "Li Li Niu",
+    "tx": "2RGGmZZcVGa2RByeBieTGsey5PdqPzr2oWia4CXx1pBk2VSrEXTQwTrWN9J645KRVWoR9iZPDFyaqYaSE49hBqJS",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-15T02:42:08+00:00",
+    "mc_usd": 7240.71,
+    "mint": "Ef7gV9mbEAEoDRy42e5Hs9KtwpxfrthjEJqu3Arzpump",
+    "name": "trunoest",
+    "price_usd": 7.240708487614e-06,
+    "sol": 2.0165188400000034,
+    "symbol": "\u7acb\u7acb\u725b",
+    "token_name": "Li Li Niu",
+    "tx": "626Yrj7g5fL3cw6yzrpWvvzvPjuMkybbGBUnnQP74omq2rjsSxm71ppzwFTntwNYHoR1Wj5iVZXpxVUBowcY6dbn",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-15T02:41:25+00:00",
+    "mc_usd": 8603.62,
+    "mint": "DQe8TzxRf9igmukhvWmHywmt8VZei6z9n4ibpZSipump",
+    "name": "trunoest",
+    "price_usd": 8.603619167548e-06,
+    "sol": 0.2540050000000065,
+    "symbol": "\u4e60\u8fd1\u5e73",
+    "token_name": "Official Jin Ping \u4e60\u8fd1\u5e73",
+    "tx": "3UaNcgcVxr6iCSNnX7cPnrUcs1A6qhRp1AKVpZSHRJzs6J2BbA52sMxfWK3wp7GkXAp6kwKoi9CVy1WakgiFXVtZ",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-15T02:41:00+00:00",
+    "mc_usd": 10287.89,
+    "mint": "DQe8TzxRf9igmukhvWmHywmt8VZei6z9n4ibpZSipump",
+    "name": "trunoest",
+    "price_usd": 1.0287889642078e-05,
+    "sol": 0.2540050000000065,
+    "symbol": "\u4e60\u8fd1\u5e73",
+    "token_name": "Official Jin Ping \u4e60\u8fd1\u5e73",
+    "tx": "gZcEBqfATMoruLwHHarRTbssNJFT52bmveKFFZoBKVcTKxwtDDgqimpnyYbVbPYtx25pJZPAgASn88pyvrSuRPW",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-15T02:40:46+00:00",
+    "mc_usd": 5551.77,
+    "mint": "DQe8TzxRf9igmukhvWmHywmt8VZei6z9n4ibpZSipump",
+    "name": "trunoest",
+    "price_usd": 5.551770494389e-06,
+    "sol": 2.0165188399998897,
+    "symbol": "\u4e60\u8fd1\u5e73",
+    "token_name": "Official Jin Ping \u4e60\u8fd1\u5e73",
+    "tx": "4wJewuUaqnhvtxAE5dHagcP2TBYig5oZ3YmG6hCi4Ujtd8GBDvovYWoxPmuTDTjQQi7qX9S4pB5zV97RnLg1hF1o",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-15T02:25:04+00:00",
+    "mc_usd": 11065.81,
+    "mint": "CVGeQPc4snR8SaYiAKCrLRVDMbZfopNfG5jWAnjUpump",
+    "name": "decu",
+    "price_usd": 1.1065808165405e-05,
+    "sol": 0.26500499999997373,
+    "symbol": "PumpPay",
+    "token_name": "PumpPay",
+    "tx": "38MqatncmiYAnMaEjajpqzRChPuoXDeyCe2zF5VyUPSbSJzMpAe2duQKcnucv1WfFC6yS1tF1TgxA4P5mBYVTBTK",
+    "wallet": "4vw54BmAogeRV3vPKWyFet5yf8DTLcREzdSzx4rw9Ud9"
+   },
+   {
+    "at": "2026-10-15T02:24:02+00:00",
+    "mc_usd": 3830.42,
+    "mint": "HeNQYCv63Nc7z7aXrVWs1rkBuk9yaE7ft4SsbhKWpump",
+    "name": "zeropnl",
+    "price_usd": 3.830420219231e-06,
+    "sol": 7.093283181999993,
+    "symbol": "ZELENSKY",
+    "token_name": "Zelenski",
+    "tx": "3BTLD41bQqNj8d487hmcXaS9FiyCxEiJuwomaAHRUX7KLdPs5YpNTPMB2ugYJ19yyX6bzJDkpkgtbJWxveMSLhCh",
+    "wallet": "4xY9T1Q7foJzJsJ6YZDSsfp9zkzeZsXnxd45SixduMmr"
+   },
+   {
+    "at": "2026-10-15T02:24:00+00:00",
+    "mc_usd": 8436.54,
+    "mint": "CVGeQPc4snR8SaYiAKCrLRVDMbZfopNfG5jWAnjUpump",
+    "name": "decu",
+    "price_usd": 8.436541794547e-06,
+    "sol": 2.0165188400000034,
+    "symbol": "PumpPay",
+    "token_name": "PumpPay",
+    "tx": "5RpyicYTuZHvpz7dYLNFbnyYMLiGtuFjeGLDMdSDbz9d3UPHV6Mj7BpMfeShjgaiXzmFqjaSQruGEg4S7Kc4YwEG",
+    "wallet": "4vw54BmAogeRV3vPKWyFet5yf8DTLcREzdSzx4rw9Ud9"
+   },
+   {
+    "at": "2026-10-15T02:23:01+00:00",
+    "mc_usd": 16211.86,
+    "mint": "3euncvWMfQQ6eE9rderxJS3ZV4EMNS8bR9Supm52pump",
+    "name": "trunoest",
+    "price_usd": 1.621186090799e-05,
+    "sol": 5.016518840000003,
+    "symbol": "BANTIANA",
+    "token_name": "Cladophialophora Bantiana",
+    "tx": "5fcPNuhJp8e4JMzBCFPgXfT7uhik1Wr7ydJnpCDv7o16iLMyzuJFq5Mq9HSqhLLLHyUkynMdgG4fkC4BA4GgQLb3",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-15T02:18:43+00:00",
+    "mc_usd": 5672.01,
+    "mint": "FuT7auHtYVPdA6PYaC4ziyCZ4QrybvpiBbPk12aBpump",
+    "name": "trunoest",
+    "price_usd": 5.672005425461e-06,
+    "sol": 2.0165188400000034,
+    "symbol": "Ooough",
+    "token_name": "Ooough Cat",
+    "tx": "2JJkcCJGs12kdKzHxn9haLswL4Lis39UyA2Kmi19yxSZDzr5d48GvFx8y57uqnUEP1RnvKJLseZn2ZmzJE8qGT56",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-15T02:08:06+00:00",
+    "mc_usd": 8306.44,
+    "mint": "56zW1uHyu62VxAWEK3RjRYPwm64Wff6z6YXQwapmpump",
+    "name": "trunoest",
+    "price_usd": 8.306443048687e-06,
+    "sol": 0.2540050000000065,
+    "symbol": "BALLS",
+    "token_name": "SPACEBALLS",
+    "tx": "51eZpFG2yYVVtYTqVJaNzLAC8EURQiEAABhAQjpeK34ArTXTJVLq5fhPt2FjsJNpvYczVRpaA23cN13LV1BxQmR",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-15T02:07:59+00:00",
+    "mc_usd": 5977.96,
+    "mint": "56zW1uHyu62VxAWEK3RjRYPwm64Wff6z6YXQwapmpump",
+    "name": "trunoest",
+    "price_usd": 5.977964370923e-06,
+    "sol": 1.5180783999999221,
+    "symbol": "BALLS",
+    "token_name": "SPACEBALLS",
+    "tx": "2qByCvvRDbQz8coiconmfNfK2uAcXAfpUU51H1CaW9BB2XnDnyLqTxMZEfxdxcyrRXbXxNQQrH164wd4fDHDQ7fx",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-15T01:59:58+00:00",
+    "mc_usd": 16960.37,
+    "mint": "L6EuPSCZYzFEKqoEpwUzVJfBdMt8Q4QZnpWmJ6bUtVp",
+    "name": "trunoest",
+    "price_usd": 1.6960368470523e-05,
+    "sol": 0.2540050000000065,
+    "symbol": "PSYCHOSIS",
+    "token_name": "SI psychosis",
+    "tx": "271B7qdNGGw4zspnt4dsjBtPePzUp2BVV29uqpmyZCoeCncbTmAuPEhv8tfpPzRMFT31RL2VTBb6aG5BxvM8kp17",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-15T01:58:04+00:00",
+    "mc_usd": 18480.9,
+    "mint": "L6EuPSCZYzFEKqoEpwUzVJfBdMt8Q4QZnpWmJ6bUtVp",
+    "name": "trunoest",
+    "price_usd": 1.8480902554687e-05,
+    "sol": 0.2540050000000065,
+    "symbol": "PSYCHOSIS",
+    "token_name": "SI psychosis",
+    "tx": "3Dq7N9cZSCPFpbdGDBe5Zd1fceFX7XHTu6ofggS7WN5EZB6SysBW6QxD8DHtTqtvwoZMZb3nj3LeTJikfSyyNYCY",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-15T01:57:27+00:00",
+    "mc_usd": 21338.91,
+    "mint": "L6EuPSCZYzFEKqoEpwUzVJfBdMt8Q4QZnpWmJ6bUtVp",
+    "name": "trunoest",
+    "price_usd": 2.1338913236422e-05,
+    "sol": 0.2540049999998928,
+    "symbol": "PSYCHOSIS",
+    "token_name": "SI psychosis",
+    "tx": "3oTDNPJ1TANbZx1xpr1Szqs3q3zSj1oDrnN1r83rq4r9Zbockqqeb16NUSa4EZu2BQrTTHgN9Q5Grz1aLRZFCJj1",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
    }
   ],
   "evaluated": {
@@ -16439,6 +16415,6 @@
    "GjuohC1Ad4i4kF8EKcq3NyPQ6hgb8DiRcm72W7oPpump": 3,
    "HDUTbJbmMmynsg31ir3GuPTE2jCNGyWYf61VzPDix6e": 3
   },
-  "since": "2026-10-15T01:55:18+00:00"
+  "since": "2026-10-15T02:55:19+00:00"
  }
 }
