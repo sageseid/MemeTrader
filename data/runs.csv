@@ -137,3 +137,5 @@ run_utc,mode,outcome,detail
 2026-10-16T06:00Z,PAPER,smart money,"30 new watchlist buys from 7 feed page(s); 0 cluster(s) of 3+ wallets, 0 new or grown, 0 too old to alert, 0 passed safety, 0 emailed"
 2026-10-16T07:00Z,PAPER,screened,"#2 narrative Trump Coins: 7d +0.53%, 24h +5.55%; 0/2 coins passed safety, 0 emailed."
 2026-10-16T07:00Z,PAPER,smart money,"28 new watchlist buys from 6 feed page(s); 0 cluster(s) of 3+ wallets, 0 new or grown, 0 too old to alert, 0 passed safety, 0 emailed"
+2026-10-16T08:00Z,PAPER,screened,"#2 narrative Trump Coins: 7d +0.53%, 24h +5.55%; 0/2 coins passed safety, 0 emailed."
+2026-10-16T08:00Z,PAPER,smart money data error,"skipped this run's cluster pass: madeonsol.com: HTTP 429: {""error"":""rate_limit_exceeded"",""error_kind"":""ip_rotation"",""message"":""Too many IP addresses for one free key — this free (BASIC) key has been used from more than 8 IP addresses today. Free keys are mea"
