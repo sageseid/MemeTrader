@@ -127,3 +127,5 @@ run_utc,mode,outcome,detail
 2026-10-16T01:00Z,PAPER,smart money,"36 new watchlist buys from 8 feed page(s); 0 cluster(s) of 3+ wallets, 0 new or grown, 0 too old to alert, 0 passed safety, 0 emailed"
 2026-10-16T02:00Z,PAPER,screened,"#2 narrative Frog Coins: 7d +1.62%, 24h -0.09%; 1/5 coins passed safety, 0 emailed."
 2026-10-16T02:00Z,PAPER,smart money,"52 new watchlist buys from 8 feed page(s) (paging capped: some older buys this hour were skipped); 0 cluster(s) of 3+ wallets, 0 new or grown, 0 too old to alert, 0 passed safety, 0 emailed"
+2026-10-16T03:00Z,PAPER,screened,"#2 narrative Trump Coins: 7d +1.28%, 24h +0.48%; 0/2 coins passed safety, 0 emailed."
+2026-10-16T03:00Z,PAPER,smart money,"27 new watchlist buys from 8 feed page(s) (paging capped: some older buys this hour were skipped); 0 cluster(s) of 3+ wallets, 0 new or grown, 0 too old to alert, 0 passed safety, 0 emailed"
