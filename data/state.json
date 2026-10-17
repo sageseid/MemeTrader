@@ -120,90 +120,6 @@
   ],
   "buys": [
    {
-    "at": "2026-10-15T00:48:59+00:00",
-    "mc_usd": 3483.67,
-    "mint": "5r9CmuAoSRnSZj2ijFSNipwrHbKv4MUHrmWmz8ocpump",
-    "name": "zeropnl",
-    "price_usd": 3.483668856228e-06,
-    "sol": 5.067980520000049,
-    "symbol": "SHUT",
-    "token_name": "Put up, or shut up",
-    "tx": "5VpHoz55pGs3zAGyZWiTnFz3dRGJh2SKJMthCrnXv4vWddjeWtpGnbjq6zwW7R8T7gvPaAjZgDC6USMKhCX5dMuF",
-    "wallet": "4xY9T1Q7foJzJsJ6YZDSsfp9zkzeZsXnxd45SixduMmr"
-   },
-   {
-    "at": "2026-10-15T00:38:58+00:00",
-    "mc_usd": 523698.59,
-    "mint": "H4KUxsEgCp2yDpFvyDuGM5k6XevSKKrrKUxZ3Zr6nyJc",
-    "name": "Limfork.eth",
-    "price_usd": 0.000533211681906439,
-    "sol": 30.011518840000008,
-    "symbol": "COCKROACH",
-    "token_name": "cockroach",
-    "tx": "gQ6x9pvMreboa82nuBg2tqUL52FKX6cnJ7Cr5sDL5mk3vs1WtDNFtxCTfB4w5bkpuhjKYuKiYPL8nv2gzFv7tU4",
-    "wallet": "BQVz7fQ1WsQmSTMY3umdPEPPTm1sdcBcX9sP7o6kPRmB"
-   },
-   {
-    "at": "2026-10-15T00:27:29+00:00",
-    "mc_usd": 6092.13,
-    "mint": "42aqJLPL3fLQo32EtdMgdeRLcwUf4Ngqo4ZUMUYEpump",
-    "name": "trunoest",
-    "price_usd": 6.092129341314e-06,
-    "sol": 2.0165188400000034,
-    "symbol": "Yotsuba",
-    "token_name": "Yotsuba",
-    "tx": "2oGw3tDLzkr7RhgmDie8c9wjUk89ptW8SyvqJBdDNj4SoLkPvPzLxUH55ijVoZXyDaskTuybvHTsRBX9U8J7ojS6",
-    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
-   },
-   {
-    "at": "2026-10-15T00:24:47+00:00",
-    "mc_usd": 4712.06,
-    "mint": "9sbYxTkz36CuVvCPHXWAuRzeMso7EEK9mrkvyb1wpump",
-    "name": "trunoest",
-    "price_usd": 4.712059839286e-06,
-    "sol": 1.5165188400000034,
-    "symbol": "Bilbo",
-    "token_name": "The Catdog",
-    "tx": "4PZMcE5qJkpY2c4bVzyMuMcygMm1McrbfN7DZ2DifPHDezAYArhwtuSJaUDGx2n3Yze4zpWXU2qTs236a5fDZnb5",
-    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
-   },
-   {
-    "at": "2026-10-15T00:10:53+00:00",
-    "mc_usd": 3680.07,
-    "mint": "9FiWYtKBNitzry8vY7tU7WKGTLrqNKxs6avRWow2pump",
-    "name": "zeropnl",
-    "price_usd": 3.680070039744e-06,
-    "sol": 7.0872997999999825,
-    "symbol": "Sgiath",
-    "token_name": "Sgiathcoin",
-    "tx": "4xm4A8mW3Lyu8RyC5XrmaJUsMwiDDp8EMdpm1fz4aN7pPGuSjWzGRGspnJtWdkX9GC4yYJDnutujstjEaKGg2DFz",
-    "wallet": "4xY9T1Q7foJzJsJ6YZDSsfp9zkzeZsXnxd45SixduMmr"
-   },
-   {
-    "at": "2026-10-15T00:09:55+00:00",
-    "mc_usd": 3674.17,
-    "mint": "FhZVjFrk2CSQHuKzbwy3cpmYNemo5P4az8M8BpKEpump",
-    "name": "zeropnl",
-    "price_usd": 3.674173210209e-06,
-    "sol": 7.077299799999992,
-    "symbol": "Sgiath",
-    "token_name": "Sgiathcoin",
-    "tx": "5DhsFmMbj3844u6GsbnVSiBBAZStL5ssHwPuPmExab5p2JnCFSoakum35JkTQTm1tGcJvjwjHEvwfJrrmUvozMei",
-    "wallet": "4xY9T1Q7foJzJsJ6YZDSsfp9zkzeZsXnxd45SixduMmr"
-   },
-   {
-    "at": "2026-10-15T00:09:37+00:00",
-    "mc_usd": 3675.93,
-    "mint": "EaEGQhXt5KZK7zz9GzWiqLW8peWBeV6A3jMubv5rpump",
-    "name": "zeropnl",
-    "price_usd": 3.675934052349e-06,
-    "sol": 7.077299799999992,
-    "symbol": "Sgiath",
-    "token_name": "Sgiathcoin",
-    "tx": "3Rex4uFX2PpYmkFGij8dpRxVWRbyMFx319MTqw3Pg23idEHcuFusNojcMNnSLpTi91bLLPbJ9u9zQjD9LWwUrPKA",
-    "wallet": "4xY9T1Q7foJzJsJ6YZDSsfp9zkzeZsXnxd45SixduMmr"
-   },
-   {
     "at": "2026-10-15T01:53:02+00:00",
     "mc_usd": 5975.01,
     "mint": "L6EuPSCZYzFEKqoEpwUzVJfBdMt8Q4QZnpWmJ6bUtVp",
@@ -357,18 +273,6 @@
     "symbol": "\u4eba\u751f",
     "token_name": "solana life",
     "tx": "zswUUwC3Z5KH44EYKJEak573swwW7s5gA5ChaWDnaSjCMU8aZADE2W241rea6eQ7WN4MUfGtPqnMhvTChk3hjwa",
-    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
-   },
-   {
-    "at": "2026-10-15T01:00:06+00:00",
-    "mc_usd": 7022.1,
-    "mint": "7FF64Xm7yqACgx82pwmefevuFW1Tg4eXv3WE9V6Tpump",
-    "name": "trunoest",
-    "price_usd": 7.022100974384e-06,
-    "sol": 2.0165188400000034,
-    "symbol": "solana",
-    "token_name": "solana life",
-    "tx": "3vZs7YmLVA7y6og8LpvvTqfdTdBe1hEULHTCUhxkjR2vtcSk63aei5jpgxyUo4BfbwE9XUL95fnNceBUkiZznMJ6",
     "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
    },
    {
@@ -5794,11 +5698,143 @@
     "token_name": "Copy Cat",
     "tx": "3hshf82y38FTr6NXfYGu7QDpk5an4AFz7udXgRhjUXjMUNhKeMGwdEopvt4Y7JNHg2djnAtEfYPuwLAk37Qahc51",
     "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
+   },
+   {
+    "at": "2026-10-17T00:55:02+00:00",
+    "mc_usd": 3485.22,
+    "mint": "9QY2bvWb4VN8osDPfBD1JTPUmu1ZxDERWwRa9i4cpump",
+    "name": "zeropnl",
+    "price_usd": 3.48522301622e-06,
+    "sol": 5.067315039999983,
+    "symbol": "ENABLIN",
+    "token_name": "Enablin Fund",
+    "tx": "2n2xRghXzNWZzwpt3suqQkyahdWRSXptoQ3Gv49vs7u6c9B9jv5T1mPGUMh1fDnfNzQbs1N3jNtUu9SmbKj7J5HD",
+    "wallet": "4xY9T1Q7foJzJsJ6YZDSsfp9zkzeZsXnxd45SixduMmr"
+   },
+   {
+    "at": "2026-10-17T00:44:55+00:00",
+    "mc_usd": 3967,
+    "mint": "85ekXb5r3tkyJjhsGrW2qYZMA42xvFr7G7ZTTcnApump",
+    "name": "zeropnl",
+    "price_usd": 3.967003798662e-06,
+    "sol": 10.108016080000027,
+    "symbol": "DORFFFFFFFFFF",
+    "token_name": "dorfffffffffffff",
+    "tx": "2ApdETXf3FgxwHT3hxTMBPgVZguZw3xBQzymZ7aVcgZnQqCGfbkhtcxt5y8SdLN5BvyMiuskbY256LoCMYD9Ns9Z",
+    "wallet": "4xY9T1Q7foJzJsJ6YZDSsfp9zkzeZsXnxd45SixduMmr"
+   },
+   {
+    "at": "2026-10-17T00:35:32+00:00",
+    "mc_usd": 7118.9,
+    "mint": "Akz6X1QrzbzS7sG2xP8Vn44i1oNCNoP23JbNmQN7pump",
+    "name": "Cooker",
+    "price_usd": 7.118898011736e-06,
+    "sol": 3.0330984000000285,
+    "symbol": "CHAD",
+    "token_name": "CHAD BRENTLEY",
+    "tx": "bMYvxADEcEEqQnBB4RRxqa1rH4mLQkVfRG67onSHuaMBr4pX8q9n7bRSrgXFco5d6FeCbPqZHQu5PvcutR34Yi6",
+    "wallet": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6"
+   },
+   {
+    "at": "2026-10-17T00:31:03+00:00",
+    "mc_usd": 3490.9,
+    "mint": "2ZA3C6RWsqtw3b8oairD2t6g5iYRV42ApwNvCRY3pump",
+    "name": "zeropnl",
+    "price_usd": 3.490903194633e-06,
+    "sol": 5.0673252000000275,
+    "symbol": "IA",
+    "token_name": "Investment American",
+    "tx": "k5SNUSXRzs5SPoffG2Ri9iVNiqidWjUXeNXUHkk5XKz8RTxnM4f49XgoK6J5KUK92iCVKb48HQA721c6FPXc89e",
+    "wallet": "4xY9T1Q7foJzJsJ6YZDSsfp9zkzeZsXnxd45SixduMmr"
+   },
+   {
+    "at": "2026-10-17T00:30:29+00:00",
+    "mc_usd": 9554.11,
+    "mint": "214Lmdhr4faebUzoEPciVZHUYtTYME4CSY8smPFTpump",
+    "name": "Cooker",
+    "price_usd": 9.55411339145e-06,
+    "sol": 5.05456651999998,
+    "symbol": "LONG",
+    "token_name": "Long Boi",
+    "tx": "49ZywLbJo9tE4otTCgxpLoiUrTZQEZqv88H8skbocm1XrCnMn2QWQNs59fPKn1SBqvGVKmzHmDzkYrhRFnEgfbRL",
+    "wallet": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6"
+   },
+   {
+    "at": "2026-10-17T00:27:48+00:00",
+    "mc_usd": 11482.57,
+    "mint": "7tTfsBvNwArsx5dsHDM5VXrbEWo3rDEa5PJBx1Cxpump",
+    "name": "trunoest",
+    "price_usd": 1.1482565153929e-05,
+    "sol": 3.0165188400000034,
+    "symbol": "IA",
+    "token_name": "Investment American",
+    "tx": "2K79NCJ415bneh85zQ8qhAbadB7XqyWnvPY3x2UY3She2b1rFTcY4u9gX2mxCm5NUQpkjMXWTsfRatAgsgxppcCq",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-17T00:27:02+00:00",
+    "mc_usd": 19702.77,
+    "mint": "Ai3vahnsnGxcesuFHPGVTpbkGSmoDKfXTxC2Nddxpump",
+    "name": "Cooker",
+    "price_usd": 2.06405177178e-05,
+    "sol": 3.031538839999996,
+    "symbol": "1000x",
+    "token_name": "1000x",
+    "tx": "bdnyx2dyjw42fk6fnkKKV2AJHDaFXEBcU9ndXUx3uBKdHezMavyvHeQtiPZnfHzVCQXc8qefMr4eVf7YcjLVnan",
+    "wallet": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6"
+   },
+   {
+    "at": "2026-10-17T00:17:55+00:00",
+    "mc_usd": 9482.49,
+    "mint": "21HcRNvUVWbmSEqYeRcP9rDJgYTtvveKBAQYEAHUVF5x",
+    "name": "trunoest",
+    "price_usd": 9.482488197132e-06,
+    "sol": 3.018772199999944,
+    "symbol": "chonk",
+    "token_name": "chonk",
+    "tx": "4SG7zSgWiDBbEvChv9M8ct8KH4ayF7TYibv6E1wQSDPE4ZAwu2q3RHYWuWf9LJ71igp6dqeZGFGP1yEzqP8B32h5",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-17T00:09:13+00:00",
+    "mc_usd": 3487.2,
+    "mint": "J7qDEXVpABx9s5iYB2w7xDvQj4jCRbENFXScgGDvpump",
+    "name": "zeropnl",
+    "price_usd": 3.487196392662e-06,
+    "sol": 5.067279480000025,
+    "symbol": "BEYOND",
+    "token_name": "beyond",
+    "tx": "5tEvMX5qf8q121twjMxyuUiZA6zi9ANjUoBZd2go4jnBky4aerRHy9oYmAw3SRbvNr8m4BgMHdQ32BjGgvRqWnVM",
+    "wallet": "4xY9T1Q7foJzJsJ6YZDSsfp9zkzeZsXnxd45SixduMmr"
+   },
+   {
+    "at": "2026-10-17T00:05:14+00:00",
+    "mc_usd": 9.64,
+    "mint": "DuJWc3MFc4EN3ADSp7i7ATPHMGX8EDDsHHHm2Cjtpump",
+    "name": "trunoest",
+    "price_usd": 9.643882241e-09,
+    "sol": 2.0165188400000034,
+    "symbol": "MARS",
+    "token_name": "MarsCoin",
+    "tx": "2MURFZX7xJdmUKdwzcnW1gxMWoSgafT3ZUYLLjJyVNC9rBSrTLgheAiLXksG99ATS8UdPMCJSiT8UZxHW3SXubRq",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-16T23:57:12+00:00",
+    "mc_usd": 3489.58,
+    "mint": "C4a2Lh1ZzoGyvETA7qY11CFvV4FoeH5fzcgvykmypump",
+    "name": "zeropnl",
+    "price_usd": 3.489577092682e-06,
+    "sol": 5.0673302800000215,
+    "symbol": "TERMINAL",
+    "token_name": "Truth_Terminal",
+    "tx": "4LbEctUehFci6YAKswC34KkG25V7GiBtRiAzwgDxRzDKMWrSQdW2YibQcXWhBX5HMBDz9TXcZYKKpD3PRGxCmeKK",
+    "wallet": "4xY9T1Q7foJzJsJ6YZDSsfp9zkzeZsXnxd45SixduMmr"
    }
   ],
   "evaluated": {
    "D7LDRYBpwRVm1Y26841RGJ9YQVB17KXUvqH8FtWkpump": 3
   },
-  "since": "2026-10-16T23:55:16+00:00"
+  "since": "2026-10-17T00:55:17+00:00"
  }
 }
