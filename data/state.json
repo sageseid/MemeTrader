@@ -120,18 +120,6 @@
   ],
   "buys": [
    {
-    "at": "2026-10-15T06:28:35+00:00",
-    "mc_usd": 10970.95,
-    "mint": "2Fn6Ves4P3CLi9HHLycha33dsVsw1jv64EMvdJmtpump",
-    "name": "Wugi",
-    "price_usd": 1.097094838848e-05,
-    "sol": 15.145894159999997,
-    "symbol": "Serval",
-    "token_name": "The Black Serval",
-    "tx": "539Gz3ZoBVsejEaLmtnDERbe23gzdUs9LD1CwfTgUgk4Q5nE7yLZpRNRCFTtcp4LB33ARTL7qvKjbK8Y37SDpkfi",
-    "wallet": "862TYSvRYoiHAK3F3WwTRYAfuGiQaGdxedN9AGvRGWo2"
-   },
-   {
     "at": "2026-10-15T23:52:57+00:00",
     "mc_usd": 20871.42,
     "mint": "4vNLPmxbf4jW36ATtSmZXivNHFQAQQpUdcNF8LHtpump",
@@ -6586,12 +6574,192 @@
     "token_name": "Upward Spiral",
     "tx": "JeVuwvBrrZLJRaCUsQjaaMwkXbcxvzPubueScmAtqi3vey1Usne79sdiSxToeFByhiTKJkFF5NDxXeWsvrfr1vU",
     "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-17T06:54:11+00:00",
+    "mc_usd": 6259.13,
+    "mint": "4QeNMoaNzbf8RpMXuuej7z2TSRxdnt5RdQqYQASqpump",
+    "name": "EustazZ",
+    "price_usd": 6.25913087667e-06,
+    "sol": 0.6565249990000002,
+    "symbol": "mac",
+    "token_name": "catonmac",
+    "tx": "3iXWjcA3Yec8PVh13ScQWHj14CM1XG4TQcWPAbsHLr87umLJd8dAUEkWkqz2xG5meo5i85u1jWG9VfRHtKpQ6bY",
+    "wallet": "FqamE7xrahg7FEWoByrx1o8SeyHt44rpmE6ZQfT7zrve"
+   },
+   {
+    "at": "2026-10-17T06:51:48+00:00",
+    "mc_usd": 12360.5,
+    "mint": "4QeNMoaNzbf8RpMXuuej7z2TSRxdnt5RdQqYQASqpump",
+    "name": "EustazZ",
+    "price_usd": 1.2360498492916e-05,
+    "sol": 3.0025288399999996,
+    "symbol": "mac",
+    "token_name": "catonmac",
+    "tx": "28niZNjYCZpbYPx41AWWufjp5i4VHqQScQvUeuPU1sU85uFmoVoBQw7tefysHHRbCMpUeF4mKW5Xdi3i3hakH9mW",
+    "wallet": "FqamE7xrahg7FEWoByrx1o8SeyHt44rpmE6ZQfT7zrve"
+   },
+   {
+    "at": "2026-10-17T06:49:51+00:00",
+    "mc_usd": 6694.62,
+    "mint": "ABZidUd7bXVtCuzeHgpuqx9EPoRWEJpzdUUhm8tL9Wd8",
+    "name": "EustazZ",
+    "price_usd": 6.694619357146e-06,
+    "sol": 2.0025288399999996,
+    "symbol": "mac",
+    "token_name": "cat on mac",
+    "tx": "7PJRkbnTFNNgM9Vx4P9PuZ7k6QA5NSUiBZZjGhYDtx9vCRo7coSjZ7gnHBCdBipz79FpxmMN6auh5o49Xq4vtuP",
+    "wallet": "FqamE7xrahg7FEWoByrx1o8SeyHt44rpmE6ZQfT7zrve"
+   },
+   {
+    "at": "2026-10-17T06:46:28+00:00",
+    "mc_usd": 5448.72,
+    "mint": "6RozbjAxAhFSMHcrGnxhNQRoKDYYVSogZaQsg1cGpump",
+    "name": "EustazZ",
+    "price_usd": 5.448723514767e-06,
+    "sol": 1.801015,
+    "symbol": "MIKE",
+    "token_name": "The Mouth Breather",
+    "tx": "4xKkTFskVPjqRVYQPmJ93JGzvSZYaAXQRm2QJa9TRi7qSuj1mDk2HW5T1ZChfgG2qtmqPbQ1b1wRnUfydoSTGPHy",
+    "wallet": "FqamE7xrahg7FEWoByrx1o8SeyHt44rpmE6ZQfT7zrve"
+   },
+   {
+    "at": "2026-10-17T06:37:57+00:00",
+    "mc_usd": 8945.74,
+    "mint": "6RozbjAxAhFSMHcrGnxhNQRoKDYYVSogZaQsg1cGpump",
+    "name": "EustazZ",
+    "price_usd": 8.945743046118e-06,
+    "sol": 0.05052499999999993,
+    "symbol": "MIKE",
+    "token_name": "The Mouth Breather",
+    "tx": "3yowrVA5ApouG2CbH1bsN1ZMhmfexYDhXDtHH7Gs1PM6W2uthWNvf3BxyyMihXHRxzTmrqbv4Xn4Lo3KuMizFLzL",
+    "wallet": "FqamE7xrahg7FEWoByrx1o8SeyHt44rpmE6ZQfT7zrve"
+   },
+   {
+    "at": "2026-10-17T06:37:47+00:00",
+    "mc_usd": 7998.14,
+    "mint": "6RozbjAxAhFSMHcrGnxhNQRoKDYYVSogZaQsg1cGpump",
+    "name": "EustazZ",
+    "price_usd": 7.998140865099e-06,
+    "sol": 0.10102500000000014,
+    "symbol": "MIKE",
+    "token_name": "The Mouth Breather",
+    "tx": "5a2NrC4MHiH89UVgCaWdxY5UntjHWZySHFFwCNCkZjxZtaoH6nRydszG6opQjamZpoy2KcVpfUMh8gyFVWeKAsh3",
+    "wallet": "FqamE7xrahg7FEWoByrx1o8SeyHt44rpmE6ZQfT7zrve"
+   },
+   {
+    "at": "2026-10-17T06:37:21+00:00",
+    "mc_usd": 7506.33,
+    "mint": "6RozbjAxAhFSMHcrGnxhNQRoKDYYVSogZaQsg1cGpump",
+    "name": "EustazZ",
+    "price_usd": 7.506328910057e-06,
+    "sol": 2.00252884,
+    "symbol": "MIKE",
+    "token_name": "The Mouth Breather",
+    "tx": "65C9gVTbT5nH7iMZhU9kTysN64xq4ReP3cwD2aziUPr37ESmAq5sUtEckpfsyXcmcw2fnbqEbcPzQBxFubzj7B9Z",
+    "wallet": "FqamE7xrahg7FEWoByrx1o8SeyHt44rpmE6ZQfT7zrve"
+   },
+   {
+    "at": "2026-10-17T06:36:10+00:00",
+    "mc_usd": 17992.67,
+    "mint": "4eb6fecpGH1bVGseEDHC29ZGZYYWi91FJAo2KdxRpump",
+    "name": "trunoest",
+    "price_usd": 1.7992668822295e-05,
+    "sol": 5.016518840000003,
+    "symbol": "5",
+    "token_name": "$5 and a dream",
+    "tx": "2pqcZCHU4DpSkUc2MjySCKgog8q5kP7LfTHVYjpm9ozoUjYGVabbP6Z7JzRCasjvb2hJsMv4otYEZPRFwgty5t1b",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-17T06:21:41+00:00",
+    "mc_usd": 13748.6,
+    "mint": "EtoDYQqa8iVmh1GLeqPKiimxeRVpAV48ZESMYTMLvtoP",
+    "name": "trunoest",
+    "price_usd": 1.3748596199247e-05,
+    "sol": 5.016518840000003,
+    "symbol": "Rocketcar",
+    "token_name": "Rocketcar",
+    "tx": "5qDgPtUwaxqHPRZxNUBzNry1PkKDNTcBNcDDaaa4PA2Jb8UBZHhZ9R5hcyCY4jLKQygn3QLei5sseygJUR4WDxUW",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-17T06:16:02+00:00",
+    "mc_usd": 5823.32,
+    "mint": "Fkksrc7qYdYsXHcDqCsBu872ThqUxyDMHodBngYBpump",
+    "name": "trunoest",
+    "price_usd": 5.823317234218e-06,
+    "sol": 0.2540050000000065,
+    "symbol": "sqlana",
+    "token_name": "sqlana",
+    "tx": "3zWJEDQre6YkMtfnNd5STvzZxe7xqofLTfCPF9VWaJjJQmgkiJfoAPwm6y9sK5KEysNci5Y2PrWsDVTzrmYJ7dzq",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-17T06:15:32+00:00",
+    "mc_usd": 8351.98,
+    "mint": "Fkksrc7qYdYsXHcDqCsBu872ThqUxyDMHodBngYBpump",
+    "name": "trunoest",
+    "price_usd": 8.351979298655e-06,
+    "sol": 0.2540050000000065,
+    "symbol": "sqlana",
+    "token_name": "sqlana",
+    "tx": "ZhozW9CdDmctrEY4tW8ZckeodFpatPut9MuFGNQAntRtXeTBHNqB2NGPn5ChLqv2jAu3NLVT6yg9CbUCcKXgpz4",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-17T06:14:42+00:00",
+    "mc_usd": 5334.6,
+    "mint": "Fkksrc7qYdYsXHcDqCsBu872ThqUxyDMHodBngYBpump",
+    "name": "trunoest",
+    "price_usd": 5.334597314871e-06,
+    "sol": 2.0165188400000034,
+    "symbol": "sqlana",
+    "token_name": "sqlana",
+    "tx": "4YvuQhK2KwWzVRj1ZB8eWcXGrmEZPHj83Ff9ghfupFVttnbMkqK541A3LL6MdJUsUEncjhRi8QYg4rZaA6wfGiA1",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-17T06:13:45+00:00",
+    "mc_usd": 6468.92,
+    "mint": "85BywgXAxT4AV6j28sgVwi5nzLg2wu8SvngvX5Ffpump",
+    "name": "trunoest",
+    "price_usd": 6.468924482832e-06,
+    "sol": 2.0165188400000034,
+    "symbol": "Bear",
+    "token_name": "The Polar Bear",
+    "tx": "3PUGqqMKFrKvbZNcpYT6ZesxqwemwPaqcTxzVa7b6Em1LhXy6EoiRQtpFPodjhkCvC2X3f1bA6oxALGyXLoaTAAW",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-17T06:12:27+00:00",
+    "mc_usd": 19002.22,
+    "mint": "3PzFA1xhqP2TijF2cPU5dAzmuPGncXx9LUx4c1UHpump",
+    "name": "trunoest",
+    "price_usd": 1.9002215949163e-05,
+    "sol": 5.016518840000003,
+    "symbol": "Bear",
+    "token_name": "The White Bear",
+    "tx": "YkwELVCJs1aV5WHRtZA4Xk6ZCiXvvQrLDdJmQhsnD1Lqtz8xuutifeyZheETv1t83BkdDQTaDvSJv3Dcv6RASk3",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-17T06:02:58+00:00",
+    "mc_usd": 7527.76,
+    "mint": "3k5tHfR8p9D6BHbNki5ZvqrWXRTgXGSK51Yq3RbWpump",
+    "name": "trunoest",
+    "price_usd": 7.527761432985e-06,
+    "sol": 2.0165188400000034,
+    "symbol": "Optimistic",
+    "token_name": "Optimistic Prime",
+    "tx": "2JdMvRpgkwqGMTKyJtpZrrRHpT94LvBbqnQHdYBz9avnMryJ7Lc1vjBbHgvW25QbE8WohuKPdKF7e6XW1hqqvC6E",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
    }
   ],
   "evaluated": {
    "7PNU6tf3zoGoTAS2JecEByKgZwx4sA5aGBt4z3kMpump": 3,
    "D7LDRYBpwRVm1Y26841RGJ9YQVB17KXUvqH8FtWkpump": 3
   },
-  "since": "2026-10-17T05:55:20+00:00"
+  "since": "2026-10-17T06:55:13+00:00"
  }
 }
