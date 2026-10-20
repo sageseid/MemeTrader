@@ -53,6 +53,10 @@
    "binance-smart-chain",
    "0x6894cde390a3f51155ea41ed24a33a4827d3063d"
   ],
+  "troll-2": [
+   "solana",
+   "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2"
+  ],
   "turbo": [
    "ethereum",
    "0xa35923162c49cf95e6bf26623385eb431ad920d3"
@@ -80,12 +84,6 @@
    "creator_balance": 0,
    "liquidity_usd": null,
    "top10_pct": 0
-  },
-  "GjuohC1Ad4i4kF8EKcq3NyPQ6hgb8DiRcm72W7oPpump": {
-   "at": "2026-10-13T21:00Z",
-   "creator_balance": 0,
-   "liquidity_usd": null,
-   "top10_pct": 8.2395478181509
   },
   "doge-pepe": {
    "at": "2026-10-16T01:00Z",
