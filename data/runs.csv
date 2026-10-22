@@ -424,3 +424,5 @@ run_utc,mode,outcome,detail
 2026-10-22T05:00Z,PAPER,smart money,"43 new watchlist buys from 8 feed page(s) (paging capped: some older buys this hour were skipped); 4 cluster(s) of 3+ wallets, 0 new or grown, 0 too old to alert, 0 passed safety, 0 emailed"
 2026-10-22T06:00Z,PAPER,screened,"#2 narrative IP Memes: 7d +5.16%, 24h -1.97%; 0/5 coins passed safety, 0 emailed."
 2026-10-22T06:00Z,PAPER,smart money,"56 new watchlist buys from 8 feed page(s); 4 cluster(s) of 3+ wallets, 0 new or grown, 0 too old to alert, 0 passed safety, 0 emailed"
+2026-10-22T07:00Z,PAPER,no target,"#2 narrative IP Memes is falling on 24h (-2.64%). 7d/24h ranking: Frog Coins +10.4%/+0.0%, IP Memes +3.2%/-2.6%, Dog Coins -0.6%/-1.7%, Trump Coins -1.1%/-0.5%, Celebrity Coins -1.1%/-1.9%."
+2026-10-22T07:00Z,PAPER,smart money,"26 new watchlist buys from 8 feed page(s); 4 cluster(s) of 3+ wallets, 0 new or grown, 0 too old to alert, 0 passed safety, 0 emailed"
