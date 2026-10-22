@@ -412,3 +412,5 @@ run_utc,mode,outcome,detail
 2026-10-21T23:00Z,PAPER,smart money data error,"skipped this run's cluster pass: madeonsol.com: HTTP 429: {""error"":""rate_limit_exceeded"",""error_kind"":""ip_rotation"",""message"":""Too many IP addresses for one free key — this free (BASIC) key has been used from more than 8 IP addresses today. Free keys are mea"
 2026-10-22T00:00Z,PAPER,screened,"#2 narrative IP Memes: 7d +5.61%, 24h +2.45%; 0/5 coins passed safety, 0 emailed."
 2026-10-22T00:00Z,PAPER,smart money,"14 new watchlist buys from 8 feed page(s) (paging capped: some older buys this hour were skipped); 5 cluster(s) of 3+ wallets, 0 new or grown, 0 too old to alert, 0 passed safety, 0 emailed"
+2026-10-22T01:00Z,PAPER,screened,"#2 narrative IP Memes: 7d +3.61%, 24h +0.82%; 0/5 coins passed safety, 0 emailed."
+2026-10-22T01:00Z,PAPER,smart money,"19 new watchlist buys from 8 feed page(s) (paging capped: some older buys this hour were skipped); 5 cluster(s) of 3+ wallets, 0 new or grown, 0 too old to alert, 0 passed safety, 0 emailed"
