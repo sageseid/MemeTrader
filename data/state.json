@@ -127,198 +127,6 @@
   ],
   "buys": [
    {
-    "at": "2026-10-21T02:51:02+00:00",
-    "mc_usd": 6926.24,
-    "mint": "BGxZai7deLbf71XssoaaPB5EmFnn2RjE6aDbpNc2pump",
-    "name": "trunoest",
-    "price_usd": 6.926238268187e-06,
-    "sol": 2.0165188400000034,
-    "symbol": "GREG",
-    "token_name": "Greg",
-    "tx": "3jmrMyQqQrmZWQTQFQ3pxGjuuq9tVHua8LgrjTVP1rsMfWn6pVmg6zXYy7iASwgHvkrRmDYH7LbNp3F9JbgkkcnY",
-    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
-   },
-   {
-    "at": "2026-10-21T02:35:41+00:00",
-    "mc_usd": 35136162.24,
-    "mint": "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
-    "name": "Mitch",
-    "price_usd": 0.03528757705758558,
-    "sol": 188.18524325366963,
-    "symbol": "Kimchi",
-    "token_name": "Aura Final Boss",
-    "tx": "54JHE8zyohW5ocLaVrJF4LToEGHvYPwhCHiU5cQEyp7jbpQRaJi1vhTKtBhSvtkz5i9QQKBwYQXBaoK2ZNB2ykSA",
-    "wallet": "4Be9CvxqHW6BYiRAxW9Q3xu1ycTMWaL5z8NX4HR3ha7t"
-   },
-   {
-    "at": "2026-10-21T02:29:14+00:00",
-    "mc_usd": 9207.72,
-    "mint": "4j3kEwV6aoHZEBwbt6okXef6suyGhVab8xmbdSc5pump",
-    "name": "theo",
-    "price_usd": 9.207722501281e-06,
-    "sol": 0.2636049999999841,
-    "symbol": "TOP",
-    "token_name": "race to the top",
-    "tx": "3c3JsLFVAyzTMUaUHMa9DMCzGitD6bKWSaNRS4KNwW4Lt1RaDAge7uKA3szGMoXyzNp9FHMeRwStUPgM8eUeuwZb",
-    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
-   },
-   {
-    "at": "2026-10-21T02:28:26+00:00",
-    "mc_usd": 13141.4,
-    "mint": "4j3kEwV6aoHZEBwbt6okXef6suyGhVab8xmbdSc5pump",
-    "name": "theo",
-    "price_usd": 1.3141404295805e-05,
-    "sol": 0.10415457900001002,
-    "symbol": "TOP",
-    "token_name": "race to the top",
-    "tx": "aG1pmEGgySpLaXm5yNrxNs1wzoWdrydG4bbdwcXTYguikp16pDiVXwfuamiBaYoUbQNmTEuLoUUd5Ncnhp36MBs",
-    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
-   },
-   {
-    "at": "2026-10-21T02:28:26+00:00",
-    "mc_usd": 13317.13,
-    "mint": "4j3kEwV6aoHZEBwbt6okXef6suyGhVab8xmbdSc5pump",
-    "name": "theo",
-    "price_usd": 1.3317127897505e-05,
-    "sol": 0.06808968199999299,
-    "symbol": "TOP",
-    "token_name": "race to the top",
-    "tx": "2rufUnAW9qwMJzJi5hgEpXauiyYRhXspFkmjmufo6kNj4Pbd8xGvTUQA96N8ZuCbje1cCuP2a5Fxw12uyR8boXqy",
-    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
-   },
-   {
-    "at": "2026-10-21T02:27:56+00:00",
-    "mc_usd": 15612.9,
-    "mint": "4j3kEwV6aoHZEBwbt6okXef6suyGhVab8xmbdSc5pump",
-    "name": "theo",
-    "price_usd": 1.561289663291e-05,
-    "sol": 0.2636049999999841,
-    "symbol": "TOP",
-    "token_name": "race to the top",
-    "tx": "5kBX1rYF1JeD9n8nMtDTQQAwwYyJmUuJBZFLuF6ZGDvgvh1Ysew2yMNAa6h7eXk7iYQGi5nBQgdTUd1Jakf3MqcQ",
-    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
-   },
-   {
-    "at": "2026-10-21T02:27:56+00:00",
-    "mc_usd": 15724.06,
-    "mint": "4j3kEwV6aoHZEBwbt6okXef6suyGhVab8xmbdSc5pump",
-    "name": "theo",
-    "price_usd": 1.5724061552139e-05,
-    "sol": 0.2636050000000125,
-    "symbol": "TOP",
-    "token_name": "race to the top",
-    "tx": "5p9M6risDrXrzWJMBtj4qdXTqn6j6ynuWT3DuzZeaGxxAzvd1kANiWiAtzifzHD8iF1gLLrBjaoNEUWir2TBUW5z",
-    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
-   },
-   {
-    "at": "2026-10-21T02:27:13+00:00",
-    "mc_usd": 6631.15,
-    "mint": "4j3kEwV6aoHZEBwbt6okXef6suyGhVab8xmbdSc5pump",
-    "name": "theo",
-    "price_usd": 6.631151562041e-06,
-    "sol": 0.2636050000000125,
-    "symbol": "TOP",
-    "token_name": "race to the top",
-    "tx": "2WFp2Um1n7Kukjj2vnB5ZKemtjTVf24hQE2hx9h4TgqQUCGB74RpNmeMrhMvUqf8sFfRxJ1gR2hYPkBzVLuosoGv",
-    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
-   },
-   {
-    "at": "2026-10-21T02:27:13+00:00",
-    "mc_usd": 6631.15,
-    "mint": "4j3kEwV6aoHZEBwbt6okXef6suyGhVab8xmbdSc5pump",
-    "name": "theo",
-    "price_usd": 6.631151562041e-06,
-    "sol": 0.2636049999999841,
-    "symbol": "TOP",
-    "token_name": "race to the top",
-    "tx": "3n2bFuJQAQfVKKsWwQ4GDtTTe4gjbspporscoLwagmkH6n8YPW488sczcur38A73LiMmh7PqXDMJ2xQ7bgbmBFfe",
-    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
-   },
-   {
-    "at": "2026-10-21T02:27:12+00:00",
-    "mc_usd": 6631.15,
-    "mint": "4j3kEwV6aoHZEBwbt6okXef6suyGhVab8xmbdSc5pump",
-    "name": "theo",
-    "price_usd": 6.631151562041e-06,
-    "sol": 3.0341393600000117,
-    "symbol": "TOP",
-    "token_name": "race to the top",
-    "tx": "5GEXvi4Qk7jRFThSGdTsaTgDEDK8y9qv5GKnddvBvXWfD6xsxAnyqAD37ESgi7z1Xd7Sfrr7XftmUb5eBe5cQBYJ",
-    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
-   },
-   {
-    "at": "2026-10-21T02:26:09+00:00",
-    "mc_usd": 22320.7,
-    "mint": "4GfNTAaWUB3hnCMYphS7DFpho6b9uTdnDZqv7Gobpump",
-    "name": "Megga",
-    "price_usd": 2.2320701707088e-05,
-    "sol": 0.10200500000000545,
-    "symbol": "Darla",
-    "token_name": "Anti DataCenter Donkey",
-    "tx": "4rGNeVK8ejBVxxnw2VstxiQELxDS3zkwJqsf9LtU71RmLLXjSKa6PaWArjZjXJ2DZGeQoHFKKQJVPu9HDatSb4Cc",
-    "wallet": "H31vEBxSJk1nQdUN11qZgZyhScyShhscKhvhZZU3dQoU"
-   },
-   {
-    "at": "2026-10-21T02:25:04+00:00",
-    "mc_usd": 14838.6,
-    "mint": "4GfNTAaWUB3hnCMYphS7DFpho6b9uTdnDZqv7Gobpump",
-    "name": "Megga",
-    "price_usd": 1.4838597796157e-05,
-    "sol": 0.10200499999999124,
-    "symbol": "Darla",
-    "token_name": "Anti DataCenter Donkey",
-    "tx": "4kCtnjeEbAZ44L482Q4sXKXKLySj1Bcib1jdTjHBNJ4thuvtXEaapcQ8aF258NY34eERta9AjBYwBgKv6wsR8PAL",
-    "wallet": "H31vEBxSJk1nQdUN11qZgZyhScyShhscKhvhZZU3dQoU"
-   },
-   {
-    "at": "2026-10-21T02:24:23+00:00",
-    "mc_usd": 6169.23,
-    "mint": "4GfNTAaWUB3hnCMYphS7DFpho6b9uTdnDZqv7Gobpump",
-    "name": "Megga",
-    "price_usd": 6.169225720025e-06,
-    "sol": 0.10200500000000545,
-    "symbol": "Darla",
-    "token_name": "Anti DataCenter Donkey",
-    "tx": "41K9QPMB9i1Ur4RB6hCpJeZL8KVvzjoi6G99y6Ter6Tj4nFXrdvE3R3C94uE1fL36xjqSNiZ6F8Esi8XHgYy6rWi",
-    "wallet": "H31vEBxSJk1nQdUN11qZgZyhScyShhscKhvhZZU3dQoU"
-   },
-   {
-    "at": "2026-10-21T02:24:14+00:00",
-    "mc_usd": 9265.36,
-    "mint": "4GfNTAaWUB3hnCMYphS7DFpho6b9uTdnDZqv7Gobpump",
-    "name": "Megga",
-    "price_usd": 9.265362203588e-06,
-    "sol": 0.10200500000000545,
-    "symbol": "Darla",
-    "token_name": "Anti DataCenter Donkey",
-    "tx": "2MbjBaS6ttCE9pAaLgybq4ZrL9dMkhejKkv8FvY6sDqiz4ChMs4gr7ov52vhuogWYEArCEeUs48VmtVPuZhRNwfA",
-    "wallet": "H31vEBxSJk1nQdUN11qZgZyhScyShhscKhvhZZU3dQoU"
-   },
-   {
-    "at": "2026-10-21T02:23:58+00:00",
-    "mc_usd": 3540.48,
-    "mint": "4GfNTAaWUB3hnCMYphS7DFpho6b9uTdnDZqv7Gobpump",
-    "name": "Megga",
-    "price_usd": 3.540475396715e-06,
-    "sol": 1.5235188399999942,
-    "symbol": "Darla",
-    "token_name": "Anti DataCenter Donkey",
-    "tx": "2N5Rhd2R2dzgPJFRiR8yJE1TomvTMS4WCR4MMaSgdQZhcReF2Rs6LE9FZp3ifwsxWPySLrVeGb1ZUJNj3MJLbbzr",
-    "wallet": "H31vEBxSJk1nQdUN11qZgZyhScyShhscKhvhZZU3dQoU"
-   },
-   {
-    "at": "2026-10-21T02:09:05+00:00",
-    "mc_usd": 6212212.4,
-    "mint": "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump",
-    "name": "Mitch",
-    "price_usd": 0.006212844120622581,
-    "sol": 46.954302901681004,
-    "symbol": "TripleT",
-    "token_name": "Tung Tung Tung Sahur",
-    "tx": "3GrzBv2Vd9SbmWWbMPdBiDrpZVYAK3uRqaHEwzUJj4Wd1nF7pGG2tqHTaDQvdWVZedzPanpQDCppjPixWGfc37jk",
-    "wallet": "4Be9CvxqHW6BYiRAxW9Q3xu1ycTMWaL5z8NX4HR3ha7t"
-   },
-   {
     "at": "2026-10-21T03:54:52+00:00",
     "mc_usd": 10283.4,
     "mint": "HgBFBVA1hgUgD2GhQNbYCvvM6fy9vQkAiU36Rr4A8VkQ",
@@ -677,18 +485,6 @@
     "token_name": "The Pink Dolphin",
     "tx": "39i5DiqzUjKA9yaDHbTb9HF21fEhSoFbWguq1g9m8L13XBreLsrtF2gyHCJGTqdSyDugUYRYkmAY8RHJSKG5PhZS",
     "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
-   },
-   {
-    "at": "2026-10-21T02:57:42+00:00",
-    "mc_usd": 363360.34,
-    "mint": "Ez7eEs53hQiXgCGmcbhdX5i1jgg2gC3F6MoeosuVpump",
-    "name": "gr3g",
-    "price_usd": 0.000373640630669549,
-    "sol": 33.834478206935444,
-    "symbol": "LUKE",
-    "token_name": "Monero Cat",
-    "tx": "611EbRreTWhAp7WjTWtH27AJ5xmAyG5DttuZ897QWkjiv3DUapCKndDpxCXbCcG7egF8nCDmauR5cKLNMZSByEvj",
-    "wallet": "J23qr98GjGJJqKq9CBEnyRhHbmkaVxtTJNNxKu597wsA"
    },
    {
     "at": "2026-10-21T04:53:22+00:00",
@@ -4997,6 +4793,126 @@
     "token_name": "cyberbucks",
     "tx": "2hWZwwW3U6dowvWD7gpsqhY8UU4k3YuxPF8QEePNfAagJiQ2XvaAmYa3sjKn4E8zHBhtPmMwGHFWRKWAC3Gcy1jx",
     "wallet": "4vw54BmAogeRV3vPKWyFet5yf8DTLcREzdSzx4rw9Ud9"
+   },
+   {
+    "at": "2026-10-23T02:51:23+00:00",
+    "mc_usd": 18608.64,
+    "mint": "GRW3bSJhNn45sxuLdb26uW2wmUECF33Gn1Sp6DBhpump",
+    "name": "Casino",
+    "price_usd": 1.8608641964374e-05,
+    "sol": 3.326343215999941,
+    "symbol": "Anna",
+    "token_name": "Press Secretary Anna Kelly",
+    "tx": "22Ak44JL27vnCUKo1igu189PQ48vCD9tBwbmArPns1UicCG76TyZ3p7dKoM9F38y18XsRYapLq32qLYsiJvAB1mB",
+    "wallet": "8rvAsDKeAcEjEkiZMug9k8v1y8mW6gQQiMobd89Uy7qR"
+   },
+   {
+    "at": "2026-10-23T02:48:14+00:00",
+    "mc_usd": 11911.46,
+    "mint": "Bk8zjATqpWQwC4x9sjvYSB9TmWVTdxU953HuvS8Wpump",
+    "name": "trunoest",
+    "price_usd": 1.1911455148668e-05,
+    "sol": 0.2540050000000065,
+    "symbol": "SI",
+    "token_name": "Sphincter Intelligence",
+    "tx": "2RYQqZjcgd6D4tH4b7ywM2Qseg1cBH9ZBBbkTCUx4iRSEQYJDY4MHqSnRywZQa3RFffgNeF8wySYbdidvhzdMpgT",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-23T02:43:40+00:00",
+    "mc_usd": 5703.19,
+    "mint": "Bk8zjATqpWQwC4x9sjvYSB9TmWVTdxU953HuvS8Wpump",
+    "name": "trunoest",
+    "price_usd": 5.70318678716e-06,
+    "sol": 2.0165188400000034,
+    "symbol": "SI",
+    "token_name": "Sphincter Intelligence",
+    "tx": "5JEZBgQTmbuoJpVizXFakympckcHXio94wcyrHsowB4JncL679gmCL1o5UXawzCqYUsQnuh2xAwoePtLzKBS1bQy",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-23T02:36:25+00:00",
+    "mc_usd": 24563.06,
+    "mint": "93tgwgWgVk2x9URNks1NvV2fgjnSq2AFSFmxbXnrpump",
+    "name": "trunoest",
+    "price_usd": 2.4563327676834e-05,
+    "sol": 0.2540050000000065,
+    "symbol": "CI",
+    "token_name": "Compute Inu",
+    "tx": "4CKbheeSttkA1d2EpHdu7SbzgrPcLJ95ir24Md8BMtg2eBrpwHrNm6iB29YuXAXAoGbvhMsABQdUhnfLihTc8y5x",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-23T02:34:06+00:00",
+    "mc_usd": 15565.94,
+    "mint": "93tgwgWgVk2x9URNks1NvV2fgjnSq2AFSFmxbXnrpump",
+    "name": "trunoest",
+    "price_usd": 1.5566104116752e-05,
+    "sol": 5.016518840000003,
+    "symbol": "CI",
+    "token_name": "Compute Inu",
+    "tx": "yy4Ln9ZFYnDHmMSnKdYKQFgiaRAspPuUesM1rkAEaoggaQdGvLr5cT7pXpJwYfHeGe2Y4fstrSspZ39PhB3nLTK",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-23T02:18:50+00:00",
+    "mc_usd": 5755.38,
+    "mint": "BfQW1KNWy6mMUUvkx7gEMAvVhWFcGAt8ok8a7NoApump",
+    "name": "trunoest",
+    "price_usd": 5.755378600122e-06,
+    "sol": 2.0165188400000034,
+    "symbol": "FUGAZI",
+    "token_name": "its all a fugazi",
+    "tx": "5T2dycw5B7nDLmdtvXXuYdPS6Fd7WvA8LAX3VcfRhch4oyY54XjGQtC73VuGe7ME4zoKSfUXpSCudZGXA4eqQheL",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-23T02:10:43+00:00",
+    "mc_usd": 6725.24,
+    "mint": "8UKq6cNommyVoKaXG5rKhY8RKFu9bsGjVfDukxNopump",
+    "name": "trunoest",
+    "price_usd": 6.725236162615e-06,
+    "sol": 0.2540050000000065,
+    "symbol": "BMI",
+    "token_name": "Big Max Index",
+    "tx": "63YaP4CfyBcGDeXyk6o61vwq39x92kCb3wJApmG7hUmZnpxdaRmzTcwwkcCL7pvr3yQ2EgAU2dLjrFhmaA45gB8E",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-23T02:10:37+00:00",
+    "mc_usd": 5553.23,
+    "mint": "8UKq6cNommyVoKaXG5rKhY8RKFu9bsGjVfDukxNopump",
+    "name": "trunoest",
+    "price_usd": 5.553231912398e-06,
+    "sol": 2.018078400000036,
+    "symbol": "BMI",
+    "token_name": "Big Max Index",
+    "tx": "2FcLLV3VrJqYFmaQd4t7tBu2Tw6SkXzCvccepfwLAh9S2M2StQc5PCJBxrK98iSRoXLY5UXnXfJ97RMh2hEjrn4X",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-23T02:09:33+00:00",
+    "mc_usd": 15592.89,
+    "mint": "6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump",
+    "name": "decu",
+    "price_usd": 1.5592886216624e-05,
+    "sol": 3.0165188400000034,
+    "symbol": "POOT",
+    "token_name": "Pootcoin",
+    "tx": "NfJbUR7VvbzaE5SBqHgxR4ESCwNMEB624bHdWNt1RE4wsTLvnGav1wGYcRcmN51HapoQ92P5m2xZDmYRRVNVXad",
+    "wallet": "4vw54BmAogeRV3vPKWyFet5yf8DTLcREzdSzx4rw9Ud9"
+   },
+   {
+    "at": "2026-10-23T02:06:19+00:00",
+    "mc_usd": 9321.16,
+    "mint": "FQLeyS525xfVB78XwYVYU6ap3A1npU5WqXMw9E4Upump",
+    "name": "decu",
+    "price_usd": 9.321160313736e-06,
+    "sol": 3.0165188400000034,
+    "symbol": "AC",
+    "token_name": "Artificial Coin",
+    "tx": "4sDSuSq36tqNuigEeS8Z27rwV4oevtEY9KaMuBEZtrcAec4Eakj9yByqtU5dnRBGcahEddJHa1XKLde45HXg6CC1",
+    "wallet": "4vw54BmAogeRV3vPKWyFet5yf8DTLcREzdSzx4rw9Ud9"
    }
   ],
   "evaluated": {
@@ -5004,6 +4920,6 @@
    "71m6o4WC6EMvbC6Pnuo53Q7SYQLuHS2VUTFe8YcBpump": 3,
    "8bBQP9ngcjyr7g1ytggodjaaQSHSyNcnxCrm8YN9pump": 3
   },
-  "since": "2026-10-23T01:55:20+00:00"
+  "since": "2026-10-23T02:55:23+00:00"
  }
 }
