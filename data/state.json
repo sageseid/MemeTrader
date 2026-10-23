@@ -127,162 +127,6 @@
   ],
   "buys": [
    {
-    "at": "2026-10-21T01:55:16+00:00",
-    "mc_usd": 3762.24,
-    "mint": "F1vQxGvoDdECFKxUXm3Gxk88tNEhdUNAcWEfwVQypump",
-    "name": "zeropnl",
-    "price_usd": 3.762242321994e-06,
-    "sol": 7.077350600000017,
-    "symbol": "MUSKVERSE",
-    "token_name": "The Musk Universe",
-    "tx": "3a1PEUosDe9tUQNzdPe16FBkXF931m9kqjHGxdpu9pZBbktisT4f8ZYK64MaBrjvtJPEd1XDcrf9iXp3CxnbAgtL",
-    "wallet": "4xY9T1Q7foJzJsJ6YZDSsfp9zkzeZsXnxd45SixduMmr"
-   },
-   {
-    "at": "2026-10-21T01:41:19+00:00",
-    "mc_usd": 8226.65,
-    "mint": "D3VcafSUZH9gJLhjMy1X9DD1PJbkwhWTGraHSt5KWtqu",
-    "name": "theo",
-    "price_usd": 8.226651891077e-06,
-    "sol": 0.2636049999999841,
-    "symbol": "HIEN",
-    "token_name": "The Female Onboarder",
-    "tx": "2rSjxxheRwvyJZwMntXeTtw6zD2nFCZbjwwXjkWEkXBg63WSBmd7GANodXUu7JH7qz5K6dmcYRsg5gQLHEu7hWGj",
-    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
-   },
-   {
-    "at": "2026-10-21T01:41:19+00:00",
-    "mc_usd": 8226.65,
-    "mint": "D3VcafSUZH9gJLhjMy1X9DD1PJbkwhWTGraHSt5KWtqu",
-    "name": "theo",
-    "price_usd": 8.226651891077e-06,
-    "sol": 0.2636050000000125,
-    "symbol": "HIEN",
-    "token_name": "The Female Onboarder",
-    "tx": "2yeMARpjexxc65mDHrDySru8TqNvYtv4kFnBU5Abf1y57gAmYDSWLP7Lxtfd6E4UWVdgL6QUYAmz9n5VvBctvE4g",
-    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
-   },
-   {
-    "at": "2026-10-21T01:41:18+00:00",
-    "mc_usd": 3421.42,
-    "mint": "D3VcafSUZH9gJLhjMy1X9DD1PJbkwhWTGraHSt5KWtqu",
-    "name": "theo",
-    "price_usd": 3.421419011463e-06,
-    "sol": 3.033169079000004,
-    "symbol": "HIEN",
-    "token_name": "The Female Onboarder",
-    "tx": "3nW3WEtcpAHntj2FphzYU7JmiMLQupeXfNiG3CnNPT8o1W4UTQY3QE6HTVKYTVUHQUvh4iCzAp4RVbHrSAwZJYj8",
-    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
-   },
-   {
-    "at": "2026-10-21T01:41:07+00:00",
-    "mc_usd": 3555.2,
-    "mint": "FQVo6UFd6j2h1bTwoqpLCpGKA3Mu6w4iyT4CL1xBpump",
-    "name": "Mitch",
-    "price_usd": 3.673716301189e-06,
-    "sol": 46.92500183933936,
-    "symbol": "MITCH",
-    "token_name": "idrawline",
-    "tx": "3XDwKH57REt2Xhc3nW5WJKsxUXWEFqNfZBK7KW5wAWGWMWVoe776GKwsxNvWbPsyey2f8LrYeMtPX2gmRXCVQ16j",
-    "wallet": "4Be9CvxqHW6BYiRAxW9Q3xu1ycTMWaL5z8NX4HR3ha7t"
-   },
-   {
-    "at": "2026-10-21T01:38:48+00:00",
-    "mc_usd": 32827.62,
-    "mint": "DmChEwBqmDKXZwatHJbRkgoDK8Bo6R9coJejNZomLpnH",
-    "name": "Mitch",
-    "price_usd": 3.2827617344565e-05,
-    "sol": 70.41239252722498,
-    "symbol": "Kimchi",
-    "token_name": "Aura Final Boss",
-    "tx": "2C6LerFu7YRSg2A3FKs97YB4SSdKDkDoLZetAULdwTPCD5FyF6TADjxerxQ3JAKuG1TKXLVotc2iFamXACqMSesX",
-    "wallet": "4Be9CvxqHW6BYiRAxW9Q3xu1ycTMWaL5z8NX4HR3ha7t"
-   },
-   {
-    "at": "2026-10-21T01:35:23+00:00",
-    "mc_usd": 87150.07,
-    "mint": "3cGgc12WozQfKJMg9g4Xbe34QugpcXc1UXfBVjT6pump",
-    "name": "Casino",
-    "price_usd": 8.8441711781512e-05,
-    "sol": 0.5051050000000714,
-    "symbol": "pill",
-    "token_name": "pill",
-    "tx": "2HLQPEAhhXjPANSRyH7d2MeaR9vDuuPYiHfasBcP3FRTHi9sbQNjBQDA2wE6HXo35zmMuJyomH2hTcb8RtThAYMw",
-    "wallet": "8rvAsDKeAcEjEkiZMug9k8v1y8mW6gQQiMobd89Uy7qR"
-   },
-   {
-    "at": "2026-10-21T01:33:24+00:00",
-    "mc_usd": 104953.85,
-    "mint": "3cGgc12WozQfKJMg9g4Xbe34QugpcXc1UXfBVjT6pump",
-    "name": "Casino",
-    "price_usd": 0.000105762408285597,
-    "sol": 1.0051049999999577,
-    "symbol": "pill",
-    "token_name": "pill",
-    "tx": "4XNxiGWLk4eqVpDwT7kPXsMiurBwj6qtdrPZie3bpW5D6oMK83g2ggaSVtd3ofL7CGq1PTJVS9obnkm8VNGNZTZj",
-    "wallet": "8rvAsDKeAcEjEkiZMug9k8v1y8mW6gQQiMobd89Uy7qR"
-   },
-   {
-    "at": "2026-10-21T01:32:37+00:00",
-    "mc_usd": 73117.79,
-    "mint": "3cGgc12WozQfKJMg9g4Xbe34QugpcXc1UXfBVjT6pump",
-    "name": "Casino",
-    "price_usd": 7.341631939429e-05,
-    "sol": 1.0051049999999577,
-    "symbol": "pill",
-    "token_name": "pill",
-    "tx": "5MzVjiiTDiPAuqF2ae8V57EGp3MuKSsAKvJzx5zQZQkq93HBR5w4zRuXf2EJLAUskfUjLaNFwcgvVSTjTQ2ja1q6",
-    "wallet": "8rvAsDKeAcEjEkiZMug9k8v1y8mW6gQQiMobd89Uy7qR"
-   },
-   {
-    "at": "2026-10-21T01:32:28+00:00",
-    "mc_usd": 66281.17,
-    "mint": "3cGgc12WozQfKJMg9g4Xbe34QugpcXc1UXfBVjT6pump",
-    "name": "Casino",
-    "price_usd": 6.655178145665e-05,
-    "sol": 5.006618840000101,
-    "symbol": "pill",
-    "token_name": "pill",
-    "tx": "5jTJrD9rnCWTT6J2hRDcLvpjVYchUGXETakx4HS2vn51GgpcyJKziwVfBneZCYeE6F2oCbueVWE85GXd2jzw1pwj",
-    "wallet": "8rvAsDKeAcEjEkiZMug9k8v1y8mW6gQQiMobd89Uy7qR"
-   },
-   {
-    "at": "2026-10-21T01:27:04+00:00",
-    "mc_usd": 85171.91,
-    "mint": "DxVRhH3XiXAaCmDW5mayGhGovTUZZegrTZEApCZHpump",
-    "name": "Casino",
-    "price_usd": 8.5749387248542e-05,
-    "sol": 15.005104999999958,
-    "symbol": "ALON",
-    "token_name": "The PumpFun Father",
-    "tx": "2sNtYCz4rcaXriDJj6pZ1kHHz3rkqvoxgRyD4QKip9HFCja7TEbuvufoQ3gcBNE7WxPz9gMhFBqLx9SVNjca5Fsp",
-    "wallet": "8rvAsDKeAcEjEkiZMug9k8v1y8mW6gQQiMobd89Uy7qR"
-   },
-   {
-    "at": "2026-10-21T01:25:53+00:00",
-    "mc_usd": 273514.1,
-    "mint": "8Lqgcs9hhbu49iwwFReDhNWQVJfnENpG4JGx9Afvpump",
-    "name": "Mitch",
-    "price_usd": 0.000274639138587411,
-    "sol": 4.693534544259764,
-    "symbol": "umi",
-    "token_name": "yumi umi",
-    "tx": "YBkfe7SoWQGxnDDDTBqHJzqLVCG8P48x1rUj3m89zEsvK7yNFSyEsjDC6QJyRtzcaVnH6RhXBMy35kH67xT4Ejq",
-    "wallet": "4Be9CvxqHW6BYiRAxW9Q3xu1ycTMWaL5z8NX4HR3ha7t"
-   },
-   {
-    "at": "2026-10-21T01:24:33+00:00",
-    "mc_usd": 30644.84,
-    "mint": "DjgzDTALgwEK9YLNpKLRuyeCq1AewhFFGnfTLYf2pump",
-    "name": "Mitch",
-    "price_usd": 3.0644842250019e-05,
-    "sol": 4.695783725950262,
-    "symbol": "Chi",
-    "token_name": "Chi",
-    "tx": "gsSNPigL5jVtXdBBEjG7FRnKimSE5S2mJ9p33e4Mgtj5e1LJVrzz1UkUMQpyMi7yf2ZMCg7W4cRnNcfcEPR54kx",
-    "wallet": "4Be9CvxqHW6BYiRAxW9Q3xu1ycTMWaL5z8NX4HR3ha7t"
-   },
-   {
     "at": "2026-10-21T02:51:02+00:00",
     "mc_usd": 6926.24,
     "mint": "BGxZai7deLbf71XssoaaPB5EmFnn2RjE6aDbpNc2pump",
@@ -5081,6 +4925,78 @@
     "token_name": "Humping Dog",
     "tx": "3VH8Mr7a7tcbu9DaeEkkorvdPwk5yE7WSQkSd2XNfz9mpscku2JSKfc7sGHL8fEUAkfi8kAzfZTURnZnSNwnLzWo",
     "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-10-23T01:54:04+00:00",
+    "mc_usd": 10150.03,
+    "mint": "GcTNbHJUW5uZYRtzPnEp2KRcpVbxbqKtw3Mzf6Zxpump",
+    "name": "decu",
+    "price_usd": 1.015002817507e-05,
+    "sol": 3.0165188400000034,
+    "symbol": "WORLD",
+    "token_name": "Worldcoin",
+    "tx": "5eUDxmicXHXfou2VjSom1vUQGtpgrhpkH9MwkZMxhto7arzibNLS5fzMvvPLj21TfXFdxnj6tcwweEgnTJk6Lw9r",
+    "wallet": "4vw54BmAogeRV3vPKWyFet5yf8DTLcREzdSzx4rw9Ud9"
+   },
+   {
+    "at": "2026-10-23T01:44:48+00:00",
+    "mc_usd": 32109.76,
+    "mint": "9sXzh7SxN77Ko8p5DrsgTXTRMsqBKxQo64qSKQf6pump",
+    "name": "decu",
+    "price_usd": 3.214051812338e-05,
+    "sol": 0.2650050000000874,
+    "symbol": "cb",
+    "token_name": "cyberbucks",
+    "tx": "3TbFe6RjGbf8ey7YLY1k7AyXtv72oxV27w5QgEzngt7Bj6hcn7nKHkFXmzGWBKfvCDdqY22YCyhA1zhvjmypGaYQ",
+    "wallet": "4vw54BmAogeRV3vPKWyFet5yf8DTLcREzdSzx4rw9Ud9"
+   },
+   {
+    "at": "2026-10-23T01:44:26+00:00",
+    "mc_usd": 2090.24,
+    "mint": "BXa3irqvLoumsPYDrqBuQofNYTVeRNRND6perHwppump",
+    "name": "decu",
+    "price_usd": 2.090237999535e-06,
+    "sol": 2.0165038049999566,
+    "symbol": "cb",
+    "token_name": "cyberbucks",
+    "tx": "2h8Fa42tFyBXXNbMrgPeqLRSLMc8FfAa7f6ZuQYnB3yoQN8CPD3LH2BPAH41uTNgesSTBmJ9M57YW6yFTiFmpb1Z",
+    "wallet": "4vw54BmAogeRV3vPKWyFet5yf8DTLcREzdSzx4rw9Ud9"
+   },
+   {
+    "at": "2026-10-23T01:41:42+00:00",
+    "mc_usd": 33259.87,
+    "mint": "9sXzh7SxN77Ko8p5DrsgTXTRMsqBKxQo64qSKQf6pump",
+    "name": "decu",
+    "price_usd": 3.3259874674137e-05,
+    "sol": 0.26500499999997373,
+    "symbol": "cb",
+    "token_name": "cyberbucks",
+    "tx": "4c1pKFDu7j3DqzJ4kZC3yH6MVo7UJGQBmjqbEhZkgGSFnYmdfKpDXg6uxJfNx9k6536Cm8je8aCyDFgyQ5MMX9cG",
+    "wallet": "4vw54BmAogeRV3vPKWyFet5yf8DTLcREzdSzx4rw9Ud9"
+   },
+   {
+    "at": "2026-10-23T01:36:14+00:00",
+    "mc_usd": 20661.37,
+    "mint": "9sXzh7SxN77Ko8p5DrsgTXTRMsqBKxQo64qSKQf6pump",
+    "name": "decu",
+    "price_usd": 2.0661367263312e-05,
+    "sol": 0.26500499999997373,
+    "symbol": "cb",
+    "token_name": "cyberbucks",
+    "tx": "2qnFCiN7n35r82BByyJAhvovdTBVbTi9vALWJFzNCyMkto7Xyv4rEayxg2zrUenrffxbN7EzxHBp72qkkgtgDwP5",
+    "wallet": "4vw54BmAogeRV3vPKWyFet5yf8DTLcREzdSzx4rw9Ud9"
+   },
+   {
+    "at": "2026-10-23T01:32:46+00:00",
+    "mc_usd": 8916.54,
+    "mint": "9sXzh7SxN77Ko8p5DrsgTXTRMsqBKxQo64qSKQf6pump",
+    "name": "decu",
+    "price_usd": 8.916544367346e-06,
+    "sol": 3.0165188400000034,
+    "symbol": "cb",
+    "token_name": "cyberbucks",
+    "tx": "2hWZwwW3U6dowvWD7gpsqhY8UU4k3YuxPF8QEePNfAagJiQ2XvaAmYa3sjKn4E8zHBhtPmMwGHFWRKWAC3Gcy1jx",
+    "wallet": "4vw54BmAogeRV3vPKWyFet5yf8DTLcREzdSzx4rw9Ud9"
    }
   ],
   "evaluated": {
@@ -5088,6 +5004,6 @@
    "71m6o4WC6EMvbC6Pnuo53Q7SYQLuHS2VUTFe8YcBpump": 3,
    "8bBQP9ngcjyr7g1ytggodjaaQSHSyNcnxCrm8YN9pump": 3
   },
-  "since": "2026-10-23T00:55:21+00:00"
+  "since": "2026-10-23T01:55:20+00:00"
  }
 }
