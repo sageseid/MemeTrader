@@ -135,42 +135,6 @@
   ],
   "buys": [
    {
-    "at": "2026-10-23T06:23:19+00:00",
-    "mc_usd": 3302.45,
-    "mint": "8Ehnwe5HgmPm5nQHNU3t7VGkFC8tTRqvSoaxP8njpump",
-    "name": "trunoest",
-    "price_usd": 3.302451294375e-06,
-    "sol": 1.5165188400000034,
-    "symbol": "BioWare",
-    "token_name": "BioWare",
-    "tx": "3Fhw862g9vhYQJryfa9KqDR6nspw6wZ8Lau8bpRrGQeUnV3M71DarksSEHwWxSnUaojkcfcvWUSWjNRkafCTt6NZ",
-    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
-   },
-   {
-    "at": "2026-10-23T06:15:30+00:00",
-    "mc_usd": 7756.75,
-    "mint": "CCeP52w3VSkKmHbVqi5v9HcagtzhoJsJeTPyU7qVpump",
-    "name": "trunoest",
-    "price_usd": 7.756750719652e-06,
-    "sol": 2.5150050000000874,
-    "symbol": "Ond\u0159ej",
-    "token_name": "The PHP Saviour",
-    "tx": "BwK4XuZ8T5vc2kFTi1TTXB8oNtanoUaZ9iEszfguLun27pyNv7kEMKYqEJAkWeQNUx6WPhraN6kMyPstTxZjqUx",
-    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
-   },
-   {
-    "at": "2026-10-23T06:13:38+00:00",
-    "mc_usd": 5952.85,
-    "mint": "CCeP52w3VSkKmHbVqi5v9HcagtzhoJsJeTPyU7qVpump",
-    "name": "trunoest",
-    "price_usd": 5.952854149861e-06,
-    "sol": 2.0165188400000034,
-    "symbol": "Ond\u0159ej",
-    "token_name": "The PHP Saviour",
-    "tx": "2uPCLZW3WLj3aTtzuWCUVYBoAJruvhLEfwLagrhMppK4bSjzmfbma7Ps7kRrDkLwMVLfk2nLgPKc5d2bPvpFtwJT",
-    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
-   },
-   {
     "at": "2026-10-23T23:54:21+00:00",
     "mc_usd": 19738.21,
     "mint": "81EpzKJzgckhZNYvV4vu16Mjb5V3tMPohKcNjr7kpump",
@@ -6481,11 +6445,83 @@
     "token_name": "Team Humanity",
     "tx": "rjyaN9DvcuuhaG9phX21jmdV7qAb34H2otmdpTQB8xjGSbqV67ebKt47ksukxxVrecYUgzTw5FXd1BaHZboXkUC",
     "wallet": "4vw54BmAogeRV3vPKWyFet5yf8DTLcREzdSzx4rw9Ud9"
+   },
+   {
+    "at": "2026-10-25T06:05:56+00:00",
+    "mc_usd": 20968.43,
+    "mint": "7zV7kkFkEEtzqAVHtpsrE61MskeNTZ1PT3tCpyC1pump",
+    "name": "decu",
+    "price_usd": 2.0968430999185e-05,
+    "sol": 5.015004999999974,
+    "symbol": "ELON",
+    "token_name": "Silvia World's Richest Man ETF",
+    "tx": "3wB2eCD4j1qjEhyixexYW8fxgrwdF4MvjP7U6eXCXGPjrYCXPnDUA6h7Y8UArdb2aZsHhZeA6AHk9jepvcqJceEX",
+    "wallet": "4vw54BmAogeRV3vPKWyFet5yf8DTLcREzdSzx4rw9Ud9"
+   },
+   {
+    "at": "2026-10-25T06:05:55+00:00",
+    "mc_usd": 17444.77,
+    "mint": "7zV7kkFkEEtzqAVHtpsrE61MskeNTZ1PT3tCpyC1pump",
+    "name": "decu",
+    "price_usd": 1.7444774361756e-05,
+    "sol": 5.015005000000087,
+    "symbol": "ELON",
+    "token_name": "Silvia World's Richest Man ETF",
+    "tx": "4YTvtNtpHAV7mHba8dTQWnTZYw38cXmK1HvoPmRsdQ3zJw5UhjZK1DKR9xwnAcd6T4JEqmCgC6pE8xBQnCHfgcA",
+    "wallet": "4vw54BmAogeRV3vPKWyFet5yf8DTLcREzdSzx4rw9Ud9"
+   },
+   {
+    "at": "2026-10-25T06:05:17+00:00",
+    "mc_usd": 11105.5,
+    "mint": "7zV7kkFkEEtzqAVHtpsrE61MskeNTZ1PT3tCpyC1pump",
+    "name": "decu",
+    "price_usd": 1.1105503784194e-05,
+    "sol": 0.26500499999997373,
+    "symbol": "ELON",
+    "token_name": "Silvia World's Richest Man ETF",
+    "tx": "3FS7UUqcWdVLUPm2FuUagWC5Y7J8RxuXJhCB2BRSVRU4HJRA9JGBEtoVytRt13YXyguURjpEGkwNyDkT5unw6pUA",
+    "wallet": "4vw54BmAogeRV3vPKWyFet5yf8DTLcREzdSzx4rw9Ud9"
+   },
+   {
+    "at": "2026-10-25T06:05:12+00:00",
+    "mc_usd": 7583.92,
+    "mint": "7zV7kkFkEEtzqAVHtpsrE61MskeNTZ1PT3tCpyC1pump",
+    "name": "decu",
+    "price_usd": 7.583918494057e-06,
+    "sol": 3.0165188400000034,
+    "symbol": "ELON",
+    "token_name": "Silvia World's Richest Man ETF",
+    "tx": "KtQm6NV34qpZ5c9vUnNqqjKhucdJV2gHgRYDHqpMRi26Sm3jiQriTorLqyAjgw6EhDEstZLfgKbeuSTtv69pNFm",
+    "wallet": "4vw54BmAogeRV3vPKWyFet5yf8DTLcREzdSzx4rw9Ud9"
+   },
+   {
+    "at": "2026-10-25T06:02:25+00:00",
+    "mc_usd": 33345.05,
+    "mint": "7jo5Ru47Edx3nT3vdcudQXADjWrRemzWF9nA4By1pump",
+    "name": "decu",
+    "price_usd": 3.334505400757e-05,
+    "sol": 0.26500499999997373,
+    "symbol": "DCC",
+    "token_name": "DacityCoin",
+    "tx": "4nBQwArspFj7urmqF9i1XybWPJVFqwPHLdBTMfvvR4dUDVYaKYvtwuezQ8P2ss3FV1BYLeSUq2yycZRrLauX6GXx",
+    "wallet": "4vw54BmAogeRV3vPKWyFet5yf8DTLcREzdSzx4rw9Ud9"
+   },
+   {
+    "at": "2026-10-25T06:01:17+00:00",
+    "mc_usd": 27414.9,
+    "mint": "7jo5Ru47Edx3nT3vdcudQXADjWrRemzWF9nA4By1pump",
+    "name": "decu",
+    "price_usd": 2.741489609275e-05,
+    "sol": 5.018078399999922,
+    "symbol": "DCC",
+    "token_name": "DacityCoin",
+    "tx": "2VmXFyAsQzhU2iodpqCNwEbivxNk7w3u2N1PEXDaZUtvNxpyoYmpfjorx8bWEeEZYPnVJwHxcyfBkEJPQDxNb4Eg",
+    "wallet": "4vw54BmAogeRV3vPKWyFet5yf8DTLcREzdSzx4rw9Ud9"
    }
   ],
   "evaluated": {
    "EcYF3kerbdbYpMEphg4WSgGBdvg9HwWiMDBvMyrHpump": 3
   },
-  "since": "2026-10-25T05:55:16+00:00"
+  "since": "2026-10-25T06:55:16+00:00"
  }
 }
