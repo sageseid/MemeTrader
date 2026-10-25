@@ -556,3 +556,5 @@ run_utc,mode,outcome,detail
 2026-10-24T23:00Z,PAPER,smart money data error,"skipped this run's cluster pass: madeonsol.com: HTTP 429: {""error"":""rate_limit_exceeded"",""error_kind"":""ip_rotation"",""message"":""Too many IP addresses for one free key — this free (BASIC) key has been used from more than 8 IP addresses today. Free keys are mea"
 2026-10-25T00:00Z,PAPER,no season,All Memes -4.24% vs total crypto -2.49% over 24h; meme dominance 1.07%
 2026-10-25T00:00Z,PAPER,smart money,"28 new watchlist buys from 8 feed page(s) (paging capped: some older buys this hour were skipped); 1 cluster(s) of 3+ wallets, 0 new or grown, 0 too old to alert, 0 passed safety, 0 emailed"
+2026-10-25T01:00Z,PAPER,no target,"#2 narrative IP Memes is down on 7d (-0.31%). 7d/24h ranking: Frog Coins +5.8%/-0.8%, IP Memes -0.3%/-1.3%, Dog Coins -1.4%/-1.1%, Celebrity Coins -1.7%/-1.2%, Trump Coins -2.9%/-1.1%."
+2026-10-25T01:00Z,PAPER,smart money,"15 new watchlist buys from 8 feed page(s) (paging capped: some older buys this hour were skipped); 1 cluster(s) of 3+ wallets, 0 new or grown, 0 too old to alert, 0 passed safety, 0 emailed"
