@@ -666,3 +666,5 @@ run_utc,mode,outcome,detail
 2026-10-27T06:00Z,PAPER,smart money,"40 new watchlist buys from 8 feed page(s); 0 cluster(s) of 3+ wallets, 0 new or grown, 0 too old to alert, 0 passed safety, 0 emailed"
 2026-10-27T07:00Z,PAPER,no target,"#2 narrative Trump Coins is down on 7d (-0.18%). 7d/24h ranking: Frog Coins +3.0%/-1.4%, Trump Coins -0.2%/+2.4%, Celebrity Coins -2.5%/+0.6%, Dog Coins -2.7%/+0.4%, IP Memes -4.5%/-1.1%."
 2026-10-27T07:00Z,PAPER,smart money,"31 new watchlist buys from 6 feed page(s); 0 cluster(s) of 3+ wallets, 0 new or grown, 0 too old to alert, 0 passed safety, 0 emailed"
+2026-10-27T08:00Z,PAPER,no target,"#2 narrative Trump Coins is down on 7d (-0.18%). 7d/24h ranking: Frog Coins +3.0%/-1.4%, Trump Coins -0.2%/+2.4%, Celebrity Coins -2.5%/+0.6%, Dog Coins -2.7%/+0.4%, IP Memes -4.5%/-1.1%."
+2026-10-27T08:00Z,PAPER,smart money data error,"skipped this run's cluster pass: madeonsol.com: HTTP 429: {""error"":""rate_limit_exceeded"",""error_kind"":""ip_rotation"",""message"":""Too many IP addresses for one free key — this free (BASIC) key has been used from more than 8 IP addresses today. Free keys are mea"
