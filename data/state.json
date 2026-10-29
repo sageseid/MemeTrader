@@ -9,7 +9,8 @@
   "GjuohC1Ad4i4kF8EKcq3NyPQ6hgb8DiRcm72W7oPpump": "2026-10-13T21:00Z",
   "GsZNMN3TLT2Dx2d97cQGnWJsqYzALgieLKE7xsjypump": "2026-10-29T00:00Z",
   "HDUTbJbmMmynsg31ir3GuPTE2jCNGyWYf61VzPDix6e": "2026-10-13T16:00Z",
-  "doge-pepe": "2026-10-16T01:00Z"
+  "doge-pepe": "2026-10-16T01:00Z",
+  "i-love-puppies": "2026-10-29T19:00Z"
  },
  "contracts": {
   "ape-and-pepe": [
@@ -44,9 +45,25 @@
    "ethereum",
    "0x73df7018cbcb919ccde48c3f12f4326688ac4446"
   ],
+  "dogecoin": [
+   null,
+   null
+  ],
+  "dogelon-mars": [
+   "ethereum",
+   "0x761d38e5ddf6ccf6cf7c55759d5210750b5d60f3"
+  ],
   "energy-2": [
    "solana",
    "9f52wiW2zrt2497HroMHtZtuj7VzWu4AsEusmW3pump"
+  ],
+  "grok-2": [
+   "ethereum",
+   "0x8390a1da07e376ef7add4be859ba74fb83aa02d5"
+  ],
+  "i-love-puppies": [
+   "ethereum",
+   "0xcf91b70017eabde82c9671e30e5502d312ea6eb2"
   ],
   "kekius-maximus": [
    "ethereum",
@@ -108,7 +125,9 @@
    "time_stop_done": "2026-10-13T16:00Z"
   }
  },
- "s1_passed": {},
+ "s1_passed": {
+  "0xcf91b70017eabde82c9671e30e5502d312ea6eb2": "2026-10-29T19:00Z"
+ },
  "signal_snapshots": {
   "88TYcdthoDPeunuL6MZdwdtNDf7qnZufALEca5Bbpump": {
    "at": "2026-10-29T07:00Z",
@@ -127,6 +146,12 @@
    "creator_balance": 0,
    "liquidity_usd": 23048.32,
    "top10_pct": 11.691218483566407
+  },
+  "i-love-puppies": {
+   "at": "2026-10-29T19:00Z",
+   "creator_balance": 0,
+   "liquidity_usd": 793398.63,
+   "top10_pct": 7.31527891319787
   }
  },
  "smart_money": {
