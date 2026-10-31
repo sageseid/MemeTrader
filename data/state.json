@@ -6334,11 +6334,23 @@
     "token_name": "Grok Butt",
     "tx": "31NUetimijboHuduFiDuynQQ3A73swmckC6QpvC5AfYEzkf41tdsZpTCsUwnHWiT823owvCzVmBJpXYwV75M94ct",
     "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
+   },
+   {
+    "at": "2026-10-31T11:28:30+00:00",
+    "mc_usd": 75268.86,
+    "mint": "EgqxxR7zowzaLEm24oep5qqBieLVAWYX78LhgeqAJAo",
+    "name": "Mitch",
+    "price_usd": 7.5269118838673e-05,
+    "sol": 10.001593474000174,
+    "symbol": "H081",
+    "token_name": "H0 81 Capital",
+    "tx": "dapDEmeyyiNs7nZevqz4e2f3vJ7ocz9D8nWkeKZhMeSvEvF5zyvkXr1ijNB9n3mEHccbpFURGHCkWWV3j5EkhXH",
+    "wallet": "4Be9CvxqHW6BYiRAxW9Q3xu1ycTMWaL5z8NX4HR3ha7t"
    }
   ],
   "evaluated": {
    "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 3
   },
-  "since": "2026-10-31T06:55:03+00:00"
+  "since": "2026-10-31T12:55:22+00:00"
  }
 }
