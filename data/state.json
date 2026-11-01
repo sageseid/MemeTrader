@@ -187,114 +187,6 @@
   ],
   "buys": [
    {
-    "at": "2026-10-30T05:51:56+00:00",
-    "mc_usd": 4372.41,
-    "mint": "2HXjcNEpLPZ9ueJKuxGELTbH5UVGBFMYjkT3NPACpump",
-    "name": "trunoest",
-    "price_usd": 4.372405260055e-06,
-    "sol": 1.5165188400000034,
-    "symbol": "KOKO",
-    "token_name": "Kokocoin",
-    "tx": "3A9Z831DAfFfPbE3YeawTdRuyb51dvPtD9LvryQFZqgkLKVHLtHBYggeRW4pPeyRB6VcJAjcu1G1G9xttN9F7SJK",
-    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
-   },
-   {
-    "at": "2026-10-30T05:46:51+00:00",
-    "mc_usd": 12339.83,
-    "mint": "6udvmHYFbxoqCKQZ881aFxroqGTLcPHayUymkcX3pump",
-    "name": "Lynk",
-    "price_usd": 1.233984263937e-05,
-    "sol": 3.132518839999989,
-    "symbol": "HT",
-    "token_name": "Hype Tython",
-    "tx": "67CEDypCbXVjZ5ySbxFZcN7H2i6eiAKmeuqZ7nS6ezQMCvEMoHv2R13gvN36jv3GV9mbhXpUDo3JKYmeM1Ms6C5o",
-    "wallet": "CkPFGv2Wv1vwdWjtXioEgb8jhZQfs3eVZez3QCetu7xD"
-   },
-   {
-    "at": "2026-10-30T05:45:28+00:00",
-    "mc_usd": 10608.81,
-    "mint": "5uPcprgc8Zj1wK559ATeMrNJD4RY4j1RMFsfXV5ipump",
-    "name": "trunoest",
-    "price_usd": 1.0608810112615e-05,
-    "sol": 3.018007280000006,
-    "symbol": "IROKOKO",
-    "token_name": "Irokokocoin",
-    "tx": "4E2hFCrdNEnCYqBTMPUzEvAJiwSzHivVwDLAHbWqUVgSmXmd6yGfJtD6RznFQq2c2dG8sbmdpF6epXPUbnvAte4y",
-    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
-   },
-   {
-    "at": "2026-10-30T05:31:38+00:00",
-    "mc_usd": 9783.16,
-    "mint": "DfVjeKVPpGmCLYvkqpZ1aTEzBYwv2bHQoEXapr8Qc6PE",
-    "name": "trunoest",
-    "price_usd": 9.78315893356e-06,
-    "sol": 3.0165188400000034,
-    "symbol": "DUNEBUCKET",
-    "token_name": "The Dune Bucket",
-    "tx": "wzkoAtnHR2s6wyK18AKZsQze6zwaG8Bz8QEcLCcZzB4e9z4umdTLVoPDSqJm3PvriBCZK2xsgQ3Dw8tjfNHd56T",
-    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
-   },
-   {
-    "at": "2026-10-30T05:24:38+00:00",
-    "mc_usd": 5951.34,
-    "mint": "9B1oAGfSkDRcdyE9aNN6t1ga23ENZ4ht6qGHWcqQpump",
-    "name": "trunoest",
-    "price_usd": 5.951337016415e-06,
-    "sol": 1.5165188400000034,
-    "symbol": "Anonymouse",
-    "token_name": "Anonymouse",
-    "tx": "63zjuR8dr3RqFUzW8vuKff8osD8iYZ5iHvZib6gw6xWGgTSMqJpwVFaPHEirdTcLCYuaS7dh77AjYJTv1Zm2XcDV",
-    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
-   },
-   {
-    "at": "2026-10-30T05:22:23+00:00",
-    "mc_usd": 5718.49,
-    "mint": "661qWzYqC5SdpzgvkYLt1din6wCk61YxFmAPxVW6pump",
-    "name": "trunoest",
-    "price_usd": 5.718487087042e-06,
-    "sol": 2.0165188400000034,
-    "symbol": "meme",
-    "token_name": "the higher the funnier",
-    "tx": "WJtctKFP2KhiYdZZmA2bU3JEvuJwUJTTemkUktohHfq8QH5FoPZ8Mo3YCYnDWfaFSMxKpSJ1htLtUBQVmRAspY9",
-    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
-   },
-   {
-    "at": "2026-10-30T05:16:40+00:00",
-    "mc_usd": 8669.85,
-    "mint": "3YMTh2tagdg5rq99qa4zGHLyCKj7h8R9cWqhA9Adpump",
-    "name": "trunoest",
-    "price_usd": 8.669851388891e-06,
-    "sol": 0.2540050000000065,
-    "symbol": "LMB",
-    "token_name": "Landmine Bear",
-    "tx": "39kiTVvqaPMFvmiqFrT1BwX6B534RaVaJNiQ66qWKj5kSJggPJcSEuH3DvnhzYcyZZeMPvLNi2QzXEDaUAeGzZ8w",
-    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
-   },
-   {
-    "at": "2026-10-30T05:15:39+00:00",
-    "mc_usd": 2864.71,
-    "mint": "3YMTh2tagdg5rq99qa4zGHLyCKj7h8R9cWqhA9Adpump",
-    "name": "trunoest",
-    "price_usd": 2.864712807889e-06,
-    "sol": 1.5165188400000034,
-    "symbol": "LMB",
-    "token_name": "Landmine Bear",
-    "tx": "5EBZMVmJfqUZ769LMh1gzbVovizfxMX2o4jVd1VpZ7WHHiHeuEuTe3n8P8CgaahA47jMFR7npF6ebPVjrYUd5e9A",
-    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
-   },
-   {
-    "at": "2026-10-30T05:11:28+00:00",
-    "mc_usd": 13377.83,
-    "mint": "AhJffTKdbGbgEzxMuNzM6PVS3iHbmoTjgZmrJN2gpump",
-    "name": "trunoest",
-    "price_usd": 1.3377833876277e-05,
-    "sol": 3.0165188399999465,
-    "symbol": "CEEZEE",
-    "token_name": "ceezee",
-    "tx": "4BjGLihDaEFLcNtCQPzoayii3WQ23xQDudmBnSVGFBpS8zXZWDM7chz23HhsmBFx892oxc8pMqJc8RJv2theXP3x",
-    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
-   },
-   {
     "at": "2026-10-30T06:15:45+00:00",
     "mc_usd": 7213.7,
     "mint": "EQ7gCEMvQxC48PYfuPWwXVXxYuvGabpPWcCT1okvpump",
@@ -484,18 +376,6 @@
     "symbol": "anon",
     "token_name": "anon",
     "tx": "2Dch993uxeJwSZTC7p2kbVrsqg79fwpXaEJbrBA6psxRSzZHLo4vFZBmQLowFMrJudeK8D2odadnRjyNyBQgpyj4",
-    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
-   },
-   {
-    "at": "2026-10-30T06:00:19+00:00",
-    "mc_usd": 9854.25,
-    "mint": "D31CHHiJoEg4qMMB7s9eRQrHzRbapHgWqSxEsgrFnABi",
-    "name": "trunoest",
-    "price_usd": 9.854251674988e-06,
-    "sol": 3.0165188400000034,
-    "symbol": "anon",
-    "token_name": "anon",
-    "tx": "5mGjU8jpwwgdcVcSsoqNmoySU6PLjUJKUgpqXxBv4aGxsZb7fKZ6KoHvZxxpYo4owPhJebd6CD1uyac2U4fpskvv",
     "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
    },
    {
@@ -6629,6 +6509,114 @@
     "token_name": "MamesukeCoin",
     "tx": "5nLjKYqjjZjic1duJYcqVuT2iGaihEbCmk9xrhikQtEdfZScJgWp1Ghzv4ChZyXV8fVi7pvb3ptMXtzAmmpkV6JH",
     "wallet": "5vg7he5HibvsAW86wfiuP6jw7VwKmUAnP6P93mVCdpJu"
+   },
+   {
+    "at": "2026-11-01T05:45:12+00:00",
+    "mc_usd": 5572.23,
+    "mint": "6dfA24N4GKf1KY2dZHAQdFrScmoVw2Zf9Gj3JCnQpump",
+    "name": "trunoest",
+    "price_usd": 5.572230882655e-06,
+    "sol": 0.2540050000000065,
+    "symbol": "YUME",
+    "token_name": "Yumecoin",
+    "tx": "dzAdFcuhSNVkb8WUjsSpy1iTY3Q9n9ALy3qMxvob85KwwYdxVhLCjMDnxgMap2uHVgJH1pm4rpKFepUswCMJnsP",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-11-01T05:44:32+00:00",
+    "mc_usd": 6516.74,
+    "mint": "6dfA24N4GKf1KY2dZHAQdFrScmoVw2Zf9Gj3JCnQpump",
+    "name": "trunoest",
+    "price_usd": 6.516742624999e-06,
+    "sol": 0.2540050000000065,
+    "symbol": "YUME",
+    "token_name": "Yumecoin",
+    "tx": "61Z1g1BPPvRAjkGwKSCSGkxdaJRwEsBioW6BJxtJ1v77HLSeNYCQS9ibtRzvtjGpKifAN9BXgB4HkYNY4FuhMqvb",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-11-01T05:44:23+00:00",
+    "mc_usd": 5943.2,
+    "mint": "6dfA24N4GKf1KY2dZHAQdFrScmoVw2Zf9Gj3JCnQpump",
+    "name": "trunoest",
+    "price_usd": 5.943203576213e-06,
+    "sol": 2.0165188400000034,
+    "symbol": "YUME",
+    "token_name": "Yumecoin",
+    "tx": "5YWeYmDvXfqN4KXrTLbEjoDN8B8L8grjhFiMTuqYXAtLVFFskfHgtCZTWDxwwL9yNxoa9bkWXGaC9aHA6EQoU5At",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-11-01T05:43:26+00:00",
+    "mc_usd": 8809.77,
+    "mint": "CNRa8B7kdUL8ww2WKdDw6WkiW7XV1A4aQ3nQPAycpump",
+    "name": "trunoest",
+    "price_usd": 8.809767936831e-06,
+    "sol": 3.0165188400000034,
+    "symbol": "Solana",
+    "token_name": "#9945FF",
+    "tx": "2LUinsN6sJAhuGLkvSUZt8VQD2cHaoufTGosJ7bT85hAoNKUaLiFf2cveG6do5PEMGqEKQpbCXei7siPsbqJWHfS",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-11-01T05:41:17+00:00",
+    "mc_usd": 26921.35,
+    "mint": "GfrPYpkdkEPzMMYKUdJcZtMsKQnqmPBN39uewoJppump",
+    "name": "trunoest",
+    "price_usd": 2.6921351835968e-05,
+    "sol": 0.2540050000000065,
+    "symbol": "PURPLE",
+    "token_name": "PURPLE COIN",
+    "tx": "35DfByckYkihVaJnH2e7Yho1bFb2raoQGTd6C3j9Bmd3jWWwUzzuNo1XYKigZXFih2YDukmDcC2wCTMYxBNRMhf7",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-11-01T05:29:16+00:00",
+    "mc_usd": 8229.53,
+    "mint": "GfrPYpkdkEPzMMYKUdJcZtMsKQnqmPBN39uewoJppump",
+    "name": "trunoest",
+    "price_usd": 8.229534310599e-06,
+    "sol": 3.0165188400000034,
+    "symbol": "PURPLE",
+    "token_name": "PURPLE COIN",
+    "tx": "5jCt8p1LzcBccwwdKnWgu5T6ioK63xjtwV4YN5m4G2cwuoZzgAPTFEDz8FtkGQdncEvZmPA6RCrBN3WGGaoAQA1a",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-11-01T05:22:37+00:00",
+    "mc_usd": 7079.55,
+    "mint": "EGzMaTe4E9oJqXzVgN1ZzzS9n2XKoFjtpY1DdrrUpump",
+    "name": "blixze",
+    "price_usd": 7.079554479313e-06,
+    "sol": 1.3155868929999315,
+    "symbol": "OURCOIN",
+    "token_name": "Ourcoin",
+    "tx": "5fhy99hBcbJCeiZgGRJpQ8PDT95H6qGd2ycSUU9emnvxae7spa5XUgjyg5XZXrjUKMJF9GSixty3D3bazwfBYd8p",
+    "wallet": "5vg7he5HibvsAW86wfiuP6jw7VwKmUAnP6P93mVCdpJu"
+   },
+   {
+    "at": "2026-11-01T05:19:46+00:00",
+    "mc_usd": 5360.97,
+    "mint": "5Huqac5UQsVNzkNWvmQxRKQo2T2C4bNEGutH3MGkpump",
+    "name": "trunoest",
+    "price_usd": 5.360971256529e-06,
+    "sol": 1.5165188400000034,
+    "symbol": "fapcat",
+    "token_name": "fapcat",
+    "tx": "27HxfcZTcVckAmFgHjQuRtrGERVmPn8X1QGMhVZnCu1ehMAxedYYiVQcbooKEcVchBygpiAkY2au6bMK69xMPgNx",
+    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
+   },
+   {
+    "at": "2026-11-01T05:08:37+00:00",
+    "mc_usd": 15420.91,
+    "mint": "635MGwH377EQyGGwNuEEB7VAC1mGyAbXec6BTQRxpump",
+    "name": "blixze",
+    "price_usd": 1.5420910259288e-05,
+    "sol": 1.8134659980000833,
+    "symbol": "Rudy",
+    "token_name": "Rudolph",
+    "tx": "vrS4pjxPCNZb9iSCCXjoNGJ8xCcVx9kYHR55bneTwBLx4dEEdekJtWWXAE6qRJBshXr7z6jH5QNFBjC7pvRLWH1",
+    "wallet": "5vg7he5HibvsAW86wfiuP6jw7VwKmUAnP6P93mVCdpJu"
    }
   ],
   "evaluated": {
@@ -6638,6 +6626,6 @@
    "7Kzn17PVgf7GAfdydcSJ2Q5xMrHoGi1TE1yWAAPtpump": 3,
    "EddrjeVVAor8uvMbwRKyB9N4Kx8WVVeFJxLTcUVDpump": 3
   },
-  "since": "2026-11-01T04:55:20+00:00"
+  "since": "2026-11-01T05:55:25+00:00"
  }
 }
