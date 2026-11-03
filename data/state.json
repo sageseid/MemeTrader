@@ -194,114 +194,6 @@
   ],
   "buys": [
    {
-    "at": "2026-11-01T06:52:56+00:00",
-    "mc_usd": 4439.37,
-    "mint": "CbqTQoEng8Wh5ZjJvThBo4mZXMfvFGtxQYfCHgAUpump",
-    "name": "trunoest",
-    "price_usd": 4.439368836046e-06,
-    "sol": 1.5165188400000034,
-    "symbol": "mousetache",
-    "token_name": "mousetache",
-    "tx": "2hh1bLmWxqsRXKFeZdYg9NHG3uvg7xNDFg6oubzcnSieJZaETdbyCzpvQK46onJYDp613KVzveduGmaGDETvKTSF",
-    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
-   },
-   {
-    "at": "2026-11-01T06:52:04+00:00",
-    "mc_usd": 2935.73,
-    "mint": "GzYT5V51veJ9PTndDT5EpUVoRtBZVDakxTQd1mwtpump",
-    "name": "trunoest",
-    "price_usd": 2.935727497138e-06,
-    "sol": 2.0165188400000034,
-    "symbol": "Mustache",
-    "token_name": "dogwifmustache",
-    "tx": "65MMwUYunsKC2FBr94uM4UhqnfKNxN6SroyvG7bWdDuLudxhSwoUFoXGAmnCVB3tp1VHiVmjoxt4iD4vinxLdgRt",
-    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
-   },
-   {
-    "at": "2026-11-01T06:49:31+00:00",
-    "mc_usd": 8333.28,
-    "mint": "6g5CQ9usDpsHdaZXwRguTr7LLqyvR5fcY9Gy44rvpump",
-    "name": "trunoest",
-    "price_usd": 8.333277459814e-06,
-    "sol": 0.2540050000000065,
-    "symbol": "gooncat",
-    "token_name": "gooncat",
-    "tx": "3exbjuj2rkeubRBctDFMuxLSzRt6srsJaZDsUNQHWtghbtGKBtErUwegQF91F7NL8vCvV1LCoGvrfaWHuT2MjU6o",
-    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
-   },
-   {
-    "at": "2026-11-01T06:48:08+00:00",
-    "mc_usd": 2925.54,
-    "mint": "6g5CQ9usDpsHdaZXwRguTr7LLqyvR5fcY9Gy44rvpump",
-    "name": "trunoest",
-    "price_usd": 2.9255363877e-06,
-    "sol": 1.5165188400000034,
-    "symbol": "gooncat",
-    "token_name": "gooncat",
-    "tx": "49BE1PEiqJZ1ZeBqfzyeZ7pVeSnnxhV6iehjr9dC7X4qytSQaEVDWooRuC6vN7mB5Z8HZ56XAWkrztLS1QJpzFSp",
-    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
-   },
-   {
-    "at": "2026-11-01T06:44:59+00:00",
-    "mc_usd": 5294.51,
-    "mint": "BC4vQ6knzvD9BeEsj8ymRchxEMiPG89rossmg97zpump",
-    "name": "Lynk",
-    "price_usd": 5.294507721813e-06,
-    "sol": 1.0125188399999985,
-    "symbol": "hugdog",
-    "token_name": "hugdog",
-    "tx": "g4MGYPcV6gj6DoqZVDSM83HhaaKzAH7QNtz4ZuP38BUSnUX3bMGThqeLG3MbEqjp5cJba5p4fY6GKQP9WomdAia",
-    "wallet": "CkPFGv2Wv1vwdWjtXioEgb8jhZQfs3eVZez3QCetu7xD"
-   },
-   {
-    "at": "2026-11-01T06:32:46+00:00",
-    "mc_usd": 19538.71,
-    "mint": "6eh5GMm8MfsrevTPvSnuz5R61GmvJSCE2ThLW3QQpump",
-    "name": "trunoest",
-    "price_usd": 1.9538720875638e-05,
-    "sol": 5.015004999999974,
-    "symbol": "PUMPFUN",
-    "token_name": "pumpfun.how",
-    "tx": "4rhdUki5CDaEnu6J7ZigD6JwjmYYryjRUD3c6c4AvLchpsK9NTtrfMssbtxwPm5jxXWqT1A2P3pyhf8xvHzwcbw7",
-    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
-   },
-   {
-    "at": "2026-11-01T06:31:47+00:00",
-    "mc_usd": 114540.1,
-    "mint": "2MXhpKgHBREgYYj3bSdorqbuJjkPAve1LTNHtk8Lpump",
-    "name": "Matt",
-    "price_usd": 0.000119776899470423,
-    "sol": 0.2500369999997929,
-    "symbol": "Pikmin",
-    "token_name": "Pikmin",
-    "tx": "5VY5qPdUY6MdepSs1pcR3yHzhGmvDMXPhLWpSXFQXDPEXLLiMR8TosvmPKS3HyJZYsF4dCrjNUzNGEWWBZNL7GfK",
-    "wallet": "3bzaJd5yZG73EVDz8xosQb7gfZm2LN5auFGh6wnP1n1f"
-   },
-   {
-    "at": "2026-11-01T06:21:03+00:00",
-    "mc_usd": 4891.87,
-    "mint": "ChbW2ywFxaXyPhghUe61ZJXJRuiGLqQvQbNKMC6Xpump",
-    "name": "trunoest",
-    "price_usd": 4.891873680204e-06,
-    "sol": 2.0165188400000034,
-    "symbol": "BI",
-    "token_name": "Blue Inu",
-    "tx": "4ocReHC5uFpfQT691YyyemP5wncMR4hA7NiKL5BgwvN26iYWtttkS3BTSeok1YoPDcyiF73PK19dFX9w9swg4fM5",
-    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
-   },
-   {
-    "at": "2026-11-01T06:19:20+00:00",
-    "mc_usd": 7265.09,
-    "mint": "6eh5GMm8MfsrevTPvSnuz5R61GmvJSCE2ThLW3QQpump",
-    "name": "trunoest",
-    "price_usd": 7.265086028725e-06,
-    "sol": 3.0165188400000034,
-    "symbol": "PUMPFUN",
-    "token_name": "pumpfun.how",
-    "tx": "Hz7SHzNjJKkZvKye3hzfSoAT4tFsfQ4bT3t1YFHgrkVDC7uiKjvxKQyBN8aUNLyoM6eCedmthvRinMkewfbWmG7",
-    "wallet": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
-   },
-   {
     "at": "2026-11-01T23:49:57+00:00",
     "mc_usd": 3332,
     "mint": "BJ3YaVbys7CsCWyw3PW5A3GqceRqu7kWVCZRBxqppump",
@@ -5880,11 +5772,60 @@
     "token_name": "coon",
     "tx": "f8RTPTUd8WMeSwxVLPigB8htURDb9op55TqcjbcCQG1DPmBsuX8nkBiWvFo8azfkNtDP13mZpoSpQa5APjdJTrR",
     "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
+   },
+   {
+    "at": "2026-11-03T06:49:12+00:00",
+    "mc_usd": 18725.89,
+    "mint": "8vFdgGFWkKS1euogVW4qmMurdnso8CPrfQNpB4qqpump",
+    "name": "Mitch",
+    "price_usd": 1.9152995003943e-05,
+    "sol": 5.001703840000005,
+    "symbol": "ascend",
+    "token_name": "ascend",
+    "tx": "3FEJaQXz3H3Qyw1uPCCC7DRaCoKgtqit3tSbgTLA6cqFdK96dDHsGA15XtBLJcsGQLK8QBQZXkQiJ71EG9YBvDev",
+    "wallet": "4Be9CvxqHW6BYiRAxW9Q3xu1ycTMWaL5z8NX4HR3ha7t"
+   },
+   {
+    "at": "2026-11-03T06:34:08+00:00",
+    "mc_usd": 4771.12,
+    "mint": "6N22Bc5JXUqZWwKXA5pfAB1J4umn8hQy7dauj13apump",
+    "name": "Lynk",
+    "price_usd": 4.771119502815e-06,
+    "sol": 1.0125188399999985,
+    "symbol": "GDOG",
+    "token_name": "Giant Dog",
+    "tx": "APbjpLD5hHrVCiENhLDezq1PAyhJ4RMFBqVDGju3J4sGh1r4cvxKWhPQcYiQCfpNe8PEAcYZsyF1rFSjueQ8X1i",
+    "wallet": "CkPFGv2Wv1vwdWjtXioEgb8jhZQfs3eVZez3QCetu7xD"
+   },
+   {
+    "at": "2026-11-03T06:01:14+00:00",
+    "mc_usd": 5701.73,
+    "mint": "FcUaJ6SN1pfCzJJxU5mzeBh8zhLn5EPYXA1rjVjVpump",
+    "name": "theo",
+    "price_usd": 5.70174617142e-06,
+    "sol": 0.2636049999999841,
+    "symbol": "Pog",
+    "token_name": "Pog",
+    "tx": "QuCxEeMPgUskZbjfsDR5byqyZbEWiK7699bDa1iZpfTzvf4DFAt3c1oFvdTpgL1nXVULkdeV1cTFT4jWVjMox1R",
+    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
+   },
+   {
+    "at": "2026-11-03T05:56:58+00:00",
+    "mc_usd": 8117.98,
+    "mint": "FcUaJ6SN1pfCzJJxU5mzeBh8zhLn5EPYXA1rjVjVpump",
+    "name": "theo",
+    "price_usd": 8.117975820213e-06,
+    "sol": 3.0325188390000335,
+    "symbol": "Pog",
+    "token_name": "Pog",
+    "tx": "3mXB88QCZRFcsLKBH183oZdE2pASa7ry54gi9i75T6wpL6gWcPNX4zUgugfLiFa5Z2MMhnYBBBQTvxPrZihB2SLf",
+    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
    }
   ],
   "evaluated": {
+   "8vFdgGFWkKS1euogVW4qmMurdnso8CPrfQNpB4qqpump": 3,
    "aHnFribQafYR1BeJQTFrgULATQX2DKwZb1j3Aidpump": 4
   },
-  "since": "2026-11-03T05:54:42+00:00"
+  "since": "2026-11-03T06:55:31+00:00"
  }
 }
