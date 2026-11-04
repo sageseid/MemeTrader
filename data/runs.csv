@@ -1040,3 +1040,5 @@ run_utc,mode,outcome,detail
 2026-11-04T01:00Z,PAPER,no target,"#2 narrative Celebrity Coins is down on 7d (-4.43%). 7d/24h ranking: Frog Coins +4.8%/+1.6%, Celebrity Coins -4.4%/+1.5%, Dog Coins -4.7%/+1.5%, Trump Coins -7.6%/-0.5%."
 2026-11-04T01:00Z,PAPER,watchlist,kept 15 of the top 30 KOLs by 30d PnL; dropped: win rate 90%+ (bot-like) 2
 2026-11-04T01:00Z,PAPER,smart money,"305 new watchlist buys from 8 feed page(s) (paging capped: some older buys this hour were skipped); 2 cluster(s) of 3+ wallets, 0 new or grown, 0 too old to alert, 0 passed safety, 0 emailed"
+2026-11-04T02:00Z,PAPER,no target,"#2 narrative Celebrity Coins is down on 7d (-4.43%). 7d/24h ranking: Frog Coins +4.8%/+1.6%, Celebrity Coins -4.4%/+1.5%, Dog Coins -4.7%/+1.5%, Trump Coins -7.6%/-0.5%."
+2026-11-04T02:00Z,PAPER,smart money,"38 new watchlist buys from 8 feed page(s) (paging capped: some older buys this hour were skipped); 2 cluster(s) of 3+ wallets, 0 new or grown, 0 too old to alert, 0 passed safety, 0 emailed"
