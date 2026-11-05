@@ -149,12 +149,6 @@
    "liquidity_usd": null,
    "top10_pct": 6.374195195632741
   },
-  "88TYcdthoDPeunuL6MZdwdtNDf7qnZufALEca5Bbpump": {
-   "at": "2026-10-29T07:00Z",
-   "creator_balance": 0,
-   "liquidity_usd": null,
-   "top10_pct": 14.8350239643063
-  },
   "aHnFribQafYR1BeJQTFrgULATQX2DKwZb1j3Aidpump": {
    "at": "2026-11-02T05:00Z",
    "creator_balance": 0,
@@ -187,42 +181,6 @@
    "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT"
   ],
   "buys": [
-   {
-    "at": "2026-11-03T06:49:12+00:00",
-    "mc_usd": 18725.89,
-    "mint": "8vFdgGFWkKS1euogVW4qmMurdnso8CPrfQNpB4qqpump",
-    "name": "Mitch",
-    "price_usd": 1.9152995003943e-05,
-    "sol": 5.001703840000005,
-    "symbol": "ascend",
-    "token_name": "ascend",
-    "tx": "3FEJaQXz3H3Qyw1uPCCC7DRaCoKgtqit3tSbgTLA6cqFdK96dDHsGA15XtBLJcsGQLK8QBQZXkQiJ71EG9YBvDev",
-    "wallet": "4Be9CvxqHW6BYiRAxW9Q3xu1ycTMWaL5z8NX4HR3ha7t"
-   },
-   {
-    "at": "2026-11-03T06:34:08+00:00",
-    "mc_usd": 4771.12,
-    "mint": "6N22Bc5JXUqZWwKXA5pfAB1J4umn8hQy7dauj13apump",
-    "name": "Lynk",
-    "price_usd": 4.771119502815e-06,
-    "sol": 1.0125188399999985,
-    "symbol": "GDOG",
-    "token_name": "Giant Dog",
-    "tx": "APbjpLD5hHrVCiENhLDezq1PAyhJ4RMFBqVDGju3J4sGh1r4cvxKWhPQcYiQCfpNe8PEAcYZsyF1rFSjueQ8X1i",
-    "wallet": "CkPFGv2Wv1vwdWjtXioEgb8jhZQfs3eVZez3QCetu7xD"
-   },
-   {
-    "at": "2026-11-03T06:01:14+00:00",
-    "mc_usd": 5701.73,
-    "mint": "FcUaJ6SN1pfCzJJxU5mzeBh8zhLn5EPYXA1rjVjVpump",
-    "name": "theo",
-    "price_usd": 5.70174617142e-06,
-    "sol": 0.2636049999999841,
-    "symbol": "Pog",
-    "token_name": "Pog",
-    "tx": "QuCxEeMPgUskZbjfsDR5byqyZbEWiK7699bDa1iZpfTzvf4DFAt3c1oFvdTpgL1nXVULkdeV1cTFT4jWVjMox1R",
-    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
-   },
    {
     "at": "2026-11-03T23:54:01+00:00",
     "mc_usd": 11991.69,
@@ -10998,11 +10956,261 @@
     "token_name": "Look At Coins",
     "tx": "3i7wMLYyAfPk145ArfP5ijg1f6CrpphuZnwangS15eRM1ThqStv1DpajpT1zfCJ1pHXRFHs3vUKnryisfwGsNjHs",
     "wallet": "4Be9CvxqHW6BYiRAxW9Q3xu1ycTMWaL5z8NX4HR3ha7t"
+   },
+   {
+    "at": "2026-11-05T06:52:30+00:00",
+    "mc_usd": 204773.78,
+    "mint": "2gVNeu8dP7XiLoaWfUvUJXUM5AdXY8418aft8xhUpump",
+    "name": "Numer0",
+    "price_usd": 0.000212035239112662,
+    "sol": 5.0125188399999985,
+    "symbol": "GTA6",
+    "token_name": "GTA VI",
+    "tx": "63hXsS7k7aGGjytf7LvojfEhhCamXHXR48xFm9RyadhbNN1RLBAhPtoSDf2ZbkXqUtZbEsKYQavUryhmEEaQRSNq",
+    "wallet": "A3W8psibkTUvjxs4LRscbnjux6TFDXdvD4m4GsGpQ2KJ"
+   },
+   {
+    "at": "2026-11-05T06:34:50+00:00",
+    "mc_usd": 35846.07,
+    "mint": "7sbzuBNq9YVgTyuqYDVSJdX1GbLNvhpPka7hYhoJR2LX",
+    "name": "ban",
+    "price_usd": 3.6623319206976e-05,
+    "sol": 10.002618840000004,
+    "symbol": "RIP",
+    "token_name": "Rip Packs",
+    "tx": "eidw9qP68UKFcb7rpRCqBWAxap5sKzcTyzBaTc5vvLcxjARJMEuAxp99qBwn4HcHJsD3bE9vFaM4BYkNhsBFDpY",
+    "wallet": "EqiFgyNw6kgrmYstWyrP8VjKhka7XEmKTZzHSmwpr1Zb"
+   },
+   {
+    "at": "2026-11-05T06:32:20+00:00",
+    "mc_usd": 12364.77,
+    "mint": "4ZrRNPtv7Wwpxb84bgtBTZzfRqjdbJa2DQNFfAZ4pump",
+    "name": "ban",
+    "price_usd": 1.2364771332374e-05,
+    "sol": 0.12485499999999661,
+    "symbol": "ZELDA",
+    "token_name": "Ocarina of Time",
+    "tx": "4Thcr9o5bJNqPURoUquySPpXubmeiwrLTaM7VdvSuUVCvvsTJnU2z4EfQDHWCcAGxTmjAVWZZGmLEn9cKVsMk6mj",
+    "wallet": "EqiFgyNw6kgrmYstWyrP8VjKhka7XEmKTZzHSmwpr1Zb"
+   },
+   {
+    "at": "2026-11-05T06:31:41+00:00",
+    "mc_usd": 13836.56,
+    "mint": "4ZrRNPtv7Wwpxb84bgtBTZzfRqjdbJa2DQNFfAZ4pump",
+    "name": "ban",
+    "price_usd": 1.3836564694583e-05,
+    "sol": 0.5011050000000097,
+    "symbol": "ZELDA",
+    "token_name": "Ocarina of Time",
+    "tx": "2Jv7X5mEES2cpDxK7VzMSWkdQNCfaKi4SEkPnGirArPNEYKqUsHisiShzk5qCNt61CQnfzMovbZMUE8LYpGwTHMm",
+    "wallet": "EqiFgyNw6kgrmYstWyrP8VjKhka7XEmKTZzHSmwpr1Zb"
+   },
+   {
+    "at": "2026-11-05T06:31:22+00:00",
+    "mc_usd": 13578,
+    "mint": "4ZrRNPtv7Wwpxb84bgtBTZzfRqjdbJa2DQNFfAZ4pump",
+    "name": "ban",
+    "price_usd": 1.3577999070699e-05,
+    "sol": 1.0011050000000097,
+    "symbol": "ZELDA",
+    "token_name": "Ocarina of Time",
+    "tx": "7fa74a9d6ypnbmT3pzfntAEuCAumWaBJxRfAM6QHKYggcwszhMk4MQKBgJ8YPT445zaG9WRuGkKrW1hppJHBZzi",
+    "wallet": "EqiFgyNw6kgrmYstWyrP8VjKhka7XEmKTZzHSmwpr1Zb"
+   },
+   {
+    "at": "2026-11-05T06:30:33+00:00",
+    "mc_usd": 13113.2,
+    "mint": "4ZrRNPtv7Wwpxb84bgtBTZzfRqjdbJa2DQNFfAZ4pump",
+    "name": "ban",
+    "price_usd": 1.3113198308073e-05,
+    "sol": 0.12985500000000627,
+    "symbol": "ZELDA",
+    "token_name": "Ocarina of Time",
+    "tx": "nVNyzv1F8Cs8GMDpvpZ4qecBUaDrgK4gUQvmn4WkpeR82uBuCJ8jbbwzo1VKnucqiSMXkFd1atrZtupaMkpzDzx",
+    "wallet": "EqiFgyNw6kgrmYstWyrP8VjKhka7XEmKTZzHSmwpr1Zb"
+   },
+   {
+    "at": "2026-11-05T06:30:30+00:00",
+    "mc_usd": 11714.68,
+    "mint": "4ZrRNPtv7Wwpxb84bgtBTZzfRqjdbJa2DQNFfAZ4pump",
+    "name": "ban",
+    "price_usd": 1.1714677617546e-05,
+    "sol": 1.5476188399999984,
+    "symbol": "ZELDA",
+    "token_name": "Ocarina of Time",
+    "tx": "MUkjjDC2jzxzD3foZ6DwEyUXuXirLZJ9cMBm2oa2gLEz81JkJx7qFZQSAWSZwBRX1mRcf8e2Gwcf9n9DRFQxcFp",
+    "wallet": "EqiFgyNw6kgrmYstWyrP8VjKhka7XEmKTZzHSmwpr1Zb"
+   },
+   {
+    "at": "2026-11-05T06:28:28+00:00",
+    "mc_usd": 7729.15,
+    "mint": "Et88GTjCkJyuN4pn3cTDNpjQ5ApsqJvv7RjdJWLApump",
+    "name": "ban",
+    "price_usd": 7.729146832148e-06,
+    "sol": 0.5011049999999955,
+    "symbol": "POKE",
+    "token_name": "Pok\u00e9Coin",
+    "tx": "2D6KuSZYC9UPHGqm3hwBPvVsoaryHdg4nEdZqdZac6BPKANAvkaKnc1SMPHDq3ziECCLhaspkiU2sshoHNPejLZy",
+    "wallet": "EqiFgyNw6kgrmYstWyrP8VjKhka7XEmKTZzHSmwpr1Zb"
+   },
+   {
+    "at": "2026-11-05T06:28:02+00:00",
+    "mc_usd": 8744.34,
+    "mint": "Et88GTjCkJyuN4pn3cTDNpjQ5ApsqJvv7RjdJWLApump",
+    "name": "ban",
+    "price_usd": 8.744337243837e-06,
+    "sol": 1.0011049999999955,
+    "symbol": "POKE",
+    "token_name": "Pok\u00e9Coin",
+    "tx": "M2HdRnqVW12p4AURXhoNud8ahveCjTDSfkSQ31p2WyXkxGnqzkAQ3ZbHqLhrqg6E3vtu6cAyDABs1MR2jejQjkA",
+    "wallet": "EqiFgyNw6kgrmYstWyrP8VjKhka7XEmKTZzHSmwpr1Zb"
+   },
+   {
+    "at": "2026-11-05T06:26:44+00:00",
+    "mc_usd": 5946.25,
+    "mint": "Et88GTjCkJyuN4pn3cTDNpjQ5ApsqJvv7RjdJWLApump",
+    "name": "ban",
+    "price_usd": 5.946253757366e-06,
+    "sol": 0.9741072799999984,
+    "symbol": "POKE",
+    "token_name": "Pok\u00e9Coin",
+    "tx": "2G96X8dmii3pGZeSc7NSy6y4zD78vXZLooPEzqENHfMJ7MnAzuzxEz8EXVmPEM63mLyXYjovg5zcbTTWTgR8edcC",
+    "wallet": "EqiFgyNw6kgrmYstWyrP8VjKhka7XEmKTZzHSmwpr1Zb"
+   },
+   {
+    "at": "2026-11-05T06:16:44+00:00",
+    "mc_usd": 6355.07,
+    "mint": "7sbzuBNq9YVgTyuqYDVSJdX1GbLNvhpPka7hYhoJR2LX",
+    "name": "Numer0",
+    "price_usd": 6.355077511838e-06,
+    "sol": 3.0125188399999985,
+    "symbol": "RIP",
+    "token_name": "Rip Packs",
+    "tx": "5K7r61e4WyYysqyvCEmJ4HPrC47tcX6rAZezUVYX14Ye2LyLJR4HdEZRAUx7ogZv7Joj5KwoRYbdaGoxgPJzCYD6",
+    "wallet": "A3W8psibkTUvjxs4LRscbnjux6TFDXdvD4m4GsGpQ2KJ"
+   },
+   {
+    "at": "2026-11-05T06:14:01+00:00",
+    "mc_usd": 64825.42,
+    "mint": "81Y1jv7kDNQotwTXT4CkpZ2gNE2TedVTLFYnEW1ppump",
+    "name": "Numer0",
+    "price_usd": 6.7254950519707e-05,
+    "sol": 5.011005000000001,
+    "symbol": "Poke",
+    "token_name": "PokeFUN",
+    "tx": "52ovDx4kDYKfz8GuxD73vT73u6dtr9DouX1rz2L6at21qEAq5K9FvttmCKb7KPHZ4wQxAqfcDfhD6mWz7H2pqRRe",
+    "wallet": "A3W8psibkTUvjxs4LRscbnjux6TFDXdvD4m4GsGpQ2KJ"
+   },
+   {
+    "at": "2026-11-05T06:13:00+00:00",
+    "mc_usd": 52431.65,
+    "mint": "81Y1jv7kDNQotwTXT4CkpZ2gNE2TedVTLFYnEW1ppump",
+    "name": "Numer0",
+    "price_usd": 5.4396687828092e-05,
+    "sol": 5.014007279999998,
+    "symbol": "Poke",
+    "token_name": "PokeFUN",
+    "tx": "4cMS6y3xs23jLMe2pNQgqak3PTegtDkaBM71S9RkLVsb25UA9t4RezzqP6TWV3jWB1nCKj9KvZuSABKR8tcJjQzg",
+    "wallet": "A3W8psibkTUvjxs4LRscbnjux6TFDXdvD4m4GsGpQ2KJ"
+   },
+   {
+    "at": "2026-11-05T06:10:28+00:00",
+    "mc_usd": 5673.01,
+    "mint": "3n4dRfj6QgFRTCrc9pSFJ1LbAKqp4HuMgJhr9wRgpump",
+    "name": "theo",
+    "price_usd": 5.673011584256e-06,
+    "sol": 3.07151884000001,
+    "symbol": "Bluebird",
+    "token_name": "ChatGPT Bluebird",
+    "tx": "HqmgfaRt9wKG6CJfv2oDPmewYJ6sfRU9ivz5k65P7sXQNp86gp8fnTuBkyRs4goX8fc8J7XkLhNnQzQizbVmMoi",
+    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
+   },
+   {
+    "at": "2026-11-05T06:09:27+00:00",
+    "mc_usd": 4699.2,
+    "mint": "51jg4vTxn4MGbEwh2gGeKDixTcqvdwYenT4gQUWqpump",
+    "name": "theo",
+    "price_usd": 4.699198534541e-06,
+    "sol": 3.073789599999998,
+    "symbol": "Bluebird",
+    "token_name": "ChatGPT Bluebird",
+    "tx": "2dtfZhmcFXmA9aDw8ASQzQFoasC99XisL7sq7LS3V5YsFhcbMnXrNSqeKYb6QqraWN1hNgJ6HJze2gzpQb2gpFtW",
+    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
+   },
+   {
+    "at": "2026-11-05T06:07:19+00:00",
+    "mc_usd": 7527.93,
+    "mint": "9Nrq6SrSqt7SnVqp4bZSc5cmij5jN3CATczBjkgopump",
+    "name": "theo",
+    "price_usd": 7.52793029129e-06,
+    "sol": 0.0896885259999749,
+    "symbol": "MS70",
+    "token_name": "The Perfect Coin",
+    "tx": "3K42aQ22Eh3rtSZ5tx51VvF7UeGq3THRrYuy5FnTZuH2oh8HBYCxBHWH7rccLVKyK8eLzgVMh3PaC1eXzBTbdQpc",
+    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
+   },
+   {
+    "at": "2026-11-05T06:06:34+00:00",
+    "mc_usd": 7705.66,
+    "mint": "9Nrq6SrSqt7SnVqp4bZSc5cmij5jN3CATczBjkgopump",
+    "name": "theo",
+    "price_usd": 7.705664024786e-06,
+    "sol": 0.26360500000004095,
+    "symbol": "MS70",
+    "token_name": "The Perfect Coin",
+    "tx": "LaNbvUayt3bvZw7YAM28D1G9SqCYnSMKVJuPvbDpDRQvo3vFgKqo8dF88b7o9kw4XhVx96A7wZ7fA7DjdEde3Gq",
+    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
+   },
+   {
+    "at": "2026-11-05T06:05:48+00:00",
+    "mc_usd": 9006.16,
+    "mint": "9Nrq6SrSqt7SnVqp4bZSc5cmij5jN3CATczBjkgopump",
+    "name": "theo",
+    "price_usd": 9.006155703316e-06,
+    "sol": 0.2636049999999841,
+    "symbol": "MS70",
+    "token_name": "The Perfect Coin",
+    "tx": "4QrewcDux6mAZEVsUoeLgUZAn6gcdAnuB7WnZUf3WSFUMbzELbVzFftkcwW6tS93LcjxTSEqGDR2RCLHB1fLFSQn",
+    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
+   },
+   {
+    "at": "2026-11-05T06:05:48+00:00",
+    "mc_usd": 9006.16,
+    "mint": "9Nrq6SrSqt7SnVqp4bZSc5cmij5jN3CATczBjkgopump",
+    "name": "theo",
+    "price_usd": 9.006155703316e-06,
+    "sol": 0.26360500000004095,
+    "symbol": "MS70",
+    "token_name": "The Perfect Coin",
+    "tx": "4LVABnrT1kiD4cavEC6dTApPD83KcwKi2TU6FByS5MFaFCrhP4Dqb3hhPyetn7cLECN4dkt3mwne3QAXY65uLL9N",
+    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
+   },
+   {
+    "at": "2026-11-05T06:05:44+00:00",
+    "mc_usd": 6975.63,
+    "mint": "9Nrq6SrSqt7SnVqp4bZSc5cmij5jN3CATczBjkgopump",
+    "name": "theo",
+    "price_usd": 6.975630137474e-06,
+    "sol": 3.073007279999956,
+    "symbol": "MS70",
+    "token_name": "The Perfect Coin",
+    "tx": "3SZAiyJuY7awMXkHJfN9B4QzV6AGs1cunsYBC8Fyw7WogLdjTshLQJYVjqq5xCLTqtbyG3hpZK7DpdgfJ2zkgaFD",
+    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
+   },
+   {
+    "at": "2026-11-05T06:00:40+00:00",
+    "mc_usd": 27641.51,
+    "mint": "4ZrRNPtv7Wwpxb84bgtBTZzfRqjdbJa2DQNFfAZ4pump",
+    "name": "theo",
+    "price_usd": 2.7641506895298e-05,
+    "sol": 0.2636049999999841,
+    "symbol": "ZELDA",
+    "token_name": "Ocarina of Time",
+    "tx": "5tmvGJ84Zt5qoHQAxhCMVzfdVLPanW4soX5kdhffV9aGaRBd1ZtnKUoNb8ufXi5sYorci35dBsrjEcJhYuK9CGzG",
+    "wallet": "Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"
    }
   ],
-  "evaluated": {
-   "8vFdgGFWkKS1euogVW4qmMurdnso8CPrfQNpB4qqpump": 3
-  },
-  "since": "2026-11-05T05:55:26+00:00"
+  "evaluated": {},
+  "since": "2026-11-05T06:55:24+00:00"
  }
 }
