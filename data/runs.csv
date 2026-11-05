@@ -1086,3 +1086,5 @@ run_utc,mode,outcome,detail
 2026-11-04T23:00Z,PAPER,smart money data error,"skipped this run's cluster pass: madeonsol.com: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
 2026-11-05T00:00Z,PAPER,no target,"#2 narrative Celebrity Coins is down on 7d (-2.92%). 7d/24h ranking: Frog Coins +2.9%/+3.2%, Celebrity Coins -2.9%/+2.1%, Dog Coins -3.0%/+2.5%, IP Memes -5.6%/+4.6%, Trump Coins -26.3%/-19.5%."
 2026-11-05T00:00Z,PAPER,smart money,"71 new watchlist buys from 8 feed page(s) (paging capped: some older buys this hour were skipped); 1 cluster(s) of 3+ wallets, 0 new or grown, 0 too old to alert, 0 passed safety, 0 emailed"
+2026-11-05T01:00Z,PAPER,no target,"#2 narrative Celebrity Coins is down on 7d (-3.42%). 7d/24h ranking: Frog Coins -1.6%/+2.1%, Celebrity Coins -3.4%/+2.4%, Dog Coins -3.8%/+2.4%, IP Memes -8.3%/+3.0%, Trump Coins -26.4%/-19.7%."
+2026-11-05T01:00Z,PAPER,smart money,"33 new watchlist buys from 8 feed page(s) (paging capped: some older buys this hour were skipped); 1 cluster(s) of 3+ wallets, 0 new or grown, 0 too old to alert, 0 passed safety, 0 emailed"
