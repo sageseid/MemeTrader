@@ -141,18 +141,6 @@
    "liquidity_usd": null,
    "top10_pct": 6.14207374530384
   },
-  "BZD1sXhUebR65TV1amtJeMr7qsuVM16cu31TpWwmY8ZD": {
-   "at": "2026-11-06T07:00Z",
-   "creator_balance": 0,
-   "liquidity_usd": null,
-   "top10_pct": 6.695893368537569
-  },
-  "DWvWaMXb8pXtf7iiP9mhjhtcDx8t4mkDT6UtZEsRpump": {
-   "at": "2026-11-06T07:00Z",
-   "creator_balance": 0,
-   "liquidity_usd": 2327.53,
-   "top10_pct": 10.139766919896902
-  },
   "Dcn7FkMfCS5XyTD4rwcmJWcCHYfXUQiTTqtqVS9zpump": {
    "at": "2026-11-10T00:00Z",
    "creator_balance": 0,
