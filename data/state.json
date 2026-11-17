@@ -134,14 +134,7 @@
   }
  },
  "s1_passed": {},
- "signal_snapshots": {
-  "6f1y2T29NiQeZ9tB35cAWeiGHsxaZRQTyPc79Nsxpump": {
-   "at": "2026-11-10T05:00Z",
-   "creator_balance": 0,
-   "liquidity_usd": null,
-   "top10_pct": 6.14207374530384
-  }
- },
+ "signal_snapshots": {},
  "smart_money": {
   "backfilled": [
    "215nhcAHjQQGgwpQSJQ7zR26etbjjtVdW74NLzwEgQjP",
